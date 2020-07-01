@@ -1,0 +1,23 @@
+.nav1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  width: 100%;
+  background-color: rgb(92, 44, 94);
+  align-items: center;
+}
+.navlist {
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+}
+.navlist a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 3px;
+  font-weight: bolder;
+}
+.navlist li {
+  list-style: none;
+}
