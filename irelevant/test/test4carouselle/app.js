@@ -6,44 +6,68 @@ const nextBtn = document.querySelector("#nextBtn");
 let counter = 0;
 var i;
 
+carouselImages[counter].style.left = "-50vw";
+carouselImages[counter].style.left = "0vw";
+
 nextBtn.addEventListener("click", () => {
   switch (counter) {
     case 6:
       counter = 0;
-      carouselImages[counter + 1].style.left = "25vw";
+      carouselImages[counter + 1].style.left = "0vw";
       carouselImages[counter].style.zIndex = "1";
-      carouselImages[counter + 1].style.transition = "left 0.4s ease-in-out";
       carouselImages[counter + 1].style.opacity = "1";
-      carouselImages[counter].style.opacity = "0";
-      carouselImages[counter + 2].style.left = "75vw";
-      carouselImages[counter].style.left = "-25vw";
+      carouselImages[counter + 2].style.left = "50vw";
+      carouselImages[counter].style.left = "-50vw";
+      nextBtn.disabled = true;
+      prevBtn.disabled = true;
+      setTimeout(function () {
+        carouselImages[counter - 1].style.opacity = "0";
+        nextBtn.disabled = false;
+        prevBtn.disabled = false;
+      }, 400);
+
       break;
     case 5:
-      carouselImages[0].style.left = "25vw";
+      carouselImages[0].style.left = "0vw";
       carouselImages[counter].style.zIndex = "1";
-      carouselImages[0].style.transition = "left 0.4s ease-in-out";
       carouselImages[0].style.opacity = "1";
-      carouselImages[counter].style.opacity = "0";
-      carouselImages[1].style.left = "75vw";
-      carouselImages[counter].style.left = "-25vw";
+      carouselImages[1].style.left = "50vw";
+      carouselImages[counter].style.left = "-50vw";
+      nextBtn.disabled = true;
+      prevBtn.disabled = true;
+      setTimeout(function () {
+        carouselImages[counter - 1].style.opacity = "0";
+        nextBtn.disabled = false;
+        prevBtn.disabled = false;
+      }, 400);
       break;
     case 4:
-      carouselImages[0].style.left = "75vw";
-      carouselImages[counter + 1].style.left = "25vw";
+      carouselImages[0].style.left = "50vw";
+      carouselImages[counter + 1].style.left = "0vw";
       carouselImages[counter].style.zIndex = "1";
-      carouselImages[counter + 1].style.transition = "left 0.4s ease-in-out";
       carouselImages[counter + 1].style.opacity = "1";
-      carouselImages[counter].style.opacity = "0";
-      carouselImages[counter].style.left = "-25vw";
+      carouselImages[counter].style.left = "-50vw";
+      nextBtn.disabled = true;
+      prevBtn.disabled = true;
+      setTimeout(function () {
+        carouselImages[counter - 1].style.opacity = "0";
+        nextBtn.disabled = false;
+        prevBtn.disabled = false;
+      }, 400);
       break;
     default:
-      carouselImages[counter + 1].style.left = "25vw";
+      carouselImages[counter + 1].style.left = "0vw";
       carouselImages[counter].style.zIndex = "1";
-      carouselImages[counter + 1].style.transition = "left 0.4s ease-in-out";
       carouselImages[counter + 1].style.opacity = "1";
-      carouselImages[counter].style.opacity = "0";
-      carouselImages[counter + 2].style.left = "75vw";
-      carouselImages[counter].style.left = "-25vw";
+      carouselImages[counter + 2].style.left = "50vw";
+      carouselImages[counter].style.left = "-50vw";
+      nextBtn.disabled = true;
+      prevBtn.disabled = true;
+      setTimeout(function () {
+        carouselImages[counter - 1].style.opacity = "0";
+        nextBtn.disabled = false;
+        prevBtn.disabled = false;
+      }, 400);
       break;
   }
 
@@ -60,42 +84,64 @@ nextBtn.addEventListener("click", () => {
 prevBtn.addEventListener("click", () => {
   switch (counter) {
     case 6:
-      carouselImages[5].style.left = "25vw";
-      carouselImages[5].style.transition = "left 0.4s ease-in-out";
+      carouselImages[5].style.left = "0vw";
       carouselImages[5].style.opacity = "1";
-      carouselImages[0].style.opacity = "0";
-      carouselImages[4].style.left = "-25vw";
-      carouselImages[0].style.left = "75vw";
+
+      carouselImages[4].style.left = "-50vw";
+      carouselImages[0].style.left = "50vw";
       carouselImages[5].style.zIndex = "6";
+      nextBtn.disabled = true;
+      prevBtn.disabled = true;
+      setTimeout(function () {
+        carouselImages[0].style.opacity = "0";
+        nextBtn.disabled = false;
+        prevBtn.disabled = false;
+      }, 400);
       break;
     case 0:
       counter = 6;
-      carouselImages[5].style.left = "25vw";
-      carouselImages[5].style.transition = "left 0.4s ease-in-out";
+      carouselImages[5].style.left = "0vw";
       carouselImages[5].style.opacity = "1";
-      carouselImages[0].style.opacity = "0";
-      carouselImages[4].style.left = "-25vw";
-      carouselImages[0].style.left = "75vw";
+
+      carouselImages[4].style.left = "-50vw";
+      carouselImages[0].style.left = "50vw";
       carouselImages[5].style.zIndex = "6";
+      nextBtn.disabled = true;
+      prevBtn.disabled = true;
+      setTimeout(function () {
+        carouselImages[0].style.opacity = "0";
+        nextBtn.disabled = false;
+        prevBtn.disabled = false;
+      }, 400);
       break;
     case 1:
       counter = 7;
-      carouselImages[0].style.left = "25vw";
-      carouselImages[0].style.transition = "left 0.4s ease-in-out";
+      carouselImages[0].style.left = "0vw";
       carouselImages[0].style.opacity = "1";
-      carouselImages[1].style.opacity = "0";
-      carouselImages[5].style.left = "-25vw";
-      carouselImages[1].style.left = "75vw";
+      carouselImages[5].style.left = "-50vw";
+      carouselImages[1].style.left = "50vw";
       carouselImages[0].style.zIndex = "6";
+      nextBtn.disabled = true;
+      prevBtn.disabled = true;
+      setTimeout(function () {
+        carouselImages[1].style.opacity = "0";
+        nextBtn.disabled = false;
+        prevBtn.disabled = false;
+      }, 400);
       break;
     default:
-      carouselImages[counter - 1].style.left = "25vw";
-      carouselImages[counter - 1].style.transition = "left 0.4s ease-in-out";
+      carouselImages[counter - 1].style.left = "0vw";
       carouselImages[counter - 1].style.opacity = "1";
-      carouselImages[counter].style.opacity = "0";
-      carouselImages[counter - 2].style.left = "-25vw";
-      carouselImages[counter].style.left = "75vw";
+      carouselImages[counter - 2].style.left = "-50vw";
+      carouselImages[counter].style.left = "50vw";
       carouselImages[counter - 1].style.zIndex = "6";
+      nextBtn.disabled = true;
+      prevBtn.disabled = true;
+      setTimeout(function () {
+        carouselImages[counter + 1].style.opacity = "0";
+        nextBtn.disabled = false;
+        prevBtn.disabled = false;
+      }, 400);
       break;
   }
 
