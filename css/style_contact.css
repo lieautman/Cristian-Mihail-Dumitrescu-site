@@ -450,7 +450,7 @@ body::-webkit-scrollbar {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   body .nav1 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -548,7 +548,7 @@ body::-webkit-scrollbar {
   body .section2 .text1 {
     position: relative;
     width: 75vw;
-    height: 70vh;
+    height: 75vh;
     top: 10vh;
     background-color: #07112a;
   }
@@ -622,7 +622,7 @@ body::-webkit-scrollbar {
     border: none;
     background-color: #07112a;
     border: none;
-    font-size: 20px;
+    font-size: 15px;
     outline-offset: 10px;
     color: #c742b1;
   }
@@ -630,7 +630,10 @@ body::-webkit-scrollbar {
     background-color: #07112a;
     outline: 2px solid #7a236c;
     color: #c742b1;
-    font-size: 30px;
+    font-size: 20px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
   body .section2 .contactForm .buttonSubmit {
     position: relative;
