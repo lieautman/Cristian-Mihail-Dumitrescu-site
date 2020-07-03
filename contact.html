@@ -34,13 +34,68 @@
       </section>
       <section class="section2">
         <img class="SecondVhImg" src="css/images/2.jpg" alt="picture of me" />
-        <div class="text1">
+        <div class="text1" id="text1">
           <p class="p11">
             E-mail: dumi_cristi@yahoo.com
           </p>
           <p class="p11">
             Phone: 0770961690
           </p>
+          <form
+            action="post"
+            data-netlify="true"
+            class="contactForm"
+            autocomplete="off"
+          >
+            <div class="fields">
+              <div class="fieldHalf">
+                <input type="text" name="Name" id="Name" placeholder="Name" />
+              </div>
+              <div class="fieldHalf">
+                <input
+                  type="text"
+                  name="E-mail"
+                  id="E-mail"
+                  placeholder="E-mail"
+                />
+              </div>
+              <div class="fieldHalf">
+                <input
+                  type="text"
+                  name="Phone"
+                  id="Phone"
+                  placeholder="Phone"
+                />
+              </div>
+              <div class="fieldHalf">
+                <input
+                  type="text"
+                  name="Subject"
+                  id="Subject"
+                  placeholder="Subject"
+                />
+              </div>
+            </div>
+            <ul class="actions">
+              <div class="field">
+                <textarea
+                  name="message"
+                  class="message"
+                  placeholder="message"
+                  rows="7"
+                >
+                </textarea>
+              </div>
+              <div class="recaptcha" data-netlify-recaptcha="true"></div>
+              <li>
+                <input
+                  type="submit"
+                  value="Send Message"
+                  class="buttonSubmit"
+                />
+              </li>
+            </ul>
+          </form>
         </div>
       </section>
     </div>
