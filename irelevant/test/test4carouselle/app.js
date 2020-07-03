@@ -68,6 +68,16 @@ prevBtn.addEventListener("click", () => {
       carouselImages[0].style.left = "75vw";
       carouselImages[5].style.zIndex = "6";
       break;
+    case 0:
+      counter = 6;
+      carouselImages[5].style.left = "25vw";
+      carouselImages[5].style.transition = "left 0.4s ease-in-out";
+      carouselImages[5].style.opacity = "1";
+      carouselImages[0].style.opacity = "0";
+      carouselImages[4].style.left = "-25vw";
+      carouselImages[0].style.left = "75vw";
+      carouselImages[5].style.zIndex = "6";
+      break;
     case 1:
       counter = 7;
       carouselImages[0].style.left = "25vw";
