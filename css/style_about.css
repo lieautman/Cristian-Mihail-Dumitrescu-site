@@ -29,10 +29,6 @@ body::-webkit-scrollbar {
   background: linear-gradient(90deg, #07112a 0%, #671f1f 50%, #07112a 100%);
 }
 
-body {
-  overflow: hidden;
-}
-
 .container {
   position: relative;
   height: 100vh;
@@ -374,11 +370,13 @@ body {
       opacity: 0;
       -webkit-transform: translateX(50px);
               transform: translateX(50px);
+      display: none;
     }
     to {
       opacity: 1;
       -webkit-transform: translateX(0px);
               transform: translateX(0px);
+      display: auto;
     }
   }
   @keyframes navLinkFade {
@@ -386,11 +384,13 @@ body {
       opacity: 0;
       -webkit-transform: translateX(50px);
               transform: translateX(50px);
+      display: none;
     }
     to {
       opacity: 1;
       -webkit-transform: translateX(0px);
               transform: translateX(0px);
+      display: auto;
     }
   }
   .toggle .line1 {

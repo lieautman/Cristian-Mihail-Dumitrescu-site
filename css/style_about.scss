@@ -33,9 +33,6 @@ body::-webkit-scrollbar {
     rgba(7, 17, 42, 1) 100%
   );
 }
-body {
-  overflow: hidden;
-}
 //smooth scroll
 .container {
   position: relative;
@@ -332,10 +329,12 @@ body {
     from {
       opacity: 0;
       transform: translateX(50px);
+      display: none;
     }
     to {
       opacity: 1;
       transform: translateX(0px);
+      display: auto;
     }
   }
   .toggle .line1 {
