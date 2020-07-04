@@ -60,13 +60,12 @@ body::-webkit-scrollbar {
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     min-height: 8vh;
     width: 100%;
     background-color: #5c2c5e;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   body .nav1 .navlist {
     display: -webkit-box;
@@ -263,13 +262,12 @@ body::-webkit-scrollbar {
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     min-height: 8vh;
     width: 100%;
     background-color: #5c2c5e;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   body .nav1 .navlist {
     display: -webkit-box;
@@ -471,13 +469,12 @@ body::-webkit-scrollbar {
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     min-height: 8vh;
     width: 100%;
     background-color: #5c2c5e;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   body .nav1 .navlist {
     display: -webkit-box;
@@ -585,9 +582,6 @@ body::-webkit-scrollbar {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 30px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
   body .section2 .contactForm .fields {
     display: -webkit-box;
@@ -619,9 +613,6 @@ body::-webkit-scrollbar {
         align-self: center;
   }
   body .section2 .contactForm .recaptcha {
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
     width: 35vw;
   }
   body .section2 .contactForm .message {
@@ -687,13 +678,12 @@ body::-webkit-scrollbar {
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     min-height: 8vh;
     width: 100%;
     background-color: #5c2c5e;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   body .nav1 .navlist {
     display: -webkit-box;
@@ -799,10 +789,7 @@ body::-webkit-scrollbar {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 30px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    padding: 10px;
   }
   body .section2 .contactForm .fields {
     display: -webkit-box;
@@ -832,9 +819,6 @@ body::-webkit-scrollbar {
         align-self: center;
   }
   body .section2 .contactForm .recaptcha {
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
     width: 35vw;
   }
   body .section2 .contactForm .message {
