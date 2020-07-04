@@ -790,7 +790,7 @@ body::-webkit-scrollbar {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 30px;
+    padding: 10px;
   }
   body .section2 .contactForm .fields {
     display: -webkit-box;
@@ -822,7 +822,7 @@ body::-webkit-scrollbar {
         align-self: center;
   }
   body .section2 .contactForm .recaptcha {
-    width: 35vw;
+    width: 45vw;
     overflow: hidden;
   }
   body .section2 .contactForm .message {
