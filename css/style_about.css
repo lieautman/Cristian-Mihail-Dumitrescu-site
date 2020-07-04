@@ -29,6 +29,10 @@ body::-webkit-scrollbar {
   background: linear-gradient(90deg, #07112a 0%, #671f1f 50%, #07112a 100%);
 }
 
+body {
+  overflow: hidden;
+}
+
 .container {
   position: relative;
   height: 100vh;
