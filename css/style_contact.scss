@@ -180,6 +180,9 @@ body::-webkit-scrollbar {
           border: 0px;
           padding: 10px;
         }
+        .recaptcha {
+          align-self: center;
+        }
         .message {
           width: 100%;
           height: 212px;
@@ -360,6 +363,11 @@ body::-webkit-scrollbar {
           background: transparent;
           border: 0px;
           padding: 10px;
+          align-self: center;
+          margin-top: 20px;
+        }
+        .recaptcha {
+          align-self: center;
         }
         .message {
           width: 100%;
@@ -543,6 +551,11 @@ body::-webkit-scrollbar {
           background: transparent;
           border: 0px;
           padding: 5px;
+          align-self: center;
+        }
+        .recaptcha {
+          align-self: center;
+          width: 35vw;
         }
         .message {
           width: 100%;
