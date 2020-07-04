@@ -708,7 +708,7 @@ body::-webkit-scrollbar {
     position: absolute;
     right: 0px;
     height: 92vh;
-    top: 8vh;
+    top: 10vh;
     background-color: #5c2c5e;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

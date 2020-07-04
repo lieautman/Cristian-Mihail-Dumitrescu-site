@@ -748,6 +748,7 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 12vh;
     left: 17.5vw;
+    overflow: hidden;
     -webkit-box-shadow: 0px 0px 75px 13px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 75px 13px rgba(0, 0, 0, 0.75);
   }
@@ -1023,6 +1024,7 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 12vh;
     left: 17.5vw;
+    overflow: hidden;
     -webkit-box-shadow: 0px 0px 75px 13px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 75px 13px rgba(0, 0, 0, 0.75);
   }
@@ -1298,6 +1300,7 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 12vh;
     left: 17.5vw;
+    overflow: hidden;
     -webkit-box-shadow: 0px 0px 75px 13px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 75px 13px rgba(0, 0, 0, 0.75);
   }
@@ -1444,7 +1447,7 @@ body::-webkit-scrollbar {
     position: absolute;
     right: 0px;
     height: 92vh;
-    top: 8vh;
+    top: 10vh;
     background-color: #5c2c5e;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1637,6 +1640,7 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 12vh;
     left: 12.5vw;
+    overflow: hidden;
     -webkit-box-shadow: 0px 0px 75px 13px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 75px 13px rgba(0, 0, 0, 0.75);
   }
@@ -1783,7 +1787,7 @@ body::-webkit-scrollbar {
     position: absolute;
     right: 0px;
     height: 92vh;
-    top: 8vh;
+    top: 10vh;
     background-color: #5c2c5e;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1976,6 +1980,7 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 12vh;
     left: 12.5vw;
+    overflow: hidden;
     -webkit-box-shadow: 0px 0px 75px 13px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 75px 13px rgba(0, 0, 0, 0.75);
   }
@@ -2122,7 +2127,7 @@ body::-webkit-scrollbar {
     position: absolute;
     right: 0px;
     height: 92vh;
-    top: 8vh;
+    top: 10vh;
     background-color: #5c2c5e;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2315,6 +2320,7 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 12vh;
     left: 12.5vw;
+    overflow: hidden;
     -webkit-box-shadow: 0px 0px 75px 13px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 75px 13px rgba(0, 0, 0, 0.75);
   }
@@ -2462,7 +2468,7 @@ body::-webkit-scrollbar {
     position: absolute;
     right: 0px;
     height: 92vh;
-    top: 8vh;
+    top: 10vh;
     background-color: #5c2c5e;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2655,6 +2661,7 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 12vh;
     left: 12.5vw;
+    overflow: hidden;
     -webkit-box-shadow: 0px 0px 75px 13px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 75px 13px rgba(0, 0, 0, 0.75);
   }
@@ -2802,7 +2809,7 @@ body::-webkit-scrollbar {
     position: absolute;
     right: 0px;
     height: 92vh;
-    top: 8vh;
+    top: 10vh;
     background-color: #5c2c5e;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2995,6 +3002,7 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 12vh;
     left: 12.5vw;
+    overflow: hidden;
     -webkit-box-shadow: 0px 0px 75px 13px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 75px 13px rgba(0, 0, 0, 0.75);
   }
@@ -3142,7 +3150,7 @@ body::-webkit-scrollbar {
     position: absolute;
     right: 0px;
     height: 92vh;
-    top: 8vh;
+    top: 10vh;
     background-color: #5c2c5e;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -3335,6 +3343,7 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 12vh;
     left: 12.5vw;
+    overflow: hidden;
     -webkit-box-shadow: 0px 0px 75px 13px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 75px 13px rgba(0, 0, 0, 0.75);
   }
