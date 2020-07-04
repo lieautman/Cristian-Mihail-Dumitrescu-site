@@ -1462,6 +1462,7 @@ body::-webkit-scrollbar {
     transition: -webkit-transform 0.5s ease-in;
     transition: transform 0.5s ease-in;
     transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+    display: none;
     z-index: 200;
   }
   body .navlist a {
@@ -1802,6 +1803,7 @@ body::-webkit-scrollbar {
     transition: -webkit-transform 0.5s ease-in;
     transition: transform 0.5s ease-in;
     transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+    display: none;
     z-index: 200;
   }
   body .navlist a {
@@ -2142,6 +2144,7 @@ body::-webkit-scrollbar {
     transition: -webkit-transform 0.5s ease-in;
     transition: transform 0.5s ease-in;
     transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+    display: none;
     z-index: 200;
   }
   body .navlist a {
@@ -2269,6 +2272,7 @@ body::-webkit-scrollbar {
   body .section2 .p11 {
     color: #b071d4;
     position: absolute;
+    left: 50vw;
     font-family: Helvetica;
     z-index: 1;
     padding: 30px;
@@ -2483,6 +2487,7 @@ body::-webkit-scrollbar {
     transition: -webkit-transform 0.5s ease-in;
     transition: transform 0.5s ease-in;
     transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+    display: none;
     z-index: 200;
   }
   body .navlist a {
@@ -2610,6 +2615,7 @@ body::-webkit-scrollbar {
   body .section2 .p11 {
     color: #b071d4;
     position: absolute;
+    left: 50vw;
     font-family: Helvetica;
     z-index: 1;
     padding: 10px;
@@ -2824,6 +2830,7 @@ body::-webkit-scrollbar {
     transition: -webkit-transform 0.5s ease-in;
     transition: transform 0.5s ease-in;
     transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+    display: none;
     z-index: 200;
   }
   body .navlist a {
@@ -2951,6 +2958,7 @@ body::-webkit-scrollbar {
   body .section2 .p11 {
     color: #b071d4;
     position: absolute;
+    left: 50vw;
     font-family: Helvetica;
     z-index: 1;
     padding: 10px;
@@ -3123,9 +3131,6 @@ body::-webkit-scrollbar {
 }
 
 @media screen and (max-width: 320px) {
-  body {
-    overflow: hidden;
-  }
   body .nav1 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3165,6 +3170,7 @@ body::-webkit-scrollbar {
     transition: -webkit-transform 0.5s ease-in;
     transition: transform 0.5s ease-in;
     transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+    display: none;
     z-index: 200;
   }
   body .navlist a {
@@ -3292,6 +3298,7 @@ body::-webkit-scrollbar {
   body .section2 .p11 {
     color: #b071d4;
     position: absolute;
+    left: 50vw;
     font-family: Helvetica;
     z-index: 1;
     padding: 10px;
