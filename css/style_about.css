@@ -370,13 +370,11 @@ body::-webkit-scrollbar {
       opacity: 0;
       -webkit-transform: translateX(50px);
               transform: translateX(50px);
-      display: none;
     }
     to {
       opacity: 1;
       -webkit-transform: translateX(0px);
               transform: translateX(0px);
-      display: auto;
     }
   }
   @keyframes navLinkFade {
@@ -384,13 +382,11 @@ body::-webkit-scrollbar {
       opacity: 0;
       -webkit-transform: translateX(50px);
               transform: translateX(50px);
-      display: none;
     }
     to {
       opacity: 1;
       -webkit-transform: translateX(0px);
               transform: translateX(0px);
-      display: auto;
     }
   }
   .toggle .line1 {
