@@ -201,7 +201,79 @@ body {
   .burger {
     display: none;
   }
+  //first100vh style
+  .section1 {
+    display: flex;
+    height: 92vh;
+    justify-content: center;
+    .h11,
+    .h21 {
+      color: rgb(176, 113, 212);
+      position: absolute;
+      font-family: Helvetica;
+      z-index: 1;
+      padding: 30px;
+    }
+    .FirstVhImg {
+      height: 100%;
+      width: 100%;
+    }
+    .h11 {
+      top: 35%;
+      font-size: 40px;
+    }
+    .h21 {
+      top: 50%;
+    }
+    .Shading1 {
+      height: 100vh;
+      width: 97.6vw;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0.3;
+    }
+  }
+
+  //second100vh style
+  .section2 {
+    display: flex;
+    height: 92vh;
+    justify-content: center;
+    .p11 {
+      color: rgb(176, 113, 212);
+      position: absolute;
+      font-family: Helvetica;
+      z-index: 1;
+      top: 105%;
+      font-size: 40px;
+      padding: 20px;
+    }
+    .p12 {
+      color: rgb(176, 113, 212);
+      position: absolute;
+      font-family: Helvetica;
+      z-index: 1;
+      top: 115%;
+      left: 0;
+      font-size: 20px;
+      padding: 20px;
+    }
+    .Shading2 {
+      height: 100vh;
+      width: 97.6vw;
+      position: absolute;
+      top: 100vh;
+      left: 0;
+      opacity: 0.7;
+    }
+    .SecondVhImg {
+      height: 100%;
+      width: 100%;
+    }
+  }
 }
+
 @media screen and (max-width: 750px) {
   body {
     overflow: hidden;
@@ -274,5 +346,76 @@ body {
   }
   .toggle .line3 {
     transform: rotate(90deg) translate(5px, 5px);
+  }
+  //first100vh style
+  .section1 {
+    display: flex;
+    height: 92vh;
+    justify-content: center;
+    .h11,
+    .h21 {
+      color: rgb(176, 113, 212);
+      position: absolute;
+      font-family: Helvetica;
+      z-index: 1;
+      padding: 30px;
+    }
+    .FirstVhImg {
+      height: 100%;
+      width: 100%;
+    }
+    .h11 {
+      top: 35%;
+      font-size: 40px;
+    }
+    .h21 {
+      top: 50%;
+    }
+    .Shading1 {
+      height: 100vh;
+      width: 97.6vw;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0.3;
+    }
+  }
+
+  //second100vh style
+  .section2 {
+    display: flex;
+    height: 92vh;
+    justify-content: center;
+    .p11 {
+      color: rgb(176, 113, 212);
+      position: absolute;
+      font-family: Helvetica;
+      z-index: 1;
+      top: 105%;
+      font-size: 40px;
+      padding: 20px;
+    }
+    .p12 {
+      color: rgb(176, 113, 212);
+      position: absolute;
+      font-family: Helvetica;
+      z-index: 1;
+      top: 115%;
+      left: 0;
+      font-size: 20px;
+      padding: 20px;
+    }
+    .Shading2 {
+      height: 100vh;
+      width: 97.6vw;
+      position: absolute;
+      top: 100vh;
+      left: 0;
+      opacity: 0.7;
+    }
+    .SecondVhImg {
+      height: 100%;
+      width: 100%;
+    }
   }
 }
