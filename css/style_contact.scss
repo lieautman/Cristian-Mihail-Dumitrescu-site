@@ -83,6 +83,9 @@ body::-webkit-scrollbar {
         height: 8vh;
         width: auto;
       }
+      .burger {
+        display: none;
+      }
     }
 
     //first100vh style
@@ -237,7 +240,7 @@ body::-webkit-scrollbar {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) and (min-width: 850px) {
   //section 1 2 and 3
   body {
     //thenav
@@ -250,7 +253,7 @@ body::-webkit-scrollbar {
       align-items: center;
       .navlist {
         display: flex;
-        width: 40%;
+        width: 50%;
         justify-content: space-around;
       }
       .navlist a {
@@ -265,6 +268,9 @@ body::-webkit-scrollbar {
       .logo {
         height: 8vh;
         width: auto;
+      }
+      .burger {
+        display: none;
       }
     }
 
@@ -423,7 +429,7 @@ body::-webkit-scrollbar {
     }
   }
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 850px) and (min-width: 750px) {
   //section 1 2 and 3
   body {
     //thenav
@@ -436,7 +442,7 @@ body::-webkit-scrollbar {
       align-items: center;
       .navlist {
         display: flex;
-        width: 40%;
+        width: 50%;
         justify-content: space-around;
       }
       .navlist a {
@@ -451,6 +457,9 @@ body::-webkit-scrollbar {
       .logo {
         height: 8vh;
         width: auto;
+      }
+      .burger {
+        display: none;
       }
     }
 
@@ -612,32 +621,77 @@ body::-webkit-scrollbar {
 @media screen and (max-width: 750px) {
   //section 1 2 and 3
   body {
+    overflow: hidden;
     //thenav
     .nav1 {
       display: flex;
       justify-content: space-around;
+      align-items: center;
       min-height: 8vh;
       width: 100%;
       background-color: rgb(92, 44, 94);
+      z-index: 100;
+    }
+    .navlist {
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+      position: absolute;
+      right: 0px;
+      height: 92vh;
+      top: 8vh;
+      background-color: rgb(92, 44, 94);
+      flex-direction: column;
       align-items: center;
-      .navlist {
-        display: flex;
-        width: 40%;
-        justify-content: space-around;
+      transform: translateX(100%);
+      transition: transform 0.5s ease-in;
+      z-index: 200;
+    }
+    .navlist a {
+      text-decoration: none;
+      color: white;
+      letter-spacing: 3px;
+      font-weight: bolder;
+    }
+    .navlist li {
+      list-style: none;
+      opacity: 0;
+    }
+    .logo {
+      height: 70px;
+    }
+    .burger div {
+      width: 25px;
+      height: 3px;
+      background-color: white;
+      margin: 5px;
+      transition: all 0.3s ease;
+    }
+    .burger {
+      display: block;
+      cursor: pointer;
+    }
+    .nav-active {
+      transform: translateX(0%);
+    }
+    @keyframes navLinkFade {
+      from {
+        opacity: 0;
+        transform: translateX(50px);
       }
-      .navlist a {
-        text-decoration: none;
-        color: white;
-        letter-spacing: 3px;
-        font-weight: bolder;
+      to {
+        opacity: 1;
+        transform: translateX(0px);
       }
-      .navlist li {
-        list-style: none;
-      }
-      .logo {
-        height: 8vh;
-        width: auto;
-      }
+    }
+    .toggle .line1 {
+      transform: rotate(90deg) translate(-5px, -5px);
+    }
+    .toggle .line2 {
+      transform: rotate(90deg);
+    }
+    .toggle .line3 {
+      transform: rotate(90deg) translate(5px, 5px);
     }
 
     //first100vh style
