@@ -698,7 +698,7 @@ body::-webkit-scrollbar {
     background-color: #5c2c5e;
     z-index: 100;
   }
-  body .navlist {
+  body .nav1 .navlist {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -726,21 +726,21 @@ body::-webkit-scrollbar {
     display: none;
     z-index: 200;
   }
-  body .navlist a {
+  body .nav1 .navlist a {
     text-decoration: none;
     color: white;
     letter-spacing: 3px;
     font-weight: bolder;
   }
-  body .navlist li {
+  body .nav1 .navlist li {
     list-style: none;
     opacity: 0;
   }
-  body .logo {
+  body .nav1 .logo {
     height: 8vh;
     width: auto;
   }
-  body .burger div {
+  body .nav1 .burger div {
     width: 25px;
     height: 3px;
     background-color: white;
@@ -748,14 +748,14 @@ body::-webkit-scrollbar {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
-  body .burger {
+  body .nav1 .burger {
     display: block;
     cursor: pointer;
   }
-  body .nav-active1 {
+  body .nav1 .nav-active1 {
     display: inline;
   }
-  body .nav-active2 {
+  body .nav1 .nav-active2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -806,15 +806,15 @@ body::-webkit-scrollbar {
               transform: translateX(0px);
     }
   }
-  body .toggle .line1 {
+  body .nav1 .toggle .line1 {
     -webkit-transform: rotate(90deg) translate(-5px, -5px);
             transform: rotate(90deg) translate(-5px, -5px);
   }
-  body .toggle .line2 {
+  body .nav1 .toggle .line2 {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
   }
-  body .toggle .line3 {
+  body .nav1 .toggle .line3 {
     -webkit-transform: rotate(90deg) translate(5px, 5px);
             transform: rotate(90deg) translate(5px, 5px);
   }
@@ -920,6 +920,8 @@ body::-webkit-scrollbar {
     border-bottom: 2px solid #7a236c;
     padding: 5px;
     width: 100%;
+    left: 15vw;
+    position: relative;
   }
   body .section2 .contactForm .fields {
     width: 40vw;
@@ -929,13 +931,12 @@ body::-webkit-scrollbar {
     background: transparent;
     border: 0px;
     padding: 5px;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    left: 17vw;
+    position: relative;
   }
   body .section2 .contactForm .recaptcha {
-    width: 45vw;
-    overflow: hidden;
+    left: 15vw;
+    position: relative;
   }
   body .section2 .contactForm .message {
     width: 100%;
