@@ -639,12 +639,13 @@ body::-webkit-scrollbar {
       position: absolute;
       right: 0px;
       height: 92vh;
-      top: 10vh;
+      top: 8vh;
       background-color: rgb(92, 44, 94);
       flex-direction: column;
       align-items: center;
       transform: translateX(100%);
       transition: transform 0.5s ease-in;
+      display: none;
       z-index: 200;
     }
     .navlist a {
@@ -658,7 +659,8 @@ body::-webkit-scrollbar {
       opacity: 0;
     }
     .logo {
-      height: 70px;
+      height: 8vh;
+      width: auto;
     }
     .burger div {
       width: 25px;
@@ -671,8 +673,23 @@ body::-webkit-scrollbar {
       display: block;
       cursor: pointer;
     }
-    .nav-active {
+    .nav-active1 {
+      display: inline;
+    }
+    .nav-active2 {
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+      position: absolute;
+      right: 0px;
+      height: 100vh;
+      top: 8vh;
+      background-color: rgb(92, 44, 94);
+      flex-direction: column;
+      align-items: center;
       transform: translateX(0%);
+      transition: transform 0.5s ease-in;
+      z-index: 200;
     }
     @keyframes navLinkFade {
       from {

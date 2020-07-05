@@ -334,6 +334,7 @@ body::-webkit-scrollbar {
     transition: -webkit-transform 0.5s ease-in;
     transition: transform 0.5s ease-in;
     transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+    display: none;
     z-index: 200;
   }
   .navlist a {
@@ -347,7 +348,8 @@ body::-webkit-scrollbar {
     opacity: 0;
   }
   .logo {
-    height: 70px;
+    height: 8vh;
+    width: auto;
   }
   .burger div {
     width: 25px;
@@ -361,9 +363,35 @@ body::-webkit-scrollbar {
     display: block;
     cursor: pointer;
   }
-  .nav-active {
+  .nav-active1 {
+    display: inline;
+  }
+  .nav-active2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    position: absolute;
+    right: 0px;
+    height: 100vh;
+    top: 8vh;
+    background-color: #5c2c5e;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+    transition: -webkit-transform 0.5s ease-in;
+    transition: transform 0.5s ease-in;
+    transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+    z-index: 200;
   }
   @-webkit-keyframes navLinkFade {
     from {
