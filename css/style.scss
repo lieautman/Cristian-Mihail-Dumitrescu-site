@@ -2621,8 +2621,8 @@ body::-webkit-scrollbar {
         background-color: rgb(92, 44, 94);
         flex-direction: column;
         align-items: center;
-        transform: translateX(100%);
         transition: transform 0.5s ease-in;
+        transform: translateX(100%);
         display: none;
         z-index: 200;
       }
@@ -2665,8 +2665,8 @@ body::-webkit-scrollbar {
         background-color: rgb(92, 44, 94);
         flex-direction: column;
         align-items: center;
-        transform: translateX(0%);
         transition: transform 0.5s ease-in;
+        transform: translateX(0%);
         z-index: 200;
       }
       @keyframes navLinkFade {
