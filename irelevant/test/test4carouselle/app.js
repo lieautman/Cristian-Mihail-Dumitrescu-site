@@ -6,12 +6,24 @@ const nextBtn = document.querySelector("#nextBtn");
 let counter = 0;
 var i;
 
+const nrImages = carouselImages.length;
+
 carouselImages[counter].style.left = "-50vw";
 carouselImages[counter].style.left = "0vw";
+const initFunctionStyle = () => {
+  for (i = 1; i <= nrImages; i++) {
+    var currentChild = document.querySelector(`.img:nth-child(${i})`);
+    currentChild.style.zIndex = `${nrImages - i + 1}`;
+    if (i !== 1) currentChild.style.opacity = "0";
+    if (i === 2) currentChild.style.left = "50vw";
+    if (i === nrImages) currentChild.style.left = "-50vw";
+  }
+};
+initFunctionStyle();
 
 nextBtn.addEventListener("click", () => {
   switch (counter) {
-    case 6:
+    case nrImages:
       counter = 0;
       carouselImages[counter + 1].style.left = "0vw";
       carouselImages[counter].style.zIndex = "1";
@@ -27,7 +39,7 @@ nextBtn.addEventListener("click", () => {
       }, 400);
 
       break;
-    case 5:
+    case nrImages - 1:
       carouselImages[0].style.left = "0vw";
       carouselImages[counter].style.zIndex = "1";
       carouselImages[0].style.opacity = "1";
@@ -41,7 +53,7 @@ nextBtn.addEventListener("click", () => {
         prevBtn.disabled = false;
       }, 400);
       break;
-    case 4:
+    case nrImages - 2:
       carouselImages[0].style.left = "50vw";
       carouselImages[counter + 1].style.left = "0vw";
       carouselImages[counter].style.zIndex = "1";
@@ -71,11 +83,11 @@ nextBtn.addEventListener("click", () => {
       break;
   }
 
-  for (i = counter + 1; i <= 5; i++) {
-    carouselImages[i].style.zIndex = carouselImages.length + 1 - i + counter;
+  for (i = counter + 1; i <= nrImages - 2; i++) {
+    carouselImages[i].style.zIndex = nrImages + 1 - i + counter;
   }
   for (i = 0; i < counter; i++) {
-    carouselImages[i].style.zIndex = carouselImages.length - 5 - i + counter;
+    carouselImages[i].style.zIndex = nrImages - 5 - i + counter;
   }
 
   counter++;
@@ -83,13 +95,13 @@ nextBtn.addEventListener("click", () => {
 });
 prevBtn.addEventListener("click", () => {
   switch (counter) {
-    case 6:
-      carouselImages[5].style.left = "0vw";
-      carouselImages[5].style.opacity = "1";
+    case nrImages:
+      carouselImages[nrImages - 1].style.left = "0vw";
+      carouselImages[nrImages - 1].style.opacity = "1";
 
-      carouselImages[4].style.left = "-50vw";
+      carouselImages[nrImages - 2].style.left = "-50vw";
       carouselImages[0].style.left = "50vw";
-      carouselImages[5].style.zIndex = "6";
+      carouselImages[nrImages - 1].style.zIndex = "6";
       nextBtn.disabled = true;
       prevBtn.disabled = true;
       setTimeout(function () {
@@ -100,12 +112,12 @@ prevBtn.addEventListener("click", () => {
       break;
     case 0:
       counter = 6;
-      carouselImages[5].style.left = "0vw";
-      carouselImages[5].style.opacity = "1";
+      carouselImages[nrImages - 1].style.left = "0vw";
+      carouselImages[nrImages - 1].style.opacity = "1";
 
-      carouselImages[4].style.left = "-50vw";
+      carouselImages[nrImages - 2].style.left = "-50vw";
       carouselImages[0].style.left = "50vw";
-      carouselImages[5].style.zIndex = "6";
+      carouselImages[nrImages - 1].style.zIndex = "6";
       nextBtn.disabled = true;
       prevBtn.disabled = true;
       setTimeout(function () {
@@ -115,10 +127,10 @@ prevBtn.addEventListener("click", () => {
       }, 400);
       break;
     case 1:
-      counter = 7;
+      counter = nrImages + 1;
       carouselImages[0].style.left = "0vw";
       carouselImages[0].style.opacity = "1";
-      carouselImages[5].style.left = "-50vw";
+      carouselImages[nrImages - 1].style.left = "-50vw";
       carouselImages[1].style.left = "50vw";
       carouselImages[0].style.zIndex = "6";
       nextBtn.disabled = true;
@@ -148,7 +160,7 @@ prevBtn.addEventListener("click", () => {
   for (i = 0; i < counter - 1; i++) {
     carouselImages[i].style.zIndex = counter - i - 1;
   }
-  for (i = counter; i <= 5; i++) {
+  for (i = counter; i <= nrImages - 1; i++) {
     carouselImages[i].style.zIndex = counter - i + 5;
   }
 
