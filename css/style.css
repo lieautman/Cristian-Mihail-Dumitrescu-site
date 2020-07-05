@@ -29,6 +29,12 @@ body::-webkit-scrollbar {
   background: linear-gradient(90deg, #07112a 0%, #671f1f 50%, #07112a 100%);
 }
 
+body {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
 .container {
   position: relative;
   height: 100vh;
@@ -301,6 +307,7 @@ body::-webkit-scrollbar {
     top: 74vh;
     right: 23vw;
     border-color: #671f1f;
+    background-color: #07112a;
     border-radius: 50%;
     border-width: 5px;
     border-style: solid;
@@ -314,7 +321,7 @@ body::-webkit-scrollbar {
   }
   body .section3 .footer {
     position: relative;
-    top: 71vh;
+    top: 67vh;
     width: 100%;
     height: 14vh;
     background-color: #07112a;
@@ -580,7 +587,7 @@ body::-webkit-scrollbar {
   }
   body .section3 .footer {
     position: relative;
-    top: 71vh;
+    top: 67vh;
     width: 100%;
     height: 14vh;
     background-color: #07112a;
@@ -1416,13 +1423,11 @@ body::-webkit-scrollbar {
     color: #7a236c;
     text-align: center;
     padding-top: 20px;
+    font-size: 13.7px;
   }
 }
 
 @media screen and (max-width: 750px) and (min-width: 700px) {
-  body {
-    overflow: hidden;
-  }
   body .nav1 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1437,7 +1442,7 @@ body::-webkit-scrollbar {
     background-color: #5c2c5e;
     z-index: 100;
   }
-  body .navlist {
+  body .nav1 .navlist {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1447,7 +1452,7 @@ body::-webkit-scrollbar {
     position: absolute;
     right: 0px;
     height: 92vh;
-    top: 10vh;
+    top: 8vh;
     background-color: #5c2c5e;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1464,20 +1469,21 @@ body::-webkit-scrollbar {
     transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
     z-index: 200;
   }
-  body .navlist a {
+  body .nav1 .navlist a {
     text-decoration: none;
     color: white;
     letter-spacing: 3px;
     font-weight: bolder;
   }
-  body .navlist li {
+  body .nav1 .navlist li {
     list-style: none;
     opacity: 0;
   }
-  body .logo {
-    height: 70px;
+  body .nav1 .logo {
+    height: 8vh;
+    width: auto;
   }
-  body .burger div {
+  body .nav1 .burger div {
     width: 25px;
     height: 3px;
     background-color: white;
@@ -1485,11 +1491,11 @@ body::-webkit-scrollbar {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
-  body .burger {
+  body .nav1 .burger {
     display: block;
     cursor: pointer;
   }
-  body .nav-active {
+  body .nav1 .nav-active {
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
   }
@@ -1517,15 +1523,15 @@ body::-webkit-scrollbar {
               transform: translateX(0px);
     }
   }
-  body .toggle .line1 {
+  body .nav1 .toggle .line1 {
     -webkit-transform: rotate(90deg) translate(-5px, -5px);
             transform: rotate(90deg) translate(-5px, -5px);
   }
-  body .toggle .line2 {
+  body .nav1 .toggle .line2 {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
   }
-  body .toggle .line3 {
+  body .nav1 .toggle .line3 {
     -webkit-transform: rotate(90deg) translate(5px, 5px);
             transform: rotate(90deg) translate(5px, 5px);
   }
@@ -1539,6 +1545,7 @@ body::-webkit-scrollbar {
             justify-content: center;
     background-image: url(./images/1.jpg);
     background-size: cover;
+    overflow: hidden;
   }
   body .section1 .h11,
   body .section1 .h21,
@@ -1756,13 +1763,11 @@ body::-webkit-scrollbar {
     color: #7a236c;
     text-align: center;
     padding-top: 20px;
+    font-size: 12px;
   }
 }
 
 @media screen and (max-width: 700px) and (min-width: 510px) {
-  body {
-    overflow: hidden;
-  }
   body .nav1 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1777,7 +1782,7 @@ body::-webkit-scrollbar {
     background-color: #5c2c5e;
     z-index: 100;
   }
-  body .navlist {
+  body .nav1 .navlist {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1787,7 +1792,7 @@ body::-webkit-scrollbar {
     position: absolute;
     right: 0px;
     height: 92vh;
-    top: 10vh;
+    top: 8vh;
     background-color: #5c2c5e;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1804,20 +1809,21 @@ body::-webkit-scrollbar {
     transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
     z-index: 200;
   }
-  body .navlist a {
+  body .nav1 .navlist a {
     text-decoration: none;
     color: white;
     letter-spacing: 3px;
     font-weight: bolder;
   }
-  body .navlist li {
+  body .nav1 .navlist li {
     list-style: none;
     opacity: 0;
   }
-  body .logo {
-    height: 70px;
+  body .nav1 .logo {
+    height: 8vh;
+    width: auto;
   }
-  body .burger div {
+  body .nav1 .burger div {
     width: 25px;
     height: 3px;
     background-color: white;
@@ -1825,11 +1831,11 @@ body::-webkit-scrollbar {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
-  body .burger {
+  body .nav1 .burger {
     display: block;
     cursor: pointer;
   }
-  body .nav-active {
+  body .nav1 .nav-active {
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
   }
@@ -1857,15 +1863,15 @@ body::-webkit-scrollbar {
               transform: translateX(0px);
     }
   }
-  body .toggle .line1 {
+  body .nav1 .toggle .line1 {
     -webkit-transform: rotate(90deg) translate(-5px, -5px);
             transform: rotate(90deg) translate(-5px, -5px);
   }
-  body .toggle .line2 {
+  body .nav1 .toggle .line2 {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
   }
-  body .toggle .line3 {
+  body .nav1 .toggle .line3 {
     -webkit-transform: rotate(90deg) translate(5px, 5px);
             transform: rotate(90deg) translate(5px, 5px);
   }
@@ -1879,6 +1885,7 @@ body::-webkit-scrollbar {
             justify-content: center;
     background-image: url(./images/1.jpg);
     background-size: cover;
+    overflow: hidden;
   }
   body .section1 .h11,
   body .section1 .h21,
@@ -2096,13 +2103,11 @@ body::-webkit-scrollbar {
     color: #7a236c;
     text-align: center;
     padding-top: 20px;
+    font-size: 10px;
   }
 }
 
 @media screen and (max-width: 510px) and (min-width: 450px) {
-  body {
-    overflow: hidden;
-  }
   body .nav1 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2117,7 +2122,7 @@ body::-webkit-scrollbar {
     background-color: #5c2c5e;
     z-index: 100;
   }
-  body .navlist {
+  body .nav1 .navlist {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2127,7 +2132,7 @@ body::-webkit-scrollbar {
     position: absolute;
     right: 0px;
     height: 92vh;
-    top: 10vh;
+    top: 8vh;
     background-color: #5c2c5e;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2144,20 +2149,21 @@ body::-webkit-scrollbar {
     transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
     z-index: 200;
   }
-  body .navlist a {
+  body .nav1 .navlist a {
     text-decoration: none;
     color: white;
     letter-spacing: 3px;
     font-weight: bolder;
   }
-  body .navlist li {
+  body .nav1 .navlist li {
     list-style: none;
     opacity: 0;
   }
-  body .logo {
-    height: 70px;
+  body .nav1 .logo {
+    height: 8vh;
+    width: auto;
   }
-  body .burger div {
+  body .nav1 .burger div {
     width: 25px;
     height: 3px;
     background-color: white;
@@ -2165,11 +2171,11 @@ body::-webkit-scrollbar {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
-  body .burger {
+  body .nav1 .burger {
     display: block;
     cursor: pointer;
   }
-  body .nav-active {
+  body .nav1 .nav-active {
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
   }
@@ -2197,15 +2203,15 @@ body::-webkit-scrollbar {
               transform: translateX(0px);
     }
   }
-  body .toggle .line1 {
+  body .nav1 .toggle .line1 {
     -webkit-transform: rotate(90deg) translate(-5px, -5px);
             transform: rotate(90deg) translate(-5px, -5px);
   }
-  body .toggle .line2 {
+  body .nav1 .toggle .line2 {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
   }
-  body .toggle .line3 {
+  body .nav1 .toggle .line3 {
     -webkit-transform: rotate(90deg) translate(5px, 5px);
             transform: rotate(90deg) translate(5px, 5px);
   }
@@ -2219,6 +2225,7 @@ body::-webkit-scrollbar {
             justify-content: center;
     background-image: url(./images/1.jpg);
     background-size: cover;
+    overflow: hidden;
   }
   body .section1 .h11,
   body .section1 .h21,
@@ -2438,13 +2445,11 @@ body::-webkit-scrollbar {
     color: #7a236c;
     text-align: center;
     padding-top: 20px;
+    font-size: 10px;
   }
 }
 
 @media screen and (max-width: 450px) and (min-width: 360px) {
-  body {
-    overflow: hidden;
-  }
   body .nav1 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2459,7 +2464,7 @@ body::-webkit-scrollbar {
     background-color: #5c2c5e;
     z-index: 100;
   }
-  body .navlist {
+  body .nav1 .navlist {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2469,7 +2474,7 @@ body::-webkit-scrollbar {
     position: absolute;
     right: 0px;
     height: 92vh;
-    top: 10vh;
+    top: 8vh;
     background-color: #5c2c5e;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2486,20 +2491,21 @@ body::-webkit-scrollbar {
     transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
     z-index: 200;
   }
-  body .navlist a {
+  body .nav1 .navlist a {
     text-decoration: none;
     color: white;
     letter-spacing: 3px;
     font-weight: bolder;
   }
-  body .navlist li {
+  body .nav1 .navlist li {
     list-style: none;
     opacity: 0;
   }
-  body .logo {
-    height: 70px;
+  body .nav1 .logo {
+    height: 8vh;
+    width: auto;
   }
-  body .burger div {
+  body .nav1 .burger div {
     width: 25px;
     height: 3px;
     background-color: white;
@@ -2507,11 +2513,11 @@ body::-webkit-scrollbar {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
-  body .burger {
+  body .nav1 .burger {
     display: block;
     cursor: pointer;
   }
-  body .nav-active {
+  body .nav1 .nav-active {
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
   }
@@ -2539,15 +2545,15 @@ body::-webkit-scrollbar {
               transform: translateX(0px);
     }
   }
-  body .toggle .line1 {
+  body .nav1 .toggle .line1 {
     -webkit-transform: rotate(90deg) translate(-5px, -5px);
             transform: rotate(90deg) translate(-5px, -5px);
   }
-  body .toggle .line2 {
+  body .nav1 .toggle .line2 {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
   }
-  body .toggle .line3 {
+  body .nav1 .toggle .line3 {
     -webkit-transform: rotate(90deg) translate(5px, 5px);
             transform: rotate(90deg) translate(5px, 5px);
   }
@@ -2561,6 +2567,7 @@ body::-webkit-scrollbar {
             justify-content: center;
     background-image: url(./images/1.jpg);
     background-size: cover;
+    overflow: hidden;
   }
   body .section1 .h11,
   body .section1 .h21,
@@ -2780,13 +2787,11 @@ body::-webkit-scrollbar {
     color: #7a236c;
     text-align: center;
     padding-top: 20px;
+    font-size: 10px;
   }
 }
 
 @media screen and (max-width: 360px) and (min-width: 320px) {
-  body {
-    overflow: hidden;
-  }
   body .nav1 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2801,7 +2806,7 @@ body::-webkit-scrollbar {
     background-color: #5c2c5e;
     z-index: 100;
   }
-  body .navlist {
+  body .nav1 .navlist {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2811,7 +2816,7 @@ body::-webkit-scrollbar {
     position: absolute;
     right: 0px;
     height: 92vh;
-    top: 10vh;
+    top: 8vh;
     background-color: #5c2c5e;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2828,20 +2833,21 @@ body::-webkit-scrollbar {
     transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
     z-index: 200;
   }
-  body .navlist a {
+  body .nav1 .navlist a {
     text-decoration: none;
     color: white;
     letter-spacing: 3px;
     font-weight: bolder;
   }
-  body .navlist li {
+  body .nav1 .navlist li {
     list-style: none;
     opacity: 0;
   }
-  body .logo {
-    height: 70px;
+  body .nav1 .logo {
+    height: 8vh;
+    width: auto;
   }
-  body .burger div {
+  body .nav1 .burger div {
     width: 25px;
     height: 3px;
     background-color: white;
@@ -2849,11 +2855,11 @@ body::-webkit-scrollbar {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
-  body .burger {
+  body .nav1 .burger {
     display: block;
     cursor: pointer;
   }
-  body .nav-active {
+  body .nav1 .nav-active {
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
   }
@@ -2881,15 +2887,15 @@ body::-webkit-scrollbar {
               transform: translateX(0px);
     }
   }
-  body .toggle .line1 {
+  body .nav1 .toggle .line1 {
     -webkit-transform: rotate(90deg) translate(-5px, -5px);
             transform: rotate(90deg) translate(-5px, -5px);
   }
-  body .toggle .line2 {
+  body .nav1 .toggle .line2 {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
   }
-  body .toggle .line3 {
+  body .nav1 .toggle .line3 {
     -webkit-transform: rotate(90deg) translate(5px, 5px);
             transform: rotate(90deg) translate(5px, 5px);
   }
@@ -2903,6 +2909,7 @@ body::-webkit-scrollbar {
             justify-content: center;
     background-image: url(./images/1.jpg);
     background-size: cover;
+    overflow: hidden;
   }
   body .section1 .h11,
   body .section1 .h21,
@@ -3122,6 +3129,7 @@ body::-webkit-scrollbar {
     color: #7a236c;
     text-align: center;
     padding-top: 20px;
+    font-size: 10px;
   }
 }
 
@@ -3140,7 +3148,7 @@ body::-webkit-scrollbar {
     background-color: #5c2c5e;
     z-index: 100;
   }
-  body .navlist {
+  body .nav1 .navlist {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3150,7 +3158,7 @@ body::-webkit-scrollbar {
     position: absolute;
     right: 0px;
     height: 92vh;
-    top: 10vh;
+    top: 8vh;
     background-color: #5c2c5e;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -3167,20 +3175,21 @@ body::-webkit-scrollbar {
     transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
     z-index: 200;
   }
-  body .navlist a {
+  body .nav1 .navlist a {
     text-decoration: none;
     color: white;
     letter-spacing: 3px;
     font-weight: bolder;
   }
-  body .navlist li {
+  body .nav1 .navlist li {
     list-style: none;
     opacity: 0;
   }
-  body .logo {
-    height: 70px;
+  body .nav1 .logo {
+    height: 8vh;
+    width: auto;
   }
-  body .burger div {
+  body .nav1 .burger div {
     width: 25px;
     height: 3px;
     background-color: white;
@@ -3188,11 +3197,11 @@ body::-webkit-scrollbar {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
-  body .burger {
+  body .nav1 .burger {
     display: block;
     cursor: pointer;
   }
-  body .nav-active {
+  body .nav1 .nav-active {
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
   }
@@ -3220,15 +3229,15 @@ body::-webkit-scrollbar {
               transform: translateX(0px);
     }
   }
-  body .toggle .line1 {
+  body .nav1 .toggle .line1 {
     -webkit-transform: rotate(90deg) translate(-5px, -5px);
             transform: rotate(90deg) translate(-5px, -5px);
   }
-  body .toggle .line2 {
+  body .nav1 .toggle .line2 {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
   }
-  body .toggle .line3 {
+  body .nav1 .toggle .line3 {
     -webkit-transform: rotate(90deg) translate(5px, 5px);
             transform: rotate(90deg) translate(5px, 5px);
   }
@@ -3242,6 +3251,7 @@ body::-webkit-scrollbar {
             justify-content: center;
     background-image: url(./images/1.jpg);
     background-size: cover;
+    overflow: hidden;
   }
   body .section1 .h11,
   body .section1 .h21,
@@ -3461,6 +3471,7 @@ body::-webkit-scrollbar {
     color: #7a236c;
     text-align: center;
     padding-top: 20px;
+    font-size: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
