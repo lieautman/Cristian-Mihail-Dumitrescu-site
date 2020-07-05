@@ -998,4 +998,9 @@ body::-webkit-scrollbar {
             box-shadow: none;
   }
 }
+
+.textInvizibil {
+  font-size: 0px;
+  visibility: none;
+}
 /*# sourceMappingURL=style_contact.css.map */

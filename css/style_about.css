@@ -152,9 +152,9 @@ body::-webkit-scrollbar {
     font-family: Helvetica;
     z-index: 1;
     top: 115%;
-    left: 0;
     font-size: 20px;
-    padding: 20px;
+    padding: 150px;
+    background-color: #07112a;
   }
   body .section2 .Shading2 {
     height: 100vh;
@@ -203,7 +203,8 @@ body::-webkit-scrollbar {
     list-style: none;
   }
   .logo {
-    height: 70px;
+    height: 8vh;
+    width: auto;
   }
   .burger div {
     width: 25px;
@@ -274,9 +275,9 @@ body::-webkit-scrollbar {
     font-family: Helvetica;
     z-index: 1;
     top: 115%;
-    left: 0;
     font-size: 20px;
-    padding: 20px;
+    padding: 150px;
+    background-color: #07112a;
   }
   .section2 .Shading2 {
     height: 100vh;
@@ -480,7 +481,7 @@ body::-webkit-scrollbar {
     font-family: Helvetica;
     z-index: 1;
     top: 105%;
-    font-size: 40px;
+    font-size: 25px;
     padding: 20px;
   }
   .section2 .p12 {
@@ -489,9 +490,9 @@ body::-webkit-scrollbar {
     font-family: Helvetica;
     z-index: 1;
     top: 115%;
-    left: 0;
-    font-size: 20px;
-    padding: 20px;
+    font-size: 10px;
+    padding: 150px;
+    background-color: #07112a;
   }
   .section2 .Shading2 {
     height: 100vh;
