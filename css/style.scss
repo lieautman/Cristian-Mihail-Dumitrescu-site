@@ -222,6 +222,7 @@ body::-webkit-scrollbar {
           width: 50vw;
           position: absolute;
           display: flex;
+          transition: left 0.4s ease-in-out;
           img {
             height: 64vh;
             width: 25vw;
@@ -235,37 +236,6 @@ body::-webkit-scrollbar {
             color: rgb(122, 35, 108);
             font-size: 20px;
           }
-        }
-        .display:nth-child(1) {
-          z-index: 6;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(2) {
-          z-index: 5;
-          left: 50vw;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(3) {
-          z-index: 4;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(4) {
-          z-index: 3;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(5) {
-          z-index: 2;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(6) {
-          z-index: 1;
-          left: -50vw;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
         }
       }
       #prevBtn {
@@ -485,6 +455,7 @@ body::-webkit-scrollbar {
           width: 50vw;
           position: absolute;
           display: flex;
+          transition: left 0.4s ease-in-out;
           img {
             height: 64vh;
             width: 25vw;
@@ -498,37 +469,6 @@ body::-webkit-scrollbar {
             color: rgb(122, 35, 108);
             font-size: 18px;
           }
-        }
-        .display:nth-child(1) {
-          z-index: 6;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(2) {
-          z-index: 5;
-          left: 50vw;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(3) {
-          z-index: 4;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(4) {
-          z-index: 3;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(5) {
-          z-index: 2;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(6) {
-          z-index: 1;
-          left: -50vw;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
         }
       }
       #prevBtn {
@@ -739,6 +679,7 @@ body::-webkit-scrollbar {
           position: absolute;
           display: flex;
           flex-direction: column;
+          transition: left 0.4s ease-in-out;
           img {
             height: 33.5vh;
             width: 65vw;
@@ -752,37 +693,6 @@ body::-webkit-scrollbar {
             color: rgb(122, 35, 108);
             font-size: 15px;
           }
-        }
-        .display:nth-child(1) {
-          z-index: 6;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(2) {
-          z-index: 5;
-          left: 50vw;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(3) {
-          z-index: 4;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(4) {
-          z-index: 3;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(5) {
-          z-index: 2;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(6) {
-          z-index: 1;
-          left: -50vw;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
         }
       }
       #prevBtn {
@@ -993,6 +903,7 @@ body::-webkit-scrollbar {
           position: absolute;
           display: flex;
           flex-direction: column;
+          transition: left 0.4s ease-in-out;
           img {
             height: 33.5vh;
             width: 65vw;
@@ -1006,37 +917,6 @@ body::-webkit-scrollbar {
             color: rgb(122, 35, 108);
             font-size: 14.5px;
           }
-        }
-        .display:nth-child(1) {
-          z-index: 6;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(2) {
-          z-index: 5;
-          left: 50vw;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(3) {
-          z-index: 4;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(4) {
-          z-index: 3;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(5) {
-          z-index: 2;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(6) {
-          z-index: 1;
-          left: -50vw;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
         }
       }
       #prevBtn {
@@ -1247,6 +1127,7 @@ body::-webkit-scrollbar {
           position: absolute;
           display: flex;
           flex-direction: column;
+          transition: left 0.4s ease-in-out;
           img {
             height: 33.5vh;
             width: 65vw;
@@ -1260,37 +1141,6 @@ body::-webkit-scrollbar {
             color: rgb(122, 35, 108);
             font-size: 13px;
           }
-        }
-        .display:nth-child(1) {
-          z-index: 6;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(2) {
-          z-index: 5;
-          left: 50vw;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(3) {
-          z-index: 4;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(4) {
-          z-index: 3;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(5) {
-          z-index: 2;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(6) {
-          z-index: 1;
-          left: -50vw;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
         }
       }
       #prevBtn {
@@ -1557,6 +1407,7 @@ body::-webkit-scrollbar {
           position: absolute;
           display: flex;
           flex-direction: column;
+          transition: left 0.4s ease-in-out;
           img {
             height: 20vh;
             width: 75vw;
@@ -1570,37 +1421,6 @@ body::-webkit-scrollbar {
             color: rgb(122, 35, 108);
             font-size: 16px;
           }
-        }
-        .display:nth-child(1) {
-          z-index: 6;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(2) {
-          z-index: 5;
-          left: 50vw;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(3) {
-          z-index: 4;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(4) {
-          z-index: 3;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(5) {
-          z-index: 2;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(6) {
-          z-index: 1;
-          left: -50vw;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
         }
       }
       #prevBtn {
@@ -1866,6 +1686,7 @@ body::-webkit-scrollbar {
           position: absolute;
           display: flex;
           flex-direction: column;
+          transition: left 0.4s ease-in-out;
           img {
             height: 20vh;
             width: 75vw;
@@ -1879,37 +1700,6 @@ body::-webkit-scrollbar {
             color: rgb(122, 35, 108);
             font-size: 16px;
           }
-        }
-        .display:nth-child(1) {
-          z-index: 6;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(2) {
-          z-index: 5;
-          left: 50vw;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(3) {
-          z-index: 4;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(4) {
-          z-index: 3;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(5) {
-          z-index: 2;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(6) {
-          z-index: 1;
-          left: -50vw;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
         }
       }
       #prevBtn {
@@ -2176,6 +1966,7 @@ body::-webkit-scrollbar {
           position: absolute;
           display: flex;
           flex-direction: column;
+          transition: left 0.4s ease-in-out;
           img {
             height: 20vh;
             width: 75vw;
@@ -2189,37 +1980,6 @@ body::-webkit-scrollbar {
             color: rgb(122, 35, 108);
             font-size: 16px;
           }
-        }
-        .display:nth-child(1) {
-          z-index: 6;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(2) {
-          z-index: 5;
-          left: 50vw;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(3) {
-          z-index: 4;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(4) {
-          z-index: 3;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(5) {
-          z-index: 2;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(6) {
-          z-index: 1;
-          left: -50vw;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
         }
       }
       #prevBtn {
@@ -2487,6 +2247,7 @@ body::-webkit-scrollbar {
           position: absolute;
           display: flex;
           flex-direction: column;
+          transition: left 0.4s ease-in-out;
           img {
             height: 20vh;
             width: 75vw;
@@ -2500,37 +2261,6 @@ body::-webkit-scrollbar {
             color: rgb(122, 35, 108);
             font-size: 13px;
           }
-        }
-        .display:nth-child(1) {
-          z-index: 6;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(2) {
-          z-index: 5;
-          left: 50vw;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(3) {
-          z-index: 4;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(4) {
-          z-index: 3;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(5) {
-          z-index: 2;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(6) {
-          z-index: 1;
-          left: -50vw;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
         }
       }
       #prevBtn {
@@ -2798,6 +2528,7 @@ body::-webkit-scrollbar {
           position: absolute;
           display: flex;
           flex-direction: column;
+          transition: left 0.4s ease-in-out;
           img {
             height: 18vh;
             width: 75vw;
@@ -2811,37 +2542,6 @@ body::-webkit-scrollbar {
             color: rgb(122, 35, 108);
             font-size: 13px;
           }
-        }
-        .display:nth-child(1) {
-          z-index: 6;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(2) {
-          z-index: 5;
-          left: 50vw;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(3) {
-          z-index: 4;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(4) {
-          z-index: 3;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(5) {
-          z-index: 2;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(6) {
-          z-index: 1;
-          left: -50vw;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
         }
       }
       #prevBtn {
@@ -3109,6 +2809,7 @@ body::-webkit-scrollbar {
           position: absolute;
           display: flex;
           flex-direction: column;
+          transition: left 0.4s ease-in-out;
           img {
             height: 18vh;
             width: 75vw;
@@ -3122,37 +2823,6 @@ body::-webkit-scrollbar {
             color: rgb(122, 35, 108);
             font-size: 10px;
           }
-        }
-        .display:nth-child(1) {
-          z-index: 6;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(2) {
-          z-index: 5;
-          left: 50vw;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(3) {
-          z-index: 4;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(4) {
-          z-index: 3;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(5) {
-          z-index: 2;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
-        }
-        .display:nth-child(6) {
-          z-index: 1;
-          left: -50vw;
-          opacity: 0;
-          transition: left 0.4s ease-in-out;
         }
       }
       #prevBtn {
