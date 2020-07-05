@@ -548,6 +548,8 @@ body::-webkit-scrollbar {
           border-bottom: 2px solid #7a236c;
           padding: 5px;
           width: 100%;
+          left: 15vw;
+          position: relative;
         }
         .fields {
           width: 40vw;
@@ -558,9 +560,12 @@ body::-webkit-scrollbar {
           border: 0px;
           padding: 5px;
           align-self: center;
+          left: 17vw;
+          position: relative;
         }
         .recaptcha {
-          width: 35vw;
+          left: 15vw;
+          position: relative;
         }
         .message {
           width: 100%;
@@ -811,7 +816,7 @@ body::-webkit-scrollbar {
           position: relative;
         }
         .recaptcha {
-          left: 15vw;
+          left: 10vw;
           position: relative;
         }
         .message {
