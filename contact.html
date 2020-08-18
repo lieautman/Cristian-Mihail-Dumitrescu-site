@@ -1,119 +1,91 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf=8" />
-    <meta name="Cristian-Mihail Dumitrescu's personal site" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./css/style_contact.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="css/images/logo1.png" />
-    <title>Cristian-Mihail Dumitrescu</title>
-  </head>
-  <body>
-    <nav1 class="nav1">
-      <a href="./index.html"
-        ><img class="logo" src="./css/images/logo1.png" alt="logo"
-      /></a>
-      <ul class="navlist">
-        <li><a href="index.html">Acasa</a></li>
-        <li><a href="about.html">Despre</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="skills.html">Abilitati</a></li>
-      </ul>
-      <div class="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
-    </nav1>
-    <div class="container">
-      <section class="section1">
-        <div class="text1">
-          <h1 class="h11">
-            Aceasta este sectiunea de contact. Poti gasi moduri de a ma contacta
-            mai jos.
-          </h1>
-          <h2 class="h21">
-            “Don’t worry if plan A fails, there are 25 more letters in the
-            alphabet.”
-          </h2>
-        </div>
-        <img class="FirstVhImg" src="css/images/1.jpg" alt="coding guy" />
-      </section>
-      <section class="section2">
-        <img class="SecondVhImg" src="css/images/2.jpg" alt="picture of me" />
-        <div class="text1" id="text1">
-          <p class="p11">
-            E-mail: dumi_cristi@yahoo.com
-          </p>
-          <p class="p11">
-            Telefon: 0770961690
-          </p>
-          <form
-            action="post"
-            data-netlify="true"
-            class="contactForm"
-            autocomplete="off"
-          >
-            <div class="fields">
-              <div class="fieldHalf">
-                <input type="text" name="Name" id="Name" placeholder="Nume" />
-              </div>
-              <div class="fieldHalf">
-                <input
-                  type="text"
-                  name="E-mail"
-                  id="E-mail"
-                  placeholder="E-mail"
-                />
-              </div>
-              <div class="fieldHalf">
-                <input
-                  type="text"
-                  name="Phone"
-                  id="Phone"
-                  placeholder="Telefon"
-                />
-              </div>
-              <div class="fieldHalf">
-                <input
-                  type="text"
-                  name="Subject"
-                  id="Subject"
-                  placeholder="Subiect"
-                />
-              </div>
-            </div>
-            <ul class="actions">
-              <div class="field">
-                <textarea
-                  name="message"
-                  class="message"
-                  placeholder="mesaj"
-                  rows="7"
-                >
-                </textarea>
-              </div>
-              <div class="recaptcha" data-netlify-recaptcha="true"></div>
-              <li>
-                <input
-                  type="submit"
-                  value="Trimite Mesaj"
-                  class="buttonSubmit"
-                />
-              </li>
-            </ul>
-          </form>
-        </div>
-      </section>
-      <div class="textInvizibil">
-        Numele de „România” provine de la „român”, cuvânt derivat din latinescul
-        romanus care semnifică cetățean al Romei.[12] Cel mai vechi indiciu
-        referitor la existența numelui de „român” ar putea fi conținut de
-        Cântecul Nibelungilor din secolul al XIII-lea: „Ducele Ramunch din țara
-        Valahilor/cu șapte sute de luptători aleargă în întâmpinarea ei/ca
-        păsările sălbatice, îi vedea
-      </div>
-      <script src="./js/navonly.js"></script>
+
+<head>
+  <meta charset="utf=8" />
+  <meta name="Cristian-Mihail Dumitrescu's personal site" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./css/style_contact.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="css/images/logo1.png" />
+  <title>Cristian-Mihail Dumitrescu</title>
+</head>
+
+<body>
+  <nav1 class="nav1">
+    <a href="./index.html"><img class="logo" src="./css/images/logo1.png" alt="logo" /></a>
+    <ul class="navlist">
+      <li><a href="index.html">Acasa</a></li>
+      <li><a href="about.html">Despre</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="CV.html">CV</a></li>
+    </ul>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
     </div>
-  </body>
+  </nav1>
+  <div class="container">
+    <section class="section1">
+      <div class="text1">
+        <h1 class="h11">
+          Aceasta este sectiunea de contact. Poti gasi moduri de a ma contacta
+          mai jos.
+        </h1>
+        <h2 class="h21">
+          “Don’t worry if plan A fails, there are 25 more letters in the
+          alphabet.”
+        </h2>
+      </div>
+      <img class="FirstVhImg" src="css/images/1.jpg" alt="coding guy" />
+    </section>
+    <section class="section2">
+      <img class="SecondVhImg" src="css/images/2.jpg" alt="picture of me" />
+      <div class="text1" id="text1">
+        <p class="p11">
+          E-mail: dumi_cristi@yahoo.com
+        </p>
+        <p class="p11">
+          Telefon: 0770961690
+        </p>
+        <form action="post" data-netlify="true" class="contactForm" autocomplete="off">
+          <div class="fields">
+            <div class="fieldHalf">
+              <input type="text" name="Name" id="Name" placeholder="Nume" />
+            </div>
+            <div class="fieldHalf">
+              <input type="text" name="E-mail" id="E-mail" placeholder="E-mail" />
+            </div>
+            <div class="fieldHalf">
+              <input type="text" name="Phone" id="Phone" placeholder="Telefon" />
+            </div>
+            <div class="fieldHalf">
+              <input type="text" name="Subject" id="Subject" placeholder="Subiect" />
+            </div>
+          </div>
+          <ul class="actions">
+            <div class="field">
+              <textarea name="message" class="message" placeholder="mesaj" rows="7">
+                </textarea>
+            </div>
+            <div class="recaptcha" data-netlify-recaptcha="true"></div>
+            <li>
+              <input type="submit" value="Trimite Mesaj" class="buttonSubmit" />
+            </li>
+          </ul>
+        </form>
+      </div>
+    </section>
+    <div class="textInvizibil">
+      Numele de „România” provine de la „român”, cuvânt derivat din latinescul
+      romanus care semnifică cetățean al Romei.[12] Cel mai vechi indiciu
+      referitor la existența numelui de „român” ar putea fi conținut de
+      Cântecul Nibelungilor din secolul al XIII-lea: „Ducele Ramunch din țara
+      Valahilor/cu șapte sute de luptători aleargă în întâmpinarea ei/ca
+      păsările sălbatice, îi vedea
+    </div>
+    <script src="./js/navonly.js"></script>
+  </div>
+</body>
+
 </html>
