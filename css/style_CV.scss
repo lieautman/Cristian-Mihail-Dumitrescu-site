@@ -107,18 +107,23 @@
             position:relative;
             left:37.5vw;
             top:30vh;
-            color:#07112a;
             background-color: #7a236c;
             height: 18vh;
             width: 25vw;
             font-size:20px;
-            text-align: center;
             padding:4vw;
+            border-radius: 30px;
+            border-color:black;
+            border-style:solid;
+            P{
+               color:#07112a;
+               align-self: center;
+            }
           }
         }
         .footer {
         position: relative;
-        top: 64vh;
+        top: 46vh;
         width: 100%;
         height: 18vh;
         background-color: #07112a;
@@ -177,18 +182,23 @@
             position:relative;
             left:37.5vw;
             top:30vh;
-            color:#07112a;
             background-color: #7a236c;
             height: 18vh;
             width: 25vw;
             font-size:20px;
-            text-align: center;
             padding:4vw;
+            border-radius: 30px;
+            border-color:black;
+            border-style:solid;
+            P{
+               color:#07112a;
+               align-self: center;
+            }
           }
         }
         .footer {
         position: relative;
-        top: 64vh;
+        top: 46vh;
         width: 100%;
         height: 18vh;
         background-color: #07112a;
@@ -248,18 +258,23 @@
             position:relative;
             left:37.5vw;
             top:30vh;
-            color:#07112a;
             background-color: #7a236c;
             height: 18vh;
             width: 25vw;
             font-size:20px;
-            text-align: center;
             padding:4vw;
+            border-radius: 30px;
+            border-color:black;
+            border-style:solid;
+            P{
+               color:#07112a;
+               align-self: center;
+            }
           }
         }
         .footer {
         position: relative;
-        top: 64vh;
+        top: 46vh;
         width: 100%;
         height: 18vh;
         background-color: #07112a;
@@ -318,18 +333,23 @@
             position:relative;
             left:37.5vw;
             top:30vh;
-            color:#07112a;
             background-color: #7a236c;
             height: 18vh;
             width: 25vw;
             font-size:20px;
-            text-align: center;
             padding:4vw;
+            border-radius: 30px;
+            border-color:black;
+            border-style:solid;
+            P{
+               color:#07112a;
+               align-self: center;
+            }
           }
         }
         .footer {
         position: relative;
-        top: 64vh;
+        top: 46vh;
         width: 100%;
         height: 18vh;
         background-color: #07112a;
@@ -388,18 +408,23 @@
             position:relative;
             left:37.5vw;
             top:30vh;
-            color:#07112a;
             background-color: #7a236c;
             height: 18vh;
             width: 25vw;
             font-size:20px;
-            text-align: center;
             padding:4vw;
+            border-radius: 30px;
+            border-color:black;
+            border-style:solid;
+            P{
+               color:#07112a;
+               align-self: center;
+            }
           }
         }
         .footer {
         position: relative;
-        top: 64vh;
+        top: 46vh;
         width: 100%;
         height: 18vh;
         background-color: #07112a;
@@ -459,18 +484,23 @@
             position:relative;
             left:37.5vw;
             top:30vh;
-            color:#07112a;
             background-color: #7a236c;
             height: 18vh;
             width: 25vw;
             font-size:20px;
-            text-align: center;
             padding:4vw;
+            border-radius: 30px;
+            border-color:black;
+            border-style:solid;
+            P{
+               color:#07112a;
+               align-self: center;
+            }
           }
         }
         .footer {
         position: relative;
-        top: 64vh;
+        top: 46vh;
         width: 100%;
         height: 18vh;
         background-color: #07112a;
@@ -588,18 +618,23 @@
             position:relative;
             left:37.5vw;
             top:30vh;
-            color:#07112a;
             background-color: #7a236c;
             height: 18vh;
             width: 25vw;
             font-size:20px;
-            text-align: center;
             padding:4vw;
+            border-radius: 30px;
+            border-color:black;
+            border-style:solid;
+            P{
+               color:#07112a;
+               align-self: center;
+            }
           }
         }
         .footer {
         position: relative;
-        top: 64vh;
+        top: 46vh;
         width: 100%;
         height: 18vh;
         background-color: #07112a;
@@ -716,18 +751,23 @@
             position:relative;
             left:37.5vw;
             top:30vh;
-            color:#07112a;
             background-color: #7a236c;
             height: 18vh;
             width: 25vw;
             font-size:20px;
-            text-align: center;
             padding:4vw;
+            border-radius: 30px;
+            border-color:black;
+            border-style:solid;
+            P{
+               color:#07112a;
+               align-self: center;
+            }
           }
         }
         .footer {
         position: relative;
-        top: 64vh;
+        top: 46vh;
         width: 100%;
         height: 18vh;
         background-color: #07112a;
@@ -832,31 +872,44 @@
       }
   
       //first100vh style
-      a{
-        text-decoration: none;
-        .download{
-          position:relative;
-          left:37.5vw;
-          top:30vh;
-          color:#07112a;
-          background-color: #7a236c;
-          height: 18vh;
-          width: 25vw;
-          font-size:20px;
-          text-align: center;
-          padding:4vw;
+      .section1 {
+        height: 92vh;
+        justify-content: center;
+        background-image: url(./images/cv_1.jpg);
+        background-size: cover;
+        overflow: hidden;
+        a{
+          text-decoration: none;
+          .download{
+            position:relative;
+            left:37.5vw;
+            top:30vh;
+            background-color: #7a236c;
+            height: 18vh;
+            width: 25vw;
+            font-size:20px;
+            padding:4vw;
+            border-radius: 30px;
+            border-color:black;
+            border-style:solid;
+            P{
+              font-size:15px;
+               color:#07112a;
+               align-self: center;
+            }
+          }
         }
-      }
-      .footer {
-      position: relative;
-      top: 64vh;
-      width: 100%;
-      height: 18vh;
-      background-color: #07112a;
-      z-index: 100;
-      color: #7a236c;
-      text-align: center;
-      padding-top: 20px;
+        .footer {
+        position: relative;
+        top: 46vh;
+        width: 100%;
+        height: 18vh;
+        background-color: #07112a;
+        z-index: 100;
+        color: #7a236c;
+        text-align: center;
+        padding-top: 20px;
+        }
       }
     }
   }
@@ -965,18 +1018,24 @@
             position:relative;
             left:37.5vw;
             top:30vh;
-            color:#07112a;
             background-color: #7a236c;
             height: 18vh;
             width: 25vw;
             font-size:20px;
-            text-align: center;
             padding:4vw;
+            border-radius: 30px;
+            border-color:black;
+            border-style:solid;
+            P{
+              font-size:15px;
+               color:#07112a;
+               align-self: center;
+            }
           }
         }
         .footer {
         position: relative;
-        top: 64vh;
+        top: 46vh;
         width: 100%;
         height: 18vh;
         background-color: #07112a;
@@ -1093,13 +1152,19 @@
             position:relative;
             left:37.5vw;
             top:30vh;
-            color:#07112a;
             background-color: #7a236c;
-            height: 18vh;
+            height: 10vh;
             width: 25vw;
             font-size:20px;
-            text-align: center;
             padding:4vw;
+            border-radius: 30px;
+            border-color:black;
+            border-style:solid;
+            P{
+              font-size:10px;
+               color:#07112a;
+               align-self: center;
+            }
           }
         }
         .footer {
@@ -1221,13 +1286,19 @@
             position:relative;
             left:37.5vw;
             top:30vh;
-            color:#07112a;
             background-color: #7a236c;
-            height: 18vh;
+            height: 10vh;
             width: 25vw;
             font-size:20px;
-            text-align: center;
             padding:4vw;
+            border-radius: 30px;
+            border-color:black;
+            border-style:solid;
+            P{
+              font-size:10px;
+               color:#07112a;
+               align-self: center;
+            }
           }
         }
         .footer {
