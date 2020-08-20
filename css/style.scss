@@ -60,6 +60,18 @@ body::-webkit-scrollbar {
     scroll-snap-align: start;
   }
 }
+.container-deactivate-scroll{
+  scroll-behavior: auto;
+  .section1 {
+    scroll-snap-align: none;
+  }
+  .section2 {
+    scroll-snap-align: none;
+  }
+  .section3 {
+    scroll-snap-align: none;
+  }
+}
 @media screen and (min-width: 1550px) {
   //section 1 2 and 3
   body {
@@ -102,6 +114,40 @@ body::-webkit-scrollbar {
       justify-content: center;
       background-image: url(./images/1.jpg);
       background-size: cover;
+      .toggle-container{
+        position:absolute;
+        top:5%;
+        right:5%;
+        z-index:10;
+        p{
+          position:relative;
+          right:2vw;
+          bottom:1vh;
+          color: rgb(176, 113, 212);
+          font-family: Helvetica;
+        }
+        .toggle-button{
+          width:5vw;
+          height:2.5vw;
+          background-color: gray;
+          border-radius: 30px;
+          padding:0.35vw;
+          transition:all 300ms ease-in-out; 
+          .toggle-circle{
+            width:1.8vw;
+            height:1.8vw;
+            background-color: white;
+            border-radius: 50%;
+            transition:all 300ms ease-in-out;
+          }
+        }
+        .toggle-button-active{
+          background-color:rgba(66, 27, 88, 1);
+          .toggle-circle{
+            margin-left:2.5vw;
+          }
+        }
+      }
       .h11,
       .h21,
       .h22 {
@@ -335,6 +381,40 @@ body::-webkit-scrollbar {
       background-image: url(./images/1.jpg);
       background-size: cover;
       overflow: hidden;
+      .toggle-container{
+        position:absolute;
+        top:5%;
+        right:5%;
+        z-index:10;
+        p{
+          position:relative;
+          right:2vw;
+          bottom:1vh;
+          color: rgb(176, 113, 212);
+          font-family: Helvetica;
+        }
+        .toggle-button{
+          width:5vw;
+          height:2.5vw;
+          background-color: gray;
+          border-radius: 30px;
+          padding:0.35vw;
+          transition:all 300ms ease-in-out; 
+          .toggle-circle{
+            width:1.8vw;
+            height:1.8vw;
+            background-color: white;
+            border-radius: 50%;
+            transition:all 300ms ease-in-out;
+          }
+        }
+        .toggle-button-active{
+          background-color:rgba(66, 27, 88, 1);
+          .toggle-circle{
+            margin-left:2.5vw;
+          }
+        }
+      }
       .h11,
       .h21,
       .h22 {
@@ -566,6 +646,40 @@ body::-webkit-scrollbar {
       background-image: url(./images/1.jpg);
       background-size: cover;
       overflow: hidden;
+      .toggle-container{
+        position:absolute;
+        top:5%;
+        right:5%;
+        z-index:10;
+        p{
+          position:relative;
+          right:2vw;
+          bottom:1vh;
+          color: rgb(176, 113, 212);
+          font-family: Helvetica;
+        }
+        .toggle-button{
+          width:5vw;
+          height:2.5vw;
+          background-color: gray;
+          border-radius: 30px;
+          padding:0.35vw;
+          transition:all 300ms ease-in-out; 
+          .toggle-circle{
+            width:1.8vw;
+            height:1.8vw;
+            background-color: white;
+            border-radius: 50%;
+            transition:all 300ms ease-in-out;
+          }
+        }
+        .toggle-button-active{
+          background-color:rgba(66, 27, 88, 1);
+          .toggle-circle{
+            margin-left:2.5vw;
+          }
+        }
+      }
       .h11,
       .h21,
       .h22 {
@@ -790,6 +904,40 @@ body::-webkit-scrollbar {
       background-image: url(./images/1.jpg);
       background-size: cover;
       overflow: hidden;
+      .toggle-container{
+        position:absolute;
+        top:5%;
+        right:5%;
+        z-index:10;
+        p{
+          position:relative;
+          right:2vw;
+          bottom:1vh;
+          color: rgb(176, 113, 212);
+          font-family: Helvetica;
+        }
+        .toggle-button{
+          width:10vw;
+          height:5;
+          background-color: gray;
+          border-radius: 30px;
+          padding:0.7vw;
+          transition:all 300ms ease-in-out; 
+          .toggle-circle{
+            width:3.6vw;
+            height:3.6vw;
+            background-color: white;
+            border-radius: 50%;
+            transition:all 300ms ease-in-out;
+          }
+        }
+        .toggle-button-active{
+          background-color:rgba(66, 27, 88, 1);
+          .toggle-circle{
+            margin-left:2.5vw;
+          }
+        }
+      }
       .h11,
       .h21,
       .h22 {
@@ -1014,6 +1162,40 @@ body::-webkit-scrollbar {
       background-image: url(./images/1.jpg);
       background-size: cover;
       overflow: hidden;
+      .toggle-container{
+        position:absolute;
+        top:5%;
+        right:5%;
+        z-index:10;
+        p{
+          position:relative;
+          right:2vw;
+          bottom:1vh;
+          color: rgb(176, 113, 212);
+          font-family: Helvetica;
+        }
+        .toggle-button{
+          width:10vw;
+          height:5;
+          background-color: gray;
+          border-radius: 30px;
+          padding:0.7vw;
+          transition:all 300ms ease-in-out; 
+          .toggle-circle{
+            width:3.6vw;
+            height:3.6vw;
+            background-color: white;
+            border-radius: 50%;
+            transition:all 300ms ease-in-out;
+          }
+        }
+        .toggle-button-active{
+          background-color:rgba(66, 27, 88, 1);
+          .toggle-circle{
+            margin-left:2.5vw;
+          }
+        }
+      }
       .h11,
       .h21,
       .h22 {
@@ -1297,6 +1479,40 @@ body::-webkit-scrollbar {
       background-image: url(./images/1.jpg);
       background-size: cover;
       overflow: hidden;
+      .toggle-container{
+        position:absolute;
+        top:5%;
+        right:5%;
+        z-index:10;
+        p{
+          position:relative;
+          right:2vw;
+          bottom:1vh;
+          color: rgb(176, 113, 212);
+          font-family: Helvetica;
+        }
+        .toggle-button{
+          width:10vw;
+          height:5;
+          background-color: gray;
+          border-radius: 30px;
+          padding:0.7vw;
+          transition:all 300ms ease-in-out; 
+          .toggle-circle{
+            width:3.6vw;
+            height:3.6vw;
+            background-color: white;
+            border-radius: 50%;
+            transition:all 300ms ease-in-out;
+          }
+        }
+        .toggle-button-active{
+          background-color:rgba(66, 27, 88, 1);
+          .toggle-circle{
+            margin-left:2.5vw;
+          }
+        }
+      }
       .h11,
       .h21,
       .h22 {
@@ -1348,12 +1564,15 @@ body::-webkit-scrollbar {
         font-family: Helvetica;
         z-index: 1;
         padding: 30px;
-        font-size: 15px;
+        top: 0px;
+        left: 50%;
+        font-size: 20px;
       }
       .PictureOfMe {
         position: relative;
-        left: 0vw;
-        height: 30vh;
+        top: 0;
+        left: -30px;
+        height: 60vh;
         width: 40vw;
         border-radius: 15px;
         z-index: 1;
@@ -1364,16 +1583,18 @@ body::-webkit-scrollbar {
       .square {
         position: relative;
         display: flex;
+        flex-direction: column;
         top: 20vh;
-        left: 7vw;
+        left: 10vw;
         height: 60vh;
-        width: 85vw;
+        width: 80vw;
         background-image: url(./images/2.jpg);
         background-size: cover;
         background-position: center;
         border-radius: 15px;
       }
     }
+
 
     //third100vh style
     .section3 {
@@ -1576,6 +1797,41 @@ body::-webkit-scrollbar {
       background-image: url(./images/1.jpg);
       background-size: cover;
       overflow: hidden;
+      .toggle-container{
+        position:absolute;
+        top:5%;
+        right:5%;
+        z-index:10;
+        p{
+          font-size:10px;
+          position:relative;
+          right:2vw;
+          bottom:1vh;
+          color: rgb(176, 113, 212);
+          font-family: Helvetica;
+        }
+        .toggle-button{
+          width:10vw;
+          height:5;
+          background-color: gray;
+          border-radius: 30px;
+          padding:0.7vw;
+          transition:all 300ms ease-in-out; 
+          .toggle-circle{
+            width:3.6vw;
+            height:3.6vw;
+            background-color: white;
+            border-radius: 50%;
+            transition:all 300ms ease-in-out;
+          }
+        }
+        .toggle-button-active{
+          background-color:rgba(66, 27, 88, 1);
+          .toggle-circle{
+            margin-left:2.5vw;
+          }
+        }
+      }
       .h11,
       .h21,
       .h22 {
@@ -1586,7 +1842,7 @@ body::-webkit-scrollbar {
         padding: 30px;
       }
       .h11 {
-        top: 35%;
+        top: 25%;
         font-size: 40px;
       }
       .h21 {
@@ -1627,12 +1883,14 @@ body::-webkit-scrollbar {
         font-family: Helvetica;
         z-index: 1;
         padding: 30px;
+        top: 0px;
+        left: 50%;
         font-size: 15px;
       }
       .PictureOfMe {
         position: relative;
-        left: 0vw;
-        height: 30vh;
+        top: 0;
+        height: 40vh;
         width: 40vw;
         border-radius: 15px;
         z-index: 1;
@@ -1643,10 +1901,11 @@ body::-webkit-scrollbar {
       .square {
         position: relative;
         display: flex;
+        flex-direction: column;
         top: 20vh;
-        left: 7vw;
+        left: 10vw;
         height: 60vh;
-        width: 85vw;
+        width: 80vw;
         background-image: url(./images/2.jpg);
         background-size: cover;
         background-position: center;
@@ -1855,6 +2114,41 @@ body::-webkit-scrollbar {
       background-image: url(./images/1.jpg);
       background-size: cover;
       overflow: hidden;
+      .toggle-container{
+        position:absolute;
+        top:5%;
+        right:5%;
+        z-index:10;
+        p{
+          font-size:10px;
+          position:relative;
+          right:2vw;
+          bottom:1vh;
+          color: rgb(176, 113, 212);
+          font-family: Helvetica;
+        }
+        .toggle-button{
+          width:10vw;
+          height:5;
+          background-color: gray;
+          border-radius: 30px;
+          padding:0.7vw;
+          transition:all 300ms ease-in-out; 
+          .toggle-circle{
+            width:3.6vw;
+            height:3.6vw;
+            background-color: white;
+            border-radius: 50%;
+            transition:all 300ms ease-in-out;
+          }
+        }
+        .toggle-button-active{
+          background-color:rgba(66, 27, 88, 1);
+          .toggle-circle{
+            margin-left:2.5vw;
+          }
+        }
+      }
       .h11,
       .h21,
       .h22 {
@@ -2136,6 +2430,41 @@ body::-webkit-scrollbar {
       background-image: url(./images/1.jpg);
       background-size: cover;
       overflow: hidden;
+      .toggle-container{
+        position:absolute;
+        top:5%;
+        right:5%;
+        z-index:10;
+        p{
+          font-size:10px;
+          position:relative;
+          right:2vw;
+          bottom:1vh;
+          color: rgb(176, 113, 212);
+          font-family: Helvetica;
+        }
+        .toggle-button{
+          width:10vw;
+          height:5;
+          background-color: gray;
+          border-radius: 30px;
+          padding:0.7vw;
+          transition:all 300ms ease-in-out; 
+          .toggle-circle{
+            width:3.6vw;
+            height:3.6vw;
+            background-color: white;
+            border-radius: 50%;
+            transition:all 300ms ease-in-out;
+          }
+        }
+        .toggle-button-active{
+          background-color:rgba(66, 27, 88, 1);
+          .toggle-circle{
+            margin-left:2.5vw;
+          }
+        }
+      }
       .h11,
       .h21,
       .h22 {
@@ -2417,6 +2746,41 @@ body::-webkit-scrollbar {
       background-image: url(./images/1.jpg);
       background-size: cover;
       overflow: hidden;
+      .toggle-container{
+        position:absolute;
+        top:5%;
+        right:5%;
+        z-index:10;
+        p{
+          font-size:10px;
+          position:relative;
+          right:2vw;
+          bottom:1vh;
+          color: rgb(176, 113, 212);
+          font-family: Helvetica;
+        }
+        .toggle-button{
+          width:10vw;
+          height:5;
+          background-color: gray;
+          border-radius: 30px;
+          padding:0.7vw;
+          transition:all 300ms ease-in-out; 
+          .toggle-circle{
+            width:3.6vw;
+            height:3.6vw;
+            background-color: white;
+            border-radius: 50%;
+            transition:all 300ms ease-in-out;
+          }
+        }
+        .toggle-button-active{
+          background-color:rgba(66, 27, 88, 1);
+          .toggle-circle{
+            margin-left:2.5vw;
+          }
+        }
+      }
       .h11,
       .h21,
       .h22 {
@@ -2698,6 +3062,41 @@ body::-webkit-scrollbar {
       background-image: url(./images/1.jpg);
       background-size: cover;
       overflow: hidden;
+      .toggle-container{
+        position:absolute;
+        top:5%;
+        right:5%;
+        z-index:10;
+        p{
+          font-size:10px;
+          position:relative;
+          right:2vw;
+          bottom:1vh;
+          color: rgb(176, 113, 212);
+          font-family: Helvetica;
+        }
+        .toggle-button{
+          width:10vw;
+          height:5;
+          background-color: gray;
+          border-radius: 30px;
+          padding:0.7vw;
+          transition:all 300ms ease-in-out; 
+          .toggle-circle{
+            width:3.6vw;
+            height:3.6vw;
+            background-color: white;
+            border-radius: 50%;
+            transition:all 300ms ease-in-out;
+          }
+        }
+        .toggle-button-active{
+          background-color:rgba(66, 27, 88, 1);
+          .toggle-circle{
+            margin-left:2.5vw;
+          }
+        }
+      }
       .h11,
       .h21,
       .h22 {
