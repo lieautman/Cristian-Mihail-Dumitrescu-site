@@ -17,7 +17,7 @@ const navSlide = () => {
       } else {
         link.style.animation = `navLinkFade 0.5s ease forwards ${
           index / 7 + 0.5
-        }s`;
+          }s`;
       }
     });
     //burger animation
@@ -25,4 +25,32 @@ const navSlide = () => {
   });
 };
 
-navSlide();
+const cookies1Enabled = () => {
+  const container = document.querySelector(".container");
+  if (document.cookie.match(/deactivated/i) != null) {
+    container.classList.toggle("container-deactivate-scroll", true);
+    return 1;
+  }
+  return 0;
+};
+
+const cookies2Enabled = () => {
+  if (document.cookie.match(/light/i) != null) {
+    return 1;
+  }
+  return 0;
+};
+
+
+
+const initAllFunctions = () => {
+  navSlide();
+
+  console.log(document.cookie);
+  cookies1Enabled();
+
+  cookies2Enabled();
+};
+
+
+initAllFunctions();

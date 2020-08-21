@@ -53,6 +53,18 @@ body::-webkit-scrollbar {
   scroll-snap-align: start;
 }
 
+.container-deactivate-scroll {
+  scroll-behavior: auto;
+}
+
+.container-deactivate-scroll .section1 {
+  scroll-snap-align: none;
+}
+
+.container-deactivate-scroll .section2 {
+  scroll-snap-align: none;
+}
+
 @media screen and (min-width: 1000px) {
   body .nav1 {
     display: -webkit-box;
