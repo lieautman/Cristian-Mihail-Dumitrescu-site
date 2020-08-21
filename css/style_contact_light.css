@@ -14,19 +14,19 @@ body::-webkit-scrollbar {
 }
 
 .container::-webkit-scrollbar-track {
-  background: #07112a;
+  background: #36230a;
 }
 
 .container::-webkit-scrollbar-thumb {
-  background: #692020;
-  background: -webkit-gradient(linear, left top, right top, from(#692020), color-stop(50%, #421b58), to(#692020));
-  background: linear-gradient(90deg, #692020 0%, #421b58 50%, #692020 100%);
+  background: #205c74;
+  background: -webkit-gradient(linear, left top, right top, from(#205c74), color-stop(50%, #8b441a), to(#205c74));
+  background: linear-gradient(90deg, #205c74 0%, #8b441a 50%, #205c74 100%);
 }
 
 .container::-webkit-scrollbar-button {
-  background: #07112a;
-  background: -webkit-gradient(linear, left top, right top, from(#07112a), color-stop(50%, #692020), to(#07112a));
-  background: linear-gradient(90deg, #07112a 0%, #692020 50%, #07112a 100%);
+  background: #36230a;
+  background: -webkit-gradient(linear, left top, right top, from(#36230a), color-stop(50%, #205c74), to(#36230a));
+  background: linear-gradient(90deg, #36230a 0%, #205c74 50%, #36230a 100%);
 }
 
 .container {
@@ -74,7 +74,7 @@ body::-webkit-scrollbar {
         justify-content: space-around;
     min-height: 8vh;
     width: 100%;
-    background-color: #5c2c5e;
+    background-color: #143947;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -115,7 +115,7 @@ body::-webkit-scrollbar {
   }
   body .section1 .h11,
   body .section1 .h21 {
-    color: #ae6dd2;
+    color: #e9ac88;
     font-family: Helvetica;
     z-index: 1;
     padding: 30px;
@@ -126,7 +126,7 @@ body::-webkit-scrollbar {
     height: 70vh;
     top: 10vh;
     left: 12.5vw;
-    background-color: #07112a;
+    background-color: #36230a;
   }
   body .section1 .h11 {
     position: relative;
@@ -153,7 +153,7 @@ body::-webkit-scrollbar {
             justify-content: center;
   }
   body .section2 .p11 {
-    color: #ae6dd2;
+    color: #e9ac88;
     font-family: Helvetica;
     z-index: 1;
     top: 105%;
@@ -166,7 +166,7 @@ body::-webkit-scrollbar {
     width: 75vw;
     height: 70vh;
     top: 10vh;
-    background-color: #07112a;
+    background-color: #36230a;
   }
   body .section2 .SecondVhImg {
     position: absolute;
@@ -200,7 +200,7 @@ body::-webkit-scrollbar {
   body .section2 .contactForm .fieldHalf {
     background: transparent;
     border: 0px;
-    border-bottom: 2px solid #5c2c5e;
+    border-bottom: 2px solid #143947;
     padding: 10px;
     width: 100%;
   }
@@ -224,29 +224,29 @@ body::-webkit-scrollbar {
   }
   body .section2 .contactForm ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
-    color: #5c2c5e;
+    color: #143947;
   }
   body .section2 .contactForm ::-moz-placeholder {
     /* Firefox 19+ */
-    color: #5c2c5e;
+    color: #143947;
   }
   body .section2 .contactForm :-ms-input-placeholder {
     /* IE 10+ */
-    color: #5c2c5e;
+    color: #143947;
   }
   body .section2 .contactForm input[type="text"] {
     width: 100%;
     border: none;
-    background-color: #07112a;
+    background-color: #36230a;
     border: none;
     font-size: 20px;
     outline-offset: 10px;
-    color: #5c2c5e;
+    color: #143947;
   }
   body .section2 .contactForm textarea {
-    background-color: #07112a;
-    outline: 2px solid #5c2c5e;
-    color: #5c2c5e;
+    background-color: #36230a;
+    outline: 2px solid #143947;
+    color: #143947;
     font-size: 30px;
   }
   body .section2 .contactForm .buttonSubmit {
@@ -255,7 +255,7 @@ body::-webkit-scrollbar {
     text-align: center;
     padding: 15px;
     border-radius: 10px;
-    color: #5c2c5e;
+    color: #143947;
     cursor: pointer;
     text-transform: uppercase;
     left: 0vw;
@@ -264,7 +264,7 @@ body::-webkit-scrollbar {
     list-style-type: none;
   }
   body .section2 .contactForm *:focus {
-    outline: 2px solid #5c2c5e;
+    outline: 2px solid #143947;
     -webkit-box-shadow: none;
             box-shadow: none;
   }
@@ -279,7 +279,7 @@ body::-webkit-scrollbar {
         justify-content: space-around;
     min-height: 8vh;
     width: 100%;
-    background-color: #5c2c5e;
+    background-color: #143947;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -320,7 +320,7 @@ body::-webkit-scrollbar {
   }
   body .section1 .h11,
   body .section1 .h21 {
-    color: #ae6dd2;
+    color: #e9ac88;
     font-family: Helvetica;
     z-index: 1;
     padding: 30px;
@@ -331,7 +331,7 @@ body::-webkit-scrollbar {
     height: 70vh;
     top: 10vh;
     left: 12.5vw;
-    background-color: #07112a;
+    background-color: #36230a;
   }
   body .section1 .h11 {
     position: relative;
@@ -358,7 +358,7 @@ body::-webkit-scrollbar {
             justify-content: center;
   }
   body .section2 .p11 {
-    color: #ae6dd2;
+    color: #e9ac88;
     font-family: Helvetica;
     z-index: 1;
     top: 105%;
@@ -371,7 +371,7 @@ body::-webkit-scrollbar {
     width: 75vw;
     height: 70vh;
     top: 10vh;
-    background-color: #07112a;
+    background-color: #36230a;
   }
   body .section2 .SecondVhImg {
     position: absolute;
@@ -405,7 +405,7 @@ body::-webkit-scrollbar {
   body .section2 .contactForm .fieldHalf {
     background: transparent;
     border: 0px;
-    border-bottom: 2px solid #5c2c5e;
+    border-bottom: 2px solid #143947;
     padding: 10px;
     width: 100%;
   }
@@ -433,29 +433,29 @@ body::-webkit-scrollbar {
   }
   body .section2 .contactForm ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
-    color: #5c2c5e;
+    color: #143947;
   }
   body .section2 .contactForm ::-moz-placeholder {
     /* Firefox 19+ */
-    color: #5c2c5e;
+    color: #143947;
   }
   body .section2 .contactForm :-ms-input-placeholder {
     /* IE 10+ */
-    color: #5c2c5e;
+    color: #143947;
   }
   body .section2 .contactForm input[type="text"] {
     width: 100%;
     border: none;
-    background-color: #07112a;
+    background-color: #36230a;
     border: none;
     font-size: 20px;
     outline-offset: 10px;
-    color: #5c2c5e;
+    color: #143947;
   }
   body .section2 .contactForm textarea {
-    background-color: #07112a;
-    outline: 2px solid #5c2c5e;
-    color: #5c2c5e;
+    background-color: #36230a;
+    outline: 2px solid #143947;
+    color: #143947;
     font-size: 30px;
   }
   body .section2 .contactForm .buttonSubmit {
@@ -464,7 +464,7 @@ body::-webkit-scrollbar {
     text-align: center;
     padding: 15px;
     border-radius: 10px;
-    color: #5c2c5e;
+    color: #143947;
     cursor: pointer;
     text-transform: uppercase;
     left: 0vw;
@@ -474,7 +474,7 @@ body::-webkit-scrollbar {
     list-style-type: none;
   }
   body .section2 .contactForm *:focus {
-    outline: 2px solid #5c2c5e;
+    outline: 2px solid #143947;
     -webkit-box-shadow: none;
             box-shadow: none;
   }
@@ -489,7 +489,7 @@ body::-webkit-scrollbar {
         justify-content: space-around;
     min-height: 8vh;
     width: 100%;
-    background-color: #5c2c5e;
+    background-color: #143947;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -530,7 +530,7 @@ body::-webkit-scrollbar {
   }
   body .section1 .h11,
   body .section1 .h21 {
-    color: #ae6dd2;
+    color: #e9ac88;
     font-family: Helvetica;
     z-index: 1;
     padding: 30px;
@@ -541,7 +541,7 @@ body::-webkit-scrollbar {
     height: 70vh;
     top: 10vh;
     left: 12.5vw;
-    background-color: #07112a;
+    background-color: #36230a;
   }
   body .section1 .h11 {
     position: relative;
@@ -569,7 +569,7 @@ body::-webkit-scrollbar {
             justify-content: center;
   }
   body .section2 .p11 {
-    color: #ae6dd2;
+    color: #e9ac88;
     font-family: Helvetica;
     z-index: 1;
     top: 105%;
@@ -582,7 +582,7 @@ body::-webkit-scrollbar {
     width: 75vw;
     height: 75vh;
     top: 10vh;
-    background-color: #07112a;
+    background-color: #36230a;
   }
   body .section2 .SecondVhImg {
     position: absolute;
@@ -617,7 +617,7 @@ body::-webkit-scrollbar {
   body .section2 .contactForm .fieldHalf {
     background: transparent;
     border: 0px;
-    border-bottom: 2px solid #5c2c5e;
+    border-bottom: 2px solid #143947;
     padding: 5px;
     width: 100%;
     left: 15vw;
@@ -647,29 +647,29 @@ body::-webkit-scrollbar {
   }
   body .section2 .contactForm ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
-    color: #5c2c5e;
+    color: #143947;
   }
   body .section2 .contactForm ::-moz-placeholder {
     /* Firefox 19+ */
-    color: #5c2c5e;
+    color: #143947;
   }
   body .section2 .contactForm :-ms-input-placeholder {
     /* IE 10+ */
-    color: #5c2c5e;
+    color: #143947;
   }
   body .section2 .contactForm input[type="text"] {
     width: 100%;
     border: none;
-    background-color: #07112a;
+    background-color: #36230a;
     border: none;
     font-size: 15px;
     outline-offset: 10px;
-    color: #5c2c5e;
+    color: #143947;
   }
   body .section2 .contactForm textarea {
-    background-color: #07112a;
-    outline: 2px solid #5c2c5e;
-    color: #5c2c5e;
+    background-color: #36230a;
+    outline: 2px solid #143947;
+    color: #143947;
     font-size: 20px;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -683,7 +683,7 @@ body::-webkit-scrollbar {
     border-radius: 10px;
     height: 40px;
     width: 100%;
-    color: #5c2c5e;
+    color: #143947;
     cursor: pointer;
     text-transform: uppercase;
     left: 0vw;
@@ -712,7 +712,7 @@ body::-webkit-scrollbar {
             align-items: center;
     min-height: 8vh;
     width: 100%;
-    background-color: #5c2c5e;
+    background-color: #143947;
     z-index: 100;
   }
   body .nav1 .navlist {
@@ -726,7 +726,7 @@ body::-webkit-scrollbar {
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: #5c2c5e;
+    background-color: #143947;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -783,7 +783,7 @@ body::-webkit-scrollbar {
     right: 0px;
     height: 100vh;
     top: 8vh;
-    background-color: #5c2c5e;
+    background-color: #143947;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -847,7 +847,7 @@ body::-webkit-scrollbar {
   }
   body .section1 .h11,
   body .section1 .h21 {
-    color: #ae6dd2;
+    color: #e9ac88;
     font-family: Helvetica;
     z-index: 1;
     padding: 30px;
@@ -858,7 +858,7 @@ body::-webkit-scrollbar {
     height: 70vh;
     top: 10vh;
     left: 12.5vw;
-    background-color: #07112a;
+    background-color: #36230a;
   }
   body .section1 .h11 {
     position: relative;
@@ -886,7 +886,7 @@ body::-webkit-scrollbar {
             justify-content: center;
   }
   body .section2 .p11 {
-    color: #ae6dd2;
+    color: #e9ac88;
     font-family: Helvetica;
     z-index: 1;
     top: 105%;
@@ -899,7 +899,7 @@ body::-webkit-scrollbar {
     width: 75vw;
     height: 75vh;
     top: 10vh;
-    background-color: #07112a;
+    background-color: #36230a;
   }
   body .section2 .SecondVhImg {
     position: absolute;
@@ -934,7 +934,7 @@ body::-webkit-scrollbar {
   body .section2 .contactForm .fieldHalf {
     background: transparent;
     border: 0px;
-    border-bottom: 2px solid #5c2c5e;
+    border-bottom: 2px solid #143947;
     padding: 5px;
     width: 100%;
     left: 15vw;
@@ -961,29 +961,29 @@ body::-webkit-scrollbar {
   }
   body .section2 .contactForm ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
-    color: #5c2c5e;
+    color: #143947;
   }
   body .section2 .contactForm ::-moz-placeholder {
     /* Firefox 19+ */
-    color: #5c2c5e;
+    color: #143947;
   }
   body .section2 .contactForm :-ms-input-placeholder {
     /* IE 10+ */
-    color: #5c2c5e;
+    color: #143947;
   }
   body .section2 .contactForm input[type="text"] {
     width: 100%;
     border: none;
-    background-color: #07112a;
+    background-color: #36230a;
     border: none;
     font-size: 15px;
     outline-offset: 10px;
-    color: #5c2c5e;
+    color: #143947;
   }
   body .section2 .contactForm textarea {
-    background-color: #07112a;
-    outline: 2px solid #5c2c5e;
-    color: #5c2c5e;
+    background-color: #36230a;
+    outline: 2px solid #143947;
+    color: #143947;
     font-size: 20px;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -997,7 +997,7 @@ body::-webkit-scrollbar {
     border-radius: 10px;
     height: 40px;
     width: 100%;
-    color: #5c2c5e;
+    color: #143947;
     cursor: pointer;
     text-transform: uppercase;
     left: 0vw;

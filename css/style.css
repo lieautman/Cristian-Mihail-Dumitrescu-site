@@ -504,6 +504,42 @@ body::-webkit-scrollbar {
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
     margin-left: 2.5vw;
   }
+  body .section1 .toggle-container2 {
+    position: absolute;
+    top: 15%;
+    right: 7%;
+    z-index: 10;
+  }
+  body .section1 .toggle-container2 p {
+    position: relative;
+    right: 2vw;
+    bottom: 1vh;
+    color: #ae6dd2;
+    font-family: Helvetica;
+  }
+  body .section1 .toggle-container2 .toggle-button2 {
+    width: 5vw;
+    height: 2.5vw;
+    background-color: gray;
+    border-radius: 30px;
+    padding: 0.35vw;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  body .section1 .toggle-container2 .toggle-button2 .toggle-circle2 {
+    width: 1.8vw;
+    height: 1.8vw;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  body .section1 .toggle-container2 .toggle-button2-active {
+    background-color: #421b58;
+  }
+  body .section1 .toggle-container2 .toggle-button2-active .toggle-circle2 {
+    margin-left: 2.5vw;
+  }
   body .section1 .h11,
   body .section1 .h21,
   body .section1 .h22 {
@@ -771,6 +807,42 @@ body::-webkit-scrollbar {
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
     margin-left: 2.5vw;
   }
+  body .section1 .toggle-container2 {
+    position: absolute;
+    top: 15%;
+    right: 7.5%;
+    z-index: 10;
+  }
+  body .section1 .toggle-container2 p {
+    position: relative;
+    right: 2vw;
+    bottom: 1vh;
+    color: #ae6dd2;
+    font-family: Helvetica;
+  }
+  body .section1 .toggle-container2 .toggle-button2 {
+    width: 5vw;
+    height: 2.5vw;
+    background-color: gray;
+    border-radius: 30px;
+    padding: 0.35vw;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  body .section1 .toggle-container2 .toggle-button2 .toggle-circle2 {
+    width: 1.8vw;
+    height: 1.8vw;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  body .section1 .toggle-container2 .toggle-button2-active {
+    background-color: #421b58;
+  }
+  body .section1 .toggle-container2 .toggle-button2-active .toggle-circle2 {
+    margin-left: 2.5vw;
+  }
   body .section1 .h11,
   body .section1 .h21,
   body .section1 .h22 {
@@ -1027,7 +1099,7 @@ body::-webkit-scrollbar {
   }
   body .section1 .toggle-container .toggle-button {
     width: 10vw;
-    height: 5;
+    height: 5vw;
     background-color: gray;
     border-radius: 30px;
     padding: 0.7vw;
@@ -1046,6 +1118,42 @@ body::-webkit-scrollbar {
     background-color: #421b58;
   }
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
+    margin-left: 2.5vw;
+  }
+  body .section1 .toggle-container2 {
+    position: absolute;
+    top: 15%;
+    right: 7.5%;
+    z-index: 10;
+  }
+  body .section1 .toggle-container2 p {
+    position: relative;
+    right: 2vw;
+    bottom: 1vh;
+    color: #ae6dd2;
+    font-family: Helvetica;
+  }
+  body .section1 .toggle-container2 .toggle-button2 {
+    width: 10vw;
+    height: 5vw;
+    background-color: gray;
+    border-radius: 30px;
+    padding: 0.7vw;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  body .section1 .toggle-container2 .toggle-button2 .toggle-circle2 {
+    width: 3.6vw;
+    height: 3.6vw;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  body .section1 .toggle-container2 .toggle-button2-active {
+    background-color: #421b58;
+  }
+  body .section1 .toggle-container2 .toggle-button2-active .toggle-circle2 {
     margin-left: 2.5vw;
   }
   body .section1 .h11,
@@ -1304,7 +1412,7 @@ body::-webkit-scrollbar {
   }
   body .section1 .toggle-container .toggle-button {
     width: 10vw;
-    height: 5;
+    height: 5VW;
     background-color: gray;
     border-radius: 30px;
     padding: 0.7vw;
@@ -1323,6 +1431,42 @@ body::-webkit-scrollbar {
     background-color: #421b58;
   }
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
+    margin-left: 2.5vw;
+  }
+  body .section1 .toggle-container2 {
+    position: absolute;
+    top: 15%;
+    right: 8.5%;
+    z-index: 10;
+  }
+  body .section1 .toggle-container2 p {
+    position: relative;
+    right: 2vw;
+    bottom: 1vh;
+    color: #ae6dd2;
+    font-family: Helvetica;
+  }
+  body .section1 .toggle-container2 .toggle-button2 {
+    width: 10vw;
+    height: 5vw;
+    background-color: gray;
+    border-radius: 30px;
+    padding: 0.7vw;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  body .section1 .toggle-container2 .toggle-button2 .toggle-circle2 {
+    width: 3.6vw;
+    height: 3.6vw;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  body .section1 .toggle-container2 .toggle-button2-active {
+    background-color: #421b58;
+  }
+  body .section1 .toggle-container2 .toggle-button2-active .toggle-circle2 {
     margin-left: 2.5vw;
   }
   body .section1 .h11,
@@ -1699,6 +1843,42 @@ body::-webkit-scrollbar {
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
     margin-left: 2.5vw;
   }
+  body .section1 .toggle-container2 {
+    position: absolute;
+    top: 15%;
+    right: 8.5%;
+    z-index: 10;
+  }
+  body .section1 .toggle-container2 p {
+    position: relative;
+    right: 2vw;
+    bottom: 1vh;
+    color: #ae6dd2;
+    font-family: Helvetica;
+  }
+  body .section1 .toggle-container2 .toggle-button2 {
+    width: 10vw;
+    height: 5vw;
+    background-color: gray;
+    border-radius: 30px;
+    padding: 0.7vw;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  body .section1 .toggle-container2 .toggle-button2 .toggle-circle2 {
+    width: 3.6vw;
+    height: 3.6vw;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  body .section1 .toggle-container2 .toggle-button2-active {
+    background-color: #421b58;
+  }
+  body .section1 .toggle-container2 .toggle-button2-active .toggle-circle2 {
+    margin-left: 2.5vw;
+  }
   body .section1 .h11,
   body .section1 .h21,
   body .section1 .h22 {
@@ -2054,7 +2234,7 @@ body::-webkit-scrollbar {
   }
   body .section1 .toggle-container .toggle-button {
     width: 10vw;
-    height: 5;
+    height: 5VW;
     background-color: gray;
     border-radius: 30px;
     padding: 0.7vw;
@@ -2073,6 +2253,43 @@ body::-webkit-scrollbar {
     background-color: #421b58;
   }
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
+    margin-left: 2.5vw;
+  }
+  body .section1 .toggle-container2 {
+    position: absolute;
+    top: 15%;
+    right: 8%;
+    z-index: 10;
+  }
+  body .section1 .toggle-container2 p {
+    font-size: 10px;
+    position: relative;
+    right: 2vw;
+    bottom: 1vh;
+    color: #ae6dd2;
+    font-family: Helvetica;
+  }
+  body .section1 .toggle-container2 .toggle-button2 {
+    width: 10vw;
+    height: 5vw;
+    background-color: gray;
+    border-radius: 30px;
+    padding: 0.7vw;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  body .section1 .toggle-container2 .toggle-button2 .toggle-circle2 {
+    width: 3.6vw;
+    height: 3.6vw;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  body .section1 .toggle-container2 .toggle-button2-active {
+    background-color: #421b58;
+  }
+  body .section1 .toggle-container2 .toggle-button2-active .toggle-circle2 {
     margin-left: 2.5vw;
   }
   body .section1 .h11,
@@ -2429,7 +2646,7 @@ body::-webkit-scrollbar {
   }
   body .section1 .toggle-container .toggle-button {
     width: 10vw;
-    height: 5;
+    height: 5VW;
     background-color: gray;
     border-radius: 30px;
     padding: 0.7vw;
@@ -2448,6 +2665,43 @@ body::-webkit-scrollbar {
     background-color: #421b58;
   }
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
+    margin-left: 2.5vw;
+  }
+  body .section1 .toggle-container2 {
+    position: absolute;
+    top: 15%;
+    right: 8%;
+    z-index: 10;
+  }
+  body .section1 .toggle-container2 p {
+    font-size: 10px;
+    position: relative;
+    right: 2vw;
+    bottom: 1vh;
+    color: #ae6dd2;
+    font-family: Helvetica;
+  }
+  body .section1 .toggle-container2 .toggle-button2 {
+    width: 10vw;
+    height: 5vw;
+    background-color: gray;
+    border-radius: 30px;
+    padding: 0.7vw;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  body .section1 .toggle-container2 .toggle-button2 .toggle-circle2 {
+    width: 3.6vw;
+    height: 3.6vw;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  body .section1 .toggle-container2 .toggle-button2-active {
+    background-color: #421b58;
+  }
+  body .section1 .toggle-container2 .toggle-button2-active .toggle-circle2 {
     margin-left: 2.5vw;
   }
   body .section1 .h11,
@@ -2800,7 +3054,7 @@ body::-webkit-scrollbar {
   }
   body .section1 .toggle-container .toggle-button {
     width: 10vw;
-    height: 5;
+    height: 5VW;
     background-color: gray;
     border-radius: 30px;
     padding: 0.7vw;
@@ -2819,6 +3073,43 @@ body::-webkit-scrollbar {
     background-color: #421b58;
   }
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
+    margin-left: 2.5vw;
+  }
+  body .section1 .toggle-container2 {
+    position: absolute;
+    top: 15%;
+    right: 8%;
+    z-index: 10;
+  }
+  body .section1 .toggle-container2 p {
+    font-size: 10px;
+    position: relative;
+    right: 2vw;
+    bottom: 1vh;
+    color: #ae6dd2;
+    font-family: Helvetica;
+  }
+  body .section1 .toggle-container2 .toggle-button2 {
+    width: 10vw;
+    height: 5vw;
+    background-color: gray;
+    border-radius: 30px;
+    padding: 0.7vw;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  body .section1 .toggle-container2 .toggle-button2 .toggle-circle2 {
+    width: 3.6vw;
+    height: 3.6vw;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  body .section1 .toggle-container2 .toggle-button2-active {
+    background-color: #421b58;
+  }
+  body .section1 .toggle-container2 .toggle-button2-active .toggle-circle2 {
     margin-left: 2.5vw;
   }
   body .section1 .h11,
@@ -3171,7 +3462,7 @@ body::-webkit-scrollbar {
   }
   body .section1 .toggle-container .toggle-button {
     width: 10vw;
-    height: 5;
+    height: 5VW;
     background-color: gray;
     border-radius: 30px;
     padding: 0.7vw;
@@ -3190,6 +3481,43 @@ body::-webkit-scrollbar {
     background-color: #421b58;
   }
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
+    margin-left: 2.5vw;
+  }
+  body .section1 .toggle-container2 {
+    position: absolute;
+    top: 15%;
+    right: 8%;
+    z-index: 10;
+  }
+  body .section1 .toggle-container2 p {
+    font-size: 10px;
+    position: relative;
+    right: 2vw;
+    bottom: 1vh;
+    color: #ae6dd2;
+    font-family: Helvetica;
+  }
+  body .section1 .toggle-container2 .toggle-button2 {
+    width: 10vw;
+    height: 5vw;
+    background-color: gray;
+    border-radius: 30px;
+    padding: 0.7vw;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  body .section1 .toggle-container2 .toggle-button2 .toggle-circle2 {
+    width: 3.6vw;
+    height: 3.6vw;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  body .section1 .toggle-container2 .toggle-button2-active {
+    background-color: #421b58;
+  }
+  body .section1 .toggle-container2 .toggle-button2-active .toggle-circle2 {
     margin-left: 2.5vw;
   }
   body .section1 .h11,
@@ -3542,7 +3870,7 @@ body::-webkit-scrollbar {
   }
   body .section1 .toggle-container .toggle-button {
     width: 10vw;
-    height: 5;
+    height: 5VW;
     background-color: gray;
     border-radius: 30px;
     padding: 0.7vw;
@@ -3561,6 +3889,43 @@ body::-webkit-scrollbar {
     background-color: #421b58;
   }
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
+    margin-left: 2.5vw;
+  }
+  body .section1 .toggle-container2 {
+    position: absolute;
+    top: 15%;
+    right: 8%;
+    z-index: 10;
+  }
+  body .section1 .toggle-container2 p {
+    font-size: 10px;
+    position: relative;
+    right: 2vw;
+    bottom: 1vh;
+    color: #ae6dd2;
+    font-family: Helvetica;
+  }
+  body .section1 .toggle-container2 .toggle-button2 {
+    width: 10vw;
+    height: 5vw;
+    background-color: gray;
+    border-radius: 30px;
+    padding: 0.7vw;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  body .section1 .toggle-container2 .toggle-button2 .toggle-circle2 {
+    width: 3.6vw;
+    height: 3.6vw;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  body .section1 .toggle-container2 .toggle-button2-active {
+    background-color: #421b58;
+  }
+  body .section1 .toggle-container2 .toggle-button2-active .toggle-circle2 {
     margin-left: 2.5vw;
   }
   body .section1 .h11,

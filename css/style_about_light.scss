@@ -19,12 +19,12 @@ $S3RedForEmphasis:rgba(103, 31, 31, 1);                //2 ...
 
 $BlackForShadowsAndEffects:rgba(0, 0, 0, 0.75);
 $YellowForBackgroundEffects:#816e1b;
-$Color1:rgba(66, 27, 88, 1);
-$Color2:rgba(105, 32, 32, 1);
-$Color3:rgba(7, 17, 42, 1);
+$Color1:rgb(139, 68, 26);
+$Color2:rgb(32, 92, 116);
+$Color3:rgb(54, 35, 10);
 $Color1Lightened:lighten($Color1,40%);
-$Color1SlightLightened:lighten($Color1,20%);
-$NavColor: #5c2c5e;   
+$Color1SlightLightened:darken($Color1,20%);
+$NavColor: rgb(20, 57, 71);   
 
 
 

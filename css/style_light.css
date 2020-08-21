@@ -18,15 +18,15 @@ body::-webkit-scrollbar {
 }
 
 .container::-webkit-scrollbar-thumb {
-  background: #692020;
-  background: -webkit-gradient(linear, left top, right top, from(#692020), color-stop(50%, #421b58), to(#692020));
-  background: linear-gradient(90deg, #692020 0%, #421b58 50%, #692020 100%);
+  background: #205c74;
+  background: -webkit-gradient(linear, left top, right top, from(#205c74), color-stop(50%, #8b441a), to(#205c74));
+  background: linear-gradient(90deg, #205c74 0%, #8b441a 50%, #205c74 100%);
 }
 
 .container::-webkit-scrollbar-button {
-  background: #07112a;
-  background: -webkit-gradient(linear, left top, right top, from(#07112a), color-stop(50%, #692020), to(#07112a));
-  background: linear-gradient(90deg, #07112a 0%, #692020 50%, #07112a 100%);
+  background: #36230a;
+  background: -webkit-gradient(linear, left top, right top, from(#36230a), color-stop(50%, #205c74), to(#36230a));
+  background: linear-gradient(90deg, #36230a 0%, #205c74 50%, #36230a 100%);
 }
 
 .container {
@@ -88,7 +88,7 @@ body::-webkit-scrollbar {
             align-items: center;
     height: 8vh;
     width: 100%;
-    background-color: #5c2c5e;
+    background-color: #143947;
     align-items: center;
   }
   body .nav1 .navlist {
@@ -136,7 +136,7 @@ body::-webkit-scrollbar {
     position: relative;
     right: 2vw;
     bottom: 1vh;
-    color: #ae6dd2;
+    color: #e9ac88;
     font-family: Helvetica;
   }
   body .section1 .toggle-container .toggle-button {
@@ -157,7 +157,7 @@ body::-webkit-scrollbar {
     transition: all 300ms ease-in-out;
   }
   body .section1 .toggle-container .toggle-button-active {
-    background-color: #421b58;
+    background-color: #8b441a;
   }
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
     margin-left: 2.5vw;
@@ -172,7 +172,7 @@ body::-webkit-scrollbar {
     position: relative;
     right: 2vw;
     bottom: 1vh;
-    color: #ae6dd2;
+    color: #e9ac88;
     font-family: Helvetica;
   }
   body .section1 .toggle-container2 .toggle-button2 {
@@ -193,7 +193,7 @@ body::-webkit-scrollbar {
     transition: all 300ms ease-in-out;
   }
   body .section1 .toggle-container2 .toggle-button2-active {
-    background-color: #421b58;
+    background-color: #8b441a;
   }
   body .section1 .toggle-container2 .toggle-button2-active .toggle-circle2 {
     margin-left: 2.5vw;
@@ -201,7 +201,7 @@ body::-webkit-scrollbar {
   body .section1 .h11,
   body .section1 .h21,
   body .section1 .h22 {
-    color: #ae6dd2;
+    color: #e9ac88;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -234,10 +234,10 @@ body::-webkit-scrollbar {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #07112a;
+    background-color: #36230a;
   }
   body .section2 .p11 {
-    color: #ae6dd2;
+    color: #e9ac88;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -262,8 +262,8 @@ body::-webkit-scrollbar {
     width: 30vw;
     border-radius: 15px;
     z-index: 1;
-    -webkit-box-shadow: 24px 0px 39px -10px #7d33a6;
-    box-shadow: 24px 0px 39px -10px #7d33a6;
+    -webkit-box-shadow: 24px 0px 39px -10px #351a0a;
+    box-shadow: 24px 0px 39px -10px #351a0a;
   }
   body .section2 .square {
     position: relative;
@@ -281,14 +281,14 @@ body::-webkit-scrollbar {
     position: relative;
   }
   body .section3 .divh31 {
-    background-color: #07112a;
+    background-color: #36230a;
     overflow: hidden;
     height: 15vh;
     text-align: center;
   }
   body .section3 .h31 {
     font-size: 40px;
-    color: #421b58;
+    color: #8b441a;
     padding-top: 3.7vh;
   }
   body .section3 .container {
@@ -321,8 +321,8 @@ body::-webkit-scrollbar {
     height: 64vh;
     width: 25vw;
     position: relative;
-    background-color: #07112a;
-    color: #421b58;
+    background-color: #36230a;
+    color: #8b441a;
     font-size: 20px;
   }
   body .section3 #prevBtn {
@@ -332,8 +332,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 74vh;
     left: 25vw;
-    border-color: #692020;
-    background-color: #07112a;
+    border-color: #205c74;
+    background-color: #36230a;
     border-radius: 50%;
     border-width: 5px;
     border-style: solid;
@@ -353,8 +353,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 74vh;
     right: 23vw;
-    border-color: #692020;
-    background-color: #07112a;
+    border-color: #205c74;
+    background-color: #36230a;
     border-radius: 50%;
     border-width: 5px;
     border-style: solid;
@@ -371,9 +371,9 @@ body::-webkit-scrollbar {
     top: 67vh;
     width: 100%;
     height: 18vh;
-    background-color: #07112a;
+    background-color: #36230a;
     z-index: 100;
-    color: #421b58;
+    color: #8b441a;
     text-align: center;
     padding-top: 20px;
   }
@@ -429,7 +429,7 @@ body::-webkit-scrollbar {
             align-items: center;
     height: 8vh;
     width: 100%;
-    background-color: #5c2c5e;
+    background-color: #143947;
     align-items: center;
   }
   body .nav1 .navlist {
@@ -478,7 +478,7 @@ body::-webkit-scrollbar {
     position: relative;
     right: 2vw;
     bottom: 1vh;
-    color: #ae6dd2;
+    color: #e9ac88;
     font-family: Helvetica;
   }
   body .section1 .toggle-container .toggle-button {
@@ -499,7 +499,7 @@ body::-webkit-scrollbar {
     transition: all 300ms ease-in-out;
   }
   body .section1 .toggle-container .toggle-button-active {
-    background-color: #421b58;
+    background-color: #8b441a;
   }
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
     margin-left: 2.5vw;
@@ -507,7 +507,7 @@ body::-webkit-scrollbar {
   body .section1 .h11,
   body .section1 .h21,
   body .section1 .h22 {
-    color: #ae6dd2;
+    color: #e9ac88;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -540,10 +540,10 @@ body::-webkit-scrollbar {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #07112a;
+    background-color: #36230a;
   }
   body .section2 .p11 {
-    color: #ae6dd2;
+    color: #e9ac88;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -568,8 +568,8 @@ body::-webkit-scrollbar {
     width: 30vw;
     border-radius: 15px;
     z-index: 1;
-    -webkit-box-shadow: 24px 0px 39px -10px #7d33a6;
-    box-shadow: 24px 0px 39px -10px #7d33a6;
+    -webkit-box-shadow: 24px 0px 39px -10px #351a0a;
+    box-shadow: 24px 0px 39px -10px #351a0a;
   }
   body .section2 .square {
     position: relative;
@@ -587,14 +587,14 @@ body::-webkit-scrollbar {
     position: relative;
   }
   body .section3 .divh31 {
-    background-color: #07112a;
+    background-color: #36230a;
     overflow: hidden;
     height: 15vh;
     text-align: center;
   }
   body .section3 .h31 {
     font-size: 40px;
-    color: #421b58;
+    color: #8b441a;
     padding-top: 3.7vh;
   }
   body .section3 .container {
@@ -627,8 +627,8 @@ body::-webkit-scrollbar {
     height: 64vh;
     width: 25vw;
     position: relative;
-    background-color: #07112a;
-    color: #421b58;
+    background-color: #36230a;
+    color: #8b441a;
     font-size: 18px;
   }
   body .section3 #prevBtn {
@@ -638,8 +638,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 74vh;
     left: 25vw;
-    border-color: #692020;
-    background-color: #07112a;
+    border-color: #205c74;
+    background-color: #36230a;
     border-radius: 50%;
     border-width: 5px;
     border-style: solid;
@@ -659,7 +659,7 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 74vh;
     right: 23vw;
-    border-color: #692020;
+    border-color: #205c74;
     border-radius: 50%;
     border-width: 5px;
     border-style: solid;
@@ -676,7 +676,7 @@ body::-webkit-scrollbar {
     top: 67vh;
     width: 100%;
     height: 14vh;
-    background-color: #07112a;
+    background-color: #36230a;
     z-index: 100;
     color: #7a236c;
     text-align: center;
@@ -696,7 +696,7 @@ body::-webkit-scrollbar {
             align-items: center;
     height: 8vh;
     width: 100%;
-    background-color: #5c2c5e;
+    background-color: #143947;
     align-items: center;
   }
   body .nav1 .navlist {
@@ -745,7 +745,7 @@ body::-webkit-scrollbar {
     position: relative;
     right: 2vw;
     bottom: 1vh;
-    color: #ae6dd2;
+    color: #e9ac88;
     font-family: Helvetica;
   }
   body .section1 .toggle-container .toggle-button {
@@ -766,7 +766,7 @@ body::-webkit-scrollbar {
     transition: all 300ms ease-in-out;
   }
   body .section1 .toggle-container .toggle-button-active {
-    background-color: #421b58;
+    background-color: #8b441a;
   }
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
     margin-left: 2.5vw;
@@ -774,7 +774,7 @@ body::-webkit-scrollbar {
   body .section1 .h11,
   body .section1 .h21,
   body .section1 .h22 {
-    color: #ae6dd2;
+    color: #e9ac88;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -807,7 +807,7 @@ body::-webkit-scrollbar {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #07112a;
+    background-color: #36230a;
   }
   body .section2 .Shading2 {
     height: 100vh;
@@ -818,7 +818,7 @@ body::-webkit-scrollbar {
     opacity: 0.4;
   }
   body .section2 .p11 {
-    color: #ae6dd2;
+    color: #e9ac88;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -835,8 +835,8 @@ body::-webkit-scrollbar {
     width: 40vw;
     border-radius: 15px;
     z-index: 1;
-    -webkit-box-shadow: 24px 0px 39px -10px #7d33a6;
-    box-shadow: 24px 0px 39px -10px #7d33a6;
+    -webkit-box-shadow: 24px 0px 39px -10px #351a0a;
+    box-shadow: 24px 0px 39px -10px #351a0a;
   }
   body .section2 .square {
     position: relative;
@@ -861,13 +861,13 @@ body::-webkit-scrollbar {
     position: relative;
   }
   body .section3 .divh31 {
-    background-color: #07112a;
+    background-color: #36230a;
     height: 10vh;
     text-align: center;
   }
   body .section3 .h31 {
     font-size: 30px;
-    color: #421b58;
+    color: #8b441a;
     padding: 3vh;
   }
   body .section3 .container {
@@ -904,8 +904,8 @@ body::-webkit-scrollbar {
     height: 37vh;
     width: 65vw;
     position: relative;
-    background-color: #07112a;
-    color: #421b58;
+    background-color: #36230a;
+    color: #8b441a;
     font-size: 15px;
   }
   body .section3 #prevBtn {
@@ -915,8 +915,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 72.5vh;
     left: 18vw;
-    border-color: #692020;
-    background-color: #07112a;
+    border-color: #205c74;
+    background-color: #36230a;
     border-radius: 50%;
     border-width: 5px;
     border-style: solid;
@@ -936,7 +936,7 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 72.5vh;
     right: 15.5vw;
-    border-color: #692020;
+    border-color: #205c74;
     border-radius: 50%;
     border-width: 5px;
     border-style: solid;
@@ -953,7 +953,7 @@ body::-webkit-scrollbar {
     top: 71vh;
     width: 100%;
     height: 19vh;
-    background-color: #07112a;
+    background-color: #36230a;
     z-index: 100;
     color: #7a236c;
     text-align: center;
@@ -973,7 +973,7 @@ body::-webkit-scrollbar {
             align-items: center;
     height: 8vh;
     width: 100%;
-    background-color: #5c2c5e;
+    background-color: #143947;
     align-items: center;
   }
   body .nav1 .navlist {
@@ -1022,7 +1022,7 @@ body::-webkit-scrollbar {
     position: relative;
     right: 2vw;
     bottom: 1vh;
-    color: #ae6dd2;
+    color: #e9ac88;
     font-family: Helvetica;
   }
   body .section1 .toggle-container .toggle-button {
@@ -1043,7 +1043,7 @@ body::-webkit-scrollbar {
     transition: all 300ms ease-in-out;
   }
   body .section1 .toggle-container .toggle-button-active {
-    background-color: #421b58;
+    background-color: #8b441a;
   }
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
     margin-left: 2.5vw;
@@ -1051,7 +1051,7 @@ body::-webkit-scrollbar {
   body .section1 .h11,
   body .section1 .h21,
   body .section1 .h22 {
-    color: #ae6dd2;
+    color: #e9ac88;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -1084,7 +1084,7 @@ body::-webkit-scrollbar {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #07112a;
+    background-color: #36230a;
   }
   body .section2 .Shading2 {
     height: 100vh;
@@ -1095,7 +1095,7 @@ body::-webkit-scrollbar {
     opacity: 0.4;
   }
   body .section2 .p11 {
-    color: #ae6dd2;
+    color: #e9ac88;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -1112,8 +1112,8 @@ body::-webkit-scrollbar {
     width: 40vw;
     border-radius: 15px;
     z-index: 1;
-    -webkit-box-shadow: 24px 0px 39px -10px #7d33a6;
-    box-shadow: 24px 0px 39px -10px #7d33a6;
+    -webkit-box-shadow: 24px 0px 39px -10px #351a0a;
+    box-shadow: 24px 0px 39px -10px #351a0a;
   }
   body .section2 .square {
     position: relative;
@@ -1138,13 +1138,13 @@ body::-webkit-scrollbar {
     position: relative;
   }
   body .section3 .divh31 {
-    background-color: #07112a;
+    background-color: #36230a;
     height: 10vh;
     text-align: center;
   }
   body .section3 .h31 {
     font-size: 30px;
-    color: #421b58;
+    color: #8b441a;
     padding: 3vh;
   }
   body .section3 .container {
@@ -1181,8 +1181,8 @@ body::-webkit-scrollbar {
     height: 37vh;
     width: 65vw;
     position: relative;
-    background-color: #07112a;
-    color: #421b58;
+    background-color: #36230a;
+    color: #8b441a;
     font-size: 14.5px;
   }
   body .section3 #prevBtn {
@@ -1192,8 +1192,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 72.5vh;
     left: 18vw;
-    border-color: #692020;
-    background-color: #07112a;
+    border-color: #205c74;
+    background-color: #36230a;
     border-radius: 50%;
     border-width: 5px;
     border-style: solid;
@@ -1213,7 +1213,7 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 72.5vh;
     right: 15.5vw;
-    border-color: #692020;
+    border-color: #205c74;
     border-radius: 50%;
     border-width: 5px;
     border-style: solid;
@@ -1230,7 +1230,7 @@ body::-webkit-scrollbar {
     top: 71vh;
     width: 100%;
     height: 19vh;
-    background-color: #07112a;
+    background-color: #36230a;
     z-index: 100;
     color: #7a236c;
     text-align: center;
@@ -1250,7 +1250,7 @@ body::-webkit-scrollbar {
             align-items: center;
     height: 8vh;
     width: 100%;
-    background-color: #5c2c5e;
+    background-color: #143947;
     align-items: center;
   }
   body .nav1 .navlist {
@@ -1299,7 +1299,7 @@ body::-webkit-scrollbar {
     position: relative;
     right: 2vw;
     bottom: 1vh;
-    color: #ae6dd2;
+    color: #e9ac88;
     font-family: Helvetica;
   }
   body .section1 .toggle-container .toggle-button {
@@ -1320,7 +1320,7 @@ body::-webkit-scrollbar {
     transition: all 300ms ease-in-out;
   }
   body .section1 .toggle-container .toggle-button-active {
-    background-color: #421b58;
+    background-color: #8b441a;
   }
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
     margin-left: 2.5vw;
@@ -1328,7 +1328,7 @@ body::-webkit-scrollbar {
   body .section1 .h11,
   body .section1 .h21,
   body .section1 .h22 {
-    color: #ae6dd2;
+    color: #e9ac88;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -1361,7 +1361,7 @@ body::-webkit-scrollbar {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #07112a;
+    background-color: #36230a;
   }
   body .section2 .Shading2 {
     height: 100vh;
@@ -1372,7 +1372,7 @@ body::-webkit-scrollbar {
     opacity: 0.4;
   }
   body .section2 .p11 {
-    color: #ae6dd2;
+    color: #e9ac88;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -1389,8 +1389,8 @@ body::-webkit-scrollbar {
     width: 40vw;
     border-radius: 15px;
     z-index: 1;
-    -webkit-box-shadow: 24px 0px 39px -10px #7d33a6;
-    box-shadow: 24px 0px 39px -10px #7d33a6;
+    -webkit-box-shadow: 24px 0px 39px -10px #351a0a;
+    box-shadow: 24px 0px 39px -10px #351a0a;
   }
   body .section2 .square {
     position: relative;
@@ -1415,13 +1415,13 @@ body::-webkit-scrollbar {
     position: relative;
   }
   body .section3 .divh31 {
-    background-color: #07112a;
+    background-color: #36230a;
     height: 10vh;
     text-align: center;
   }
   body .section3 .h31 {
     font-size: 30px;
-    color: #421b58;
+    color: #8b441a;
     padding: 3vh;
   }
   body .section3 .container {
@@ -1458,8 +1458,8 @@ body::-webkit-scrollbar {
     height: 37vh;
     width: 65vw;
     position: relative;
-    background-color: #07112a;
-    color: #421b58;
+    background-color: #36230a;
+    color: #8b441a;
     font-size: 13px;
   }
   body .section3 #prevBtn {
@@ -1469,8 +1469,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 72.5vh;
     left: 18vw;
-    border-color: #692020;
-    background-color: #07112a;
+    border-color: #205c74;
+    background-color: #36230a;
     border-radius: 50%;
     border-width: 5px;
     border-style: solid;
@@ -1490,7 +1490,7 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 72.5vh;
     right: 15.5vw;
-    border-color: #692020;
+    border-color: #205c74;
     border-radius: 50%;
     border-width: 5px;
     border-style: solid;
@@ -1507,7 +1507,7 @@ body::-webkit-scrollbar {
     top: 71vh;
     width: 100%;
     height: 19vh;
-    background-color: #07112a;
+    background-color: #36230a;
     z-index: 100;
     color: #7a236c;
     text-align: center;
@@ -1528,7 +1528,7 @@ body::-webkit-scrollbar {
             align-items: center;
     min-height: 8vh;
     width: 100%;
-    background-color: #5c2c5e;
+    background-color: #143947;
     z-index: 100;
   }
   body .nav1 .navlist {
@@ -1542,7 +1542,7 @@ body::-webkit-scrollbar {
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: #5c2c5e;
+    background-color: #143947;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1599,7 +1599,7 @@ body::-webkit-scrollbar {
     right: 0px;
     height: 100vh;
     top: 8vh;
-    background-color: #5c2c5e;
+    background-color: #143947;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1673,7 +1673,7 @@ body::-webkit-scrollbar {
     position: relative;
     right: 2vw;
     bottom: 1vh;
-    color: #ae6dd2;
+    color: #e9ac88;
     font-family: Helvetica;
   }
   body .section1 .toggle-container .toggle-button {
@@ -1694,7 +1694,7 @@ body::-webkit-scrollbar {
     transition: all 300ms ease-in-out;
   }
   body .section1 .toggle-container .toggle-button-active {
-    background-color: #421b58;
+    background-color: #8b441a;
   }
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
     margin-left: 2.5vw;
@@ -1702,7 +1702,7 @@ body::-webkit-scrollbar {
   body .section1 .h11,
   body .section1 .h21,
   body .section1 .h22 {
-    color: #ae6dd2;
+    color: #e9ac88;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -1735,7 +1735,7 @@ body::-webkit-scrollbar {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #07112a;
+    background-color: #36230a;
   }
   body .section2 .Shading2 {
     height: 100vh;
@@ -1746,7 +1746,7 @@ body::-webkit-scrollbar {
     opacity: 0.4;
   }
   body .section2 .p11 {
-    color: #ae6dd2;
+    color: #e9ac88;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -1763,8 +1763,8 @@ body::-webkit-scrollbar {
     width: 40vw;
     border-radius: 15px;
     z-index: 1;
-    -webkit-box-shadow: 24px 0px 39px -10px #7d33a6;
-    box-shadow: 24px 0px 39px -10px #7d33a6;
+    -webkit-box-shadow: 24px 0px 39px -10px #351a0a;
+    box-shadow: 24px 0px 39px -10px #351a0a;
   }
   body .section2 .square {
     position: relative;
@@ -1790,13 +1790,13 @@ body::-webkit-scrollbar {
     position: relative;
   }
   body .section3 .divh31 {
-    background-color: #07112a;
+    background-color: #36230a;
     height: 10vh;
     text-align: center;
   }
   body .section3 .h31 {
     font-size: 30px;
-    color: #421b58;
+    color: #8b441a;
     padding: 3vh;
   }
   body .section3 .container {
@@ -1833,8 +1833,8 @@ body::-webkit-scrollbar {
     height: 47vh;
     width: 75vw;
     position: relative;
-    background-color: #07112a;
-    color: #421b58;
+    background-color: #36230a;
+    color: #8b441a;
     font-size: 16px;
   }
   body .section3 #prevBtn {
@@ -1844,8 +1844,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 74vh;
     left: 13vw;
-    border-color: #692020;
-    background-color: #07112a;
+    border-color: #205c74;
+    background-color: #36230a;
     border-radius: 50%;
     border-width: 3px;
     border-style: solid;
@@ -1865,7 +1865,7 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 74vh;
     right: 11vw;
-    border-color: #692020;
+    border-color: #205c74;
     border-radius: 50%;
     border-width: 3px;
     border-style: solid;
@@ -1882,7 +1882,7 @@ body::-webkit-scrollbar {
     top: 71vh;
     width: 100%;
     height: 19vh;
-    background-color: #07112a;
+    background-color: #36230a;
     z-index: 100;
     color: #7a236c;
     text-align: center;
@@ -1903,7 +1903,7 @@ body::-webkit-scrollbar {
             align-items: center;
     min-height: 8vh;
     width: 100%;
-    background-color: #5c2c5e;
+    background-color: #143947;
     z-index: 100;
   }
   body .nav1 .navlist {
@@ -1917,7 +1917,7 @@ body::-webkit-scrollbar {
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: #5c2c5e;
+    background-color: #143947;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1974,7 +1974,7 @@ body::-webkit-scrollbar {
     right: 0px;
     height: 100vh;
     top: 8vh;
-    background-color: #5c2c5e;
+    background-color: #143947;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -2049,7 +2049,7 @@ body::-webkit-scrollbar {
     position: relative;
     right: 2vw;
     bottom: 1vh;
-    color: #ae6dd2;
+    color: #e9ac88;
     font-family: Helvetica;
   }
   body .section1 .toggle-container .toggle-button {
@@ -2070,7 +2070,7 @@ body::-webkit-scrollbar {
     transition: all 300ms ease-in-out;
   }
   body .section1 .toggle-container .toggle-button-active {
-    background-color: #421b58;
+    background-color: #8b441a;
   }
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
     margin-left: 2.5vw;
@@ -2078,7 +2078,7 @@ body::-webkit-scrollbar {
   body .section1 .h11,
   body .section1 .h21,
   body .section1 .h22 {
-    color: #ae6dd2;
+    color: #e9ac88;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -2111,7 +2111,7 @@ body::-webkit-scrollbar {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #07112a;
+    background-color: #36230a;
   }
   body .section2 .Shading2 {
     height: 100vh;
@@ -2122,7 +2122,7 @@ body::-webkit-scrollbar {
     opacity: 0.4;
   }
   body .section2 .p11 {
-    color: #ae6dd2;
+    color: #e9ac88;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -2138,8 +2138,8 @@ body::-webkit-scrollbar {
     width: 40vw;
     border-radius: 15px;
     z-index: 1;
-    -webkit-box-shadow: 24px 0px 39px -10px #7d33a6;
-    box-shadow: 24px 0px 39px -10px #7d33a6;
+    -webkit-box-shadow: 24px 0px 39px -10px #351a0a;
+    box-shadow: 24px 0px 39px -10px #351a0a;
   }
   body .section2 .square {
     position: relative;
@@ -2165,13 +2165,13 @@ body::-webkit-scrollbar {
     position: relative;
   }
   body .section3 .divh31 {
-    background-color: #07112a;
+    background-color: #36230a;
     height: 10vh;
     text-align: center;
   }
   body .section3 .h31 {
     font-size: 30px;
-    color: #421b58;
+    color: #8b441a;
     padding: 3vh;
   }
   body .section3 .container {
@@ -2208,8 +2208,8 @@ body::-webkit-scrollbar {
     height: 47vh;
     width: 75vw;
     position: relative;
-    background-color: #07112a;
-    color: #421b58;
+    background-color: #36230a;
+    color: #8b441a;
     font-size: 13px;
   }
   body .section3 #prevBtn {
@@ -2219,8 +2219,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 74vh;
     left: 13vw;
-    border-color: #692020;
-    background-color: #07112a;
+    border-color: #205c74;
+    background-color: #36230a;
     border-radius: 50%;
     border-width: 3px;
     border-style: solid;
@@ -2240,7 +2240,7 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 74vh;
     right: 11vw;
-    border-color: #692020;
+    border-color: #205c74;
     border-radius: 50%;
     border-width: 3px;
     border-style: solid;
@@ -2257,7 +2257,7 @@ body::-webkit-scrollbar {
     top: 71vh;
     width: 100%;
     height: 19vh;
-    background-color: #07112a;
+    background-color: #36230a;
     z-index: 100;
     color: #7a236c;
     text-align: center;
@@ -2278,7 +2278,7 @@ body::-webkit-scrollbar {
             align-items: center;
     min-height: 8vh;
     width: 100%;
-    background-color: #5c2c5e;
+    background-color: #143947;
     z-index: 100;
   }
   body .nav1 .navlist {
@@ -2292,7 +2292,7 @@ body::-webkit-scrollbar {
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: #5c2c5e;
+    background-color: #143947;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -2349,7 +2349,7 @@ body::-webkit-scrollbar {
     right: 0px;
     height: 100vh;
     top: 8vh;
-    background-color: #5c2c5e;
+    background-color: #143947;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -2424,7 +2424,7 @@ body::-webkit-scrollbar {
     position: relative;
     right: 2vw;
     bottom: 1vh;
-    color: #ae6dd2;
+    color: #e9ac88;
     font-family: Helvetica;
   }
   body .section1 .toggle-container .toggle-button {
@@ -2445,7 +2445,7 @@ body::-webkit-scrollbar {
     transition: all 300ms ease-in-out;
   }
   body .section1 .toggle-container .toggle-button-active {
-    background-color: #421b58;
+    background-color: #8b441a;
   }
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
     margin-left: 2.5vw;
@@ -2453,7 +2453,7 @@ body::-webkit-scrollbar {
   body .section1 .h11,
   body .section1 .h21,
   body .section1 .h22 {
-    color: #ae6dd2;
+    color: #e9ac88;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -2486,7 +2486,7 @@ body::-webkit-scrollbar {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #07112a;
+    background-color: #36230a;
   }
   body .section2 .Shading2 {
     height: 100vh;
@@ -2497,7 +2497,7 @@ body::-webkit-scrollbar {
     opacity: 0.4;
   }
   body .section2 .p11 {
-    color: #ae6dd2;
+    color: #e9ac88;
     position: absolute;
     left: 50vw;
     font-family: Helvetica;
@@ -2512,8 +2512,8 @@ body::-webkit-scrollbar {
     width: 40vw;
     border-radius: 15px;
     z-index: 1;
-    -webkit-box-shadow: 24px 0px 39px -10px #7d33a6;
-    box-shadow: 24px 0px 39px -10px #7d33a6;
+    -webkit-box-shadow: 24px 0px 39px -10px #351a0a;
+    box-shadow: 24px 0px 39px -10px #351a0a;
   }
   body .section2 .square {
     position: relative;
@@ -2535,13 +2535,13 @@ body::-webkit-scrollbar {
     position: relative;
   }
   body .section3 .divh31 {
-    background-color: #07112a;
+    background-color: #36230a;
     height: 10vh;
     text-align: center;
   }
   body .section3 .h31 {
     font-size: 30px;
-    color: #421b58;
+    color: #8b441a;
     padding: 3vh;
   }
   body .section3 .container {
@@ -2578,8 +2578,8 @@ body::-webkit-scrollbar {
     height: 47vh;
     width: 75vw;
     position: relative;
-    background-color: #07112a;
-    color: #421b58;
+    background-color: #36230a;
+    color: #8b441a;
     font-size: 13px;
   }
   body .section3 #prevBtn {
@@ -2589,8 +2589,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 50vh;
     left: 2.3vw;
-    border-color: #692020;
-    background-color: #07112a;
+    border-color: #205c74;
+    background-color: #36230a;
     border-radius: 50%;
     border-width: 3px;
     border-style: solid;
@@ -2610,8 +2610,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 50vh;
     right: 0vw;
-    border-color: #692020;
-    background-color: #07112a;
+    border-color: #205c74;
+    background-color: #36230a;
     border-radius: 50%;
     border-width: 3px;
     border-style: solid;
@@ -2628,7 +2628,7 @@ body::-webkit-scrollbar {
     top: 71vh;
     width: 100%;
     height: 19vh;
-    background-color: #07112a;
+    background-color: #36230a;
     z-index: 100;
     color: #7a236c;
     text-align: center;
@@ -2649,7 +2649,7 @@ body::-webkit-scrollbar {
             align-items: center;
     min-height: 8vh;
     width: 100%;
-    background-color: #5c2c5e;
+    background-color: #143947;
     z-index: 100;
   }
   body .nav1 .navlist {
@@ -2663,7 +2663,7 @@ body::-webkit-scrollbar {
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: #5c2c5e;
+    background-color: #143947;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -2720,7 +2720,7 @@ body::-webkit-scrollbar {
     right: 0px;
     height: 100vh;
     top: 8vh;
-    background-color: #5c2c5e;
+    background-color: #143947;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -2795,7 +2795,7 @@ body::-webkit-scrollbar {
     position: relative;
     right: 2vw;
     bottom: 1vh;
-    color: #ae6dd2;
+    color: #e9ac88;
     font-family: Helvetica;
   }
   body .section1 .toggle-container .toggle-button {
@@ -2816,7 +2816,7 @@ body::-webkit-scrollbar {
     transition: all 300ms ease-in-out;
   }
   body .section1 .toggle-container .toggle-button-active {
-    background-color: #421b58;
+    background-color: #8b441a;
   }
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
     margin-left: 2.5vw;
@@ -2824,7 +2824,7 @@ body::-webkit-scrollbar {
   body .section1 .h11,
   body .section1 .h21,
   body .section1 .h22 {
-    color: #ae6dd2;
+    color: #e9ac88;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -2857,7 +2857,7 @@ body::-webkit-scrollbar {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #07112a;
+    background-color: #36230a;
   }
   body .section2 .Shading2 {
     height: 100vh;
@@ -2868,7 +2868,7 @@ body::-webkit-scrollbar {
     opacity: 0.4;
   }
   body .section2 .p11 {
-    color: #ae6dd2;
+    color: #e9ac88;
     position: absolute;
     left: 50vw;
     font-family: Helvetica;
@@ -2883,8 +2883,8 @@ body::-webkit-scrollbar {
     width: 40vw;
     border-radius: 15px;
     z-index: 1;
-    -webkit-box-shadow: 24px 0px 39px -10px #7d33a6;
-    box-shadow: 24px 0px 39px -10px #7d33a6;
+    -webkit-box-shadow: 24px 0px 39px -10px #351a0a;
+    box-shadow: 24px 0px 39px -10px #351a0a;
   }
   body .section2 .square {
     position: relative;
@@ -2906,13 +2906,13 @@ body::-webkit-scrollbar {
     position: relative;
   }
   body .section3 .divh31 {
-    background-color: #07112a;
+    background-color: #36230a;
     height: 10vh;
     text-align: center;
   }
   body .section3 .h31 {
     font-size: 30px;
-    color: #421b58;
+    color: #8b441a;
     padding: 3vh;
   }
   body .section3 .container {
@@ -2949,8 +2949,8 @@ body::-webkit-scrollbar {
     height: 47vh;
     width: 75vw;
     position: relative;
-    background-color: #07112a;
-    color: #421b58;
+    background-color: #36230a;
+    color: #8b441a;
     font-size: 13px;
   }
   body .section3 #prevBtn {
@@ -2960,8 +2960,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 50vh;
     left: 2.3vw;
-    border-color: #692020;
-    background-color: #07112a;
+    border-color: #205c74;
+    background-color: #36230a;
     border-radius: 50%;
     border-width: 3px;
     border-style: solid;
@@ -2981,8 +2981,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 50vh;
     right: 0vw;
-    border-color: #692020;
-    background-color: #07112a;
+    border-color: #205c74;
+    background-color: #36230a;
     border-radius: 50%;
     border-width: 3px;
     border-style: solid;
@@ -2999,7 +2999,7 @@ body::-webkit-scrollbar {
     top: 71vh;
     width: 100%;
     height: 19vh;
-    background-color: #07112a;
+    background-color: #36230a;
     z-index: 100;
     color: #7a236c;
     text-align: center;
@@ -3020,7 +3020,7 @@ body::-webkit-scrollbar {
             align-items: center;
     min-height: 8vh;
     width: 100%;
-    background-color: #5c2c5e;
+    background-color: #143947;
     z-index: 100;
   }
   body .nav1 .navlist {
@@ -3034,7 +3034,7 @@ body::-webkit-scrollbar {
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: #5c2c5e;
+    background-color: #143947;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -3091,7 +3091,7 @@ body::-webkit-scrollbar {
     right: 0px;
     height: 100vh;
     top: 8vh;
-    background-color: #5c2c5e;
+    background-color: #143947;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -3166,7 +3166,7 @@ body::-webkit-scrollbar {
     position: relative;
     right: 2vw;
     bottom: 1vh;
-    color: #ae6dd2;
+    color: #e9ac88;
     font-family: Helvetica;
   }
   body .section1 .toggle-container .toggle-button {
@@ -3187,7 +3187,7 @@ body::-webkit-scrollbar {
     transition: all 300ms ease-in-out;
   }
   body .section1 .toggle-container .toggle-button-active {
-    background-color: #421b58;
+    background-color: #8b441a;
   }
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
     margin-left: 2.5vw;
@@ -3195,7 +3195,7 @@ body::-webkit-scrollbar {
   body .section1 .h11,
   body .section1 .h21,
   body .section1 .h22 {
-    color: #ae6dd2;
+    color: #e9ac88;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -3228,7 +3228,7 @@ body::-webkit-scrollbar {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #07112a;
+    background-color: #36230a;
   }
   body .section2 .Shading2 {
     height: 100vh;
@@ -3239,7 +3239,7 @@ body::-webkit-scrollbar {
     opacity: 0.4;
   }
   body .section2 .p11 {
-    color: #ae6dd2;
+    color: #e9ac88;
     position: absolute;
     left: 50vw;
     font-family: Helvetica;
@@ -3254,8 +3254,8 @@ body::-webkit-scrollbar {
     width: 40vw;
     border-radius: 15px;
     z-index: 1;
-    -webkit-box-shadow: 24px 0px 39px -10px #7d33a6;
-    box-shadow: 24px 0px 39px -10px #7d33a6;
+    -webkit-box-shadow: 24px 0px 39px -10px #351a0a;
+    box-shadow: 24px 0px 39px -10px #351a0a;
   }
   body .section2 .square {
     position: relative;
@@ -3277,13 +3277,13 @@ body::-webkit-scrollbar {
     position: relative;
   }
   body .section3 .divh31 {
-    background-color: #07112a;
+    background-color: #36230a;
     height: 10vh;
     text-align: center;
   }
   body .section3 .h31 {
     font-size: 30px;
-    color: #421b58;
+    color: #8b441a;
     padding: 3vh;
   }
   body .section3 .container {
@@ -3320,8 +3320,8 @@ body::-webkit-scrollbar {
     height: 49vh;
     width: 75vw;
     position: relative;
-    background-color: #07112a;
-    color: #421b58;
+    background-color: #36230a;
+    color: #8b441a;
     font-size: 13px;
   }
   body .section3 #prevBtn {
@@ -3331,8 +3331,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 50vh;
     left: 2.3vw;
-    border-color: #692020;
-    background-color: #07112a;
+    border-color: #205c74;
+    background-color: #36230a;
     border-radius: 50%;
     border-width: 3px;
     border-style: solid;
@@ -3352,8 +3352,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 50vh;
     right: 0vw;
-    border-color: #692020;
-    background-color: #07112a;
+    border-color: #205c74;
+    background-color: #36230a;
     border-radius: 50%;
     border-width: 3px;
     border-style: solid;
@@ -3370,7 +3370,7 @@ body::-webkit-scrollbar {
     top: 71vh;
     width: 100%;
     height: 22vh;
-    background-color: #07112a;
+    background-color: #36230a;
     z-index: 100;
     color: #7a236c;
     text-align: center;
@@ -3391,7 +3391,7 @@ body::-webkit-scrollbar {
             align-items: center;
     min-height: 8vh;
     width: 100%;
-    background-color: #5c2c5e;
+    background-color: #143947;
     z-index: 100;
   }
   body .nav1 .navlist {
@@ -3405,7 +3405,7 @@ body::-webkit-scrollbar {
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: #5c2c5e;
+    background-color: #143947;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -3462,7 +3462,7 @@ body::-webkit-scrollbar {
     right: 0px;
     height: 100vh;
     top: 8vh;
-    background-color: #5c2c5e;
+    background-color: #143947;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -3537,7 +3537,7 @@ body::-webkit-scrollbar {
     position: relative;
     right: 2vw;
     bottom: 1vh;
-    color: #ae6dd2;
+    color: #e9ac88;
     font-family: Helvetica;
   }
   body .section1 .toggle-container .toggle-button {
@@ -3558,7 +3558,7 @@ body::-webkit-scrollbar {
     transition: all 300ms ease-in-out;
   }
   body .section1 .toggle-container .toggle-button-active {
-    background-color: #421b58;
+    background-color: #8b441a;
   }
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
     margin-left: 2.5vw;
@@ -3566,7 +3566,7 @@ body::-webkit-scrollbar {
   body .section1 .h11,
   body .section1 .h21,
   body .section1 .h22 {
-    color: #ae6dd2;
+    color: #e9ac88;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -3599,7 +3599,7 @@ body::-webkit-scrollbar {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #07112a;
+    background-color: #36230a;
   }
   body .section2 .Shading2 {
     height: 100vh;
@@ -3610,7 +3610,7 @@ body::-webkit-scrollbar {
     opacity: 0.4;
   }
   body .section2 .p11 {
-    color: #ae6dd2;
+    color: #e9ac88;
     position: absolute;
     left: 50vw;
     font-family: Helvetica;
@@ -3625,8 +3625,8 @@ body::-webkit-scrollbar {
     width: 40vw;
     border-radius: 15px;
     z-index: 1;
-    -webkit-box-shadow: 24px 0px 39px -10px #7d33a6;
-    box-shadow: 24px 0px 39px -10px #7d33a6;
+    -webkit-box-shadow: 24px 0px 39px -10px #351a0a;
+    box-shadow: 24px 0px 39px -10px #351a0a;
   }
   body .section2 .square {
     position: relative;
@@ -3648,13 +3648,13 @@ body::-webkit-scrollbar {
     position: relative;
   }
   body .section3 .divh31 {
-    background-color: #07112a;
+    background-color: #36230a;
     height: 10vh;
     text-align: center;
   }
   body .section3 .h31 {
     font-size: 30px;
-    color: #421b58;
+    color: #8b441a;
     padding: 3vh;
   }
   body .section3 .container {
@@ -3691,8 +3691,8 @@ body::-webkit-scrollbar {
     height: 49vh;
     width: 75vw;
     position: relative;
-    background-color: #07112a;
-    color: #421b58;
+    background-color: #36230a;
+    color: #8b441a;
     font-size: 10px;
   }
   body .section3 #prevBtn {
@@ -3702,8 +3702,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 50vh;
     left: 2.3vw;
-    border-color: #692020;
-    background-color: #07112a;
+    border-color: #205c74;
+    background-color: #36230a;
     border-radius: 50%;
     border-width: 3px;
     border-style: solid;
@@ -3723,8 +3723,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 50vh;
     right: 0vw;
-    border-color: #692020;
-    background-color: #07112a;
+    border-color: #205c74;
+    background-color: #36230a;
     border-radius: 50%;
     border-width: 3px;
     border-style: solid;
@@ -3741,7 +3741,7 @@ body::-webkit-scrollbar {
     top: 71vh;
     width: 100%;
     height: 22vh;
-    background-color: #07112a;
+    background-color: #36230a;
     z-index: 100;
     color: #7a236c;
     text-align: center;
