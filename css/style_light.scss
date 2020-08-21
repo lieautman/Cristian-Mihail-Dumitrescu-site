@@ -17,6 +17,7 @@ $S3P11Color:rgb(122, 35, 108);                         //1 ..
 $BlackForShadows: rgba(0, 0, 0, 0.75);                 //black ... rgb(7,0,0)
 $S3RedForEmphasis:rgba(103, 31, 31, 1);                //2 ...
 
+
 $BlackForShadowsAndEffects:rgba(0, 0, 0, 0.75);
 $YellowForBackgroundEffects:#816e1b;
 $Color1:rgb(139, 68, 26);
@@ -510,6 +511,40 @@ body::-webkit-scrollbar {
           }
         }
       }
+      .toggle-container2{
+        position:absolute;
+        top:15%;
+        right:7%;
+        z-index:10;
+        p{
+          position:relative;
+          right:2vw;
+          bottom:1vh;
+          color: $Color1Lightened;
+          font-family: Helvetica;
+        }
+        .toggle-button2{
+          width:5vw;
+          height:2.5vw;
+          background-color: gray;
+          border-radius: 30px;
+          padding:0.35vw;
+          transition:all 300ms ease-in-out; 
+          .toggle-circle2{
+            width:1.8vw;
+            height:1.8vw;
+            background-color: white;
+            border-radius: 50%;
+            transition:all 300ms ease-in-out;
+          }
+        }
+        .toggle-button2-active{
+          background-color:$Color1;
+          .toggle-circle2{
+            margin-left:2.5vw;
+          }
+        }
+      }
       .h11,
       .h21,
       .h22 {
@@ -775,6 +810,40 @@ body::-webkit-scrollbar {
           }
         }
       }
+      .toggle-container2{
+        position:absolute;
+        top:15%;
+        right:7.5%;
+        z-index:10;
+        p{
+          position:relative;
+          right:2vw;
+          bottom:1vh;
+          color: $Color1Lightened;
+          font-family: Helvetica;
+        }
+        .toggle-button2{
+          width:5vw;
+          height:2.5vw;
+          background-color: gray;
+          border-radius: 30px;
+          padding:0.35vw;
+          transition:all 300ms ease-in-out; 
+          .toggle-circle2{
+            width:1.8vw;
+            height:1.8vw;
+            background-color: white;
+            border-radius: 50%;
+            transition:all 300ms ease-in-out;
+          }
+        }
+        .toggle-button2-active{
+          background-color:$Color1;
+          .toggle-circle2{
+            margin-left:2.5vw;
+          }
+        }
+      }
       .h11,
       .h21,
       .h22 {
@@ -1013,7 +1082,7 @@ body::-webkit-scrollbar {
         }
         .toggle-button{
           width:10vw;
-          height:5;
+          height:5vw;
           background-color: gray;
           border-radius: 30px;
           padding:0.7vw;
@@ -1029,6 +1098,40 @@ body::-webkit-scrollbar {
         .toggle-button-active{
           background-color:$Color1;
           .toggle-circle{
+            margin-left:2.5vw;
+          }
+        }
+      }
+      .toggle-container2{
+        position:absolute;
+        top:15%;
+        right:7.5%;
+        z-index:10;
+        p{
+          position:relative;
+          right:2vw;
+          bottom:1vh;
+          color: $Color1Lightened;
+          font-family: Helvetica;
+        }
+        .toggle-button2{
+          width:10vw;
+          height:5vw;
+          background-color: gray;
+          border-radius: 30px;
+          padding:0.7vw;
+          transition:all 300ms ease-in-out; 
+          .toggle-circle2{
+            width:3.6vw;
+            height:3.6vw;
+            background-color: white;
+            border-radius: 50%;
+            transition:all 300ms ease-in-out;
+          }
+        }
+        .toggle-button2-active{
+          background-color:$Color1;
+          .toggle-circle2{
             margin-left:2.5vw;
           }
         }
@@ -1271,7 +1374,7 @@ body::-webkit-scrollbar {
         }
         .toggle-button{
           width:10vw;
-          height:5;
+          height:5VW;
           background-color: gray;
           border-radius: 30px;
           padding:0.7vw;
@@ -1287,6 +1390,40 @@ body::-webkit-scrollbar {
         .toggle-button-active{
           background-color:$Color1;
           .toggle-circle{
+            margin-left:2.5vw;
+          }
+        }
+      }
+      .toggle-container2{
+        position:absolute;
+        top:15%;
+        right:8.5%;
+        z-index:10;
+        p{
+          position:relative;
+          right:2vw;
+          bottom:1vh;
+          color: $Color1Lightened;
+          font-family: Helvetica;
+        }
+        .toggle-button2{
+          width:10vw;
+          height:5vw;
+          background-color: gray;
+          border-radius: 30px;
+          padding:0.7vw;
+          transition:all 300ms ease-in-out; 
+          .toggle-circle2{
+            width:3.6vw;
+            height:3.6vw;
+            background-color: white;
+            border-radius: 50%;
+            transition:all 300ms ease-in-out;
+          }
+        }
+        .toggle-button2-active{
+          background-color:$Color1;
+          .toggle-circle2{
             margin-left:2.5vw;
           }
         }
@@ -1608,6 +1745,40 @@ body::-webkit-scrollbar {
           }
         }
       }
+      .toggle-container2{
+        position:absolute;
+        top:15%;
+        right:8.5%;
+        z-index:10;
+        p{
+          position:relative;
+          right:2vw;
+          bottom:1vh;
+          color: $Color1Lightened;
+          font-family: Helvetica;
+        }
+        .toggle-button2{
+          width:10vw;
+          height:5vw;
+          background-color: gray;
+          border-radius: 30px;
+          padding:0.7vw;
+          transition:all 300ms ease-in-out; 
+          .toggle-circle2{
+            width:3.6vw;
+            height:3.6vw;
+            background-color: white;
+            border-radius: 50%;
+            transition:all 300ms ease-in-out;
+          }
+        }
+        .toggle-button2-active{
+          background-color:$Color1;
+          .toggle-circle2{
+            margin-left:2.5vw;
+          }
+        }
+      }
       .h11,
       .h21,
       .h22 {
@@ -1907,7 +2078,7 @@ body::-webkit-scrollbar {
         }
         .toggle-button{
           width:10vw;
-          height:5;
+          height:5VW;
           background-color: gray;
           border-radius: 30px;
           padding:0.7vw;
@@ -1923,6 +2094,41 @@ body::-webkit-scrollbar {
         .toggle-button-active{
           background-color:$Color1;
           .toggle-circle{
+            margin-left:2.5vw;
+          }
+        }
+      }
+      .toggle-container2{
+        position:absolute;
+        top:15%;
+        right:8%;
+        z-index:10;
+        p{
+          font-size:10px;
+          position:relative;
+          right:2vw;
+          bottom:1vh;
+          color: $Color1Lightened;
+          font-family: Helvetica;
+        }
+        .toggle-button2{
+          width:10vw;
+          height:5vw;
+          background-color: gray;
+          border-radius: 30px;
+          padding:0.7vw;
+          transition:all 300ms ease-in-out; 
+          .toggle-circle2{
+            width:3.6vw;
+            height:3.6vw;
+            background-color: white;
+            border-radius: 50%;
+            transition:all 300ms ease-in-out;
+          }
+        }
+        .toggle-button2-active{
+          background-color:$Color1;
+          .toggle-circle2{
             margin-left:2.5vw;
           }
         }
@@ -2224,7 +2430,7 @@ body::-webkit-scrollbar {
         }
         .toggle-button{
           width:10vw;
-          height:5;
+          height:5VW;
           background-color: gray;
           border-radius: 30px;
           padding:0.7vw;
@@ -2240,6 +2446,41 @@ body::-webkit-scrollbar {
         .toggle-button-active{
           background-color:$Color1;
           .toggle-circle{
+            margin-left:2.5vw;
+          }
+        }
+      }
+      .toggle-container2{
+        position:absolute;
+        top:15%;
+        right:8%;
+        z-index:10;
+        p{
+          font-size:10px;
+          position:relative;
+          right:2vw;
+          bottom:1vh;
+          color: $Color1Lightened;
+          font-family: Helvetica;
+        }
+        .toggle-button2{
+          width:10vw;
+          height:5vw;
+          background-color: gray;
+          border-radius: 30px;
+          padding:0.7vw;
+          transition:all 300ms ease-in-out; 
+          .toggle-circle2{
+            width:3.6vw;
+            height:3.6vw;
+            background-color: white;
+            border-radius: 50%;
+            transition:all 300ms ease-in-out;
+          }
+        }
+        .toggle-button2-active{
+          background-color:$Color1;
+          .toggle-circle2{
             margin-left:2.5vw;
           }
         }
@@ -2540,7 +2781,7 @@ body::-webkit-scrollbar {
         }
         .toggle-button{
           width:10vw;
-          height:5;
+          height:5VW;
           background-color: gray;
           border-radius: 30px;
           padding:0.7vw;
@@ -2556,6 +2797,41 @@ body::-webkit-scrollbar {
         .toggle-button-active{
           background-color:$Color1;
           .toggle-circle{
+            margin-left:2.5vw;
+          }
+        }
+      }
+      .toggle-container2{
+        position:absolute;
+        top:15%;
+        right:8%;
+        z-index:10;
+        p{
+          font-size:10px;
+          position:relative;
+          right:2vw;
+          bottom:1vh;
+          color: $Color1Lightened;
+          font-family: Helvetica;
+        }
+        .toggle-button2{
+          width:10vw;
+          height:5vw;
+          background-color: gray;
+          border-radius: 30px;
+          padding:0.7vw;
+          transition:all 300ms ease-in-out; 
+          .toggle-circle2{
+            width:3.6vw;
+            height:3.6vw;
+            background-color: white;
+            border-radius: 50%;
+            transition:all 300ms ease-in-out;
+          }
+        }
+        .toggle-button2-active{
+          background-color:$Color1;
+          .toggle-circle2{
             margin-left:2.5vw;
           }
         }
@@ -2856,7 +3132,7 @@ body::-webkit-scrollbar {
         }
         .toggle-button{
           width:10vw;
-          height:5;
+          height:5VW;
           background-color: gray;
           border-radius: 30px;
           padding:0.7vw;
@@ -2872,6 +3148,41 @@ body::-webkit-scrollbar {
         .toggle-button-active{
           background-color:$Color1;
           .toggle-circle{
+            margin-left:2.5vw;
+          }
+        }
+      }
+      .toggle-container2{
+        position:absolute;
+        top:15%;
+        right:8%;
+        z-index:10;
+        p{
+          font-size:10px;
+          position:relative;
+          right:2vw;
+          bottom:1vh;
+          color: $Color1Lightened;
+          font-family: Helvetica;
+        }
+        .toggle-button2{
+          width:10vw;
+          height:5vw;
+          background-color: gray;
+          border-radius: 30px;
+          padding:0.7vw;
+          transition:all 300ms ease-in-out; 
+          .toggle-circle2{
+            width:3.6vw;
+            height:3.6vw;
+            background-color: white;
+            border-radius: 50%;
+            transition:all 300ms ease-in-out;
+          }
+        }
+        .toggle-button2-active{
+          background-color:$Color1;
+          .toggle-circle2{
             margin-left:2.5vw;
           }
         }
@@ -3172,7 +3483,7 @@ body::-webkit-scrollbar {
         }
         .toggle-button{
           width:10vw;
-          height:5;
+          height:5VW;
           background-color: gray;
           border-radius: 30px;
           padding:0.7vw;
@@ -3188,6 +3499,41 @@ body::-webkit-scrollbar {
         .toggle-button-active{
           background-color:$Color1;
           .toggle-circle{
+            margin-left:2.5vw;
+          }
+        }
+      }
+      .toggle-container2{
+        position:absolute;
+        top:15%;
+        right:8%;
+        z-index:10;
+        p{
+          font-size:10px;
+          position:relative;
+          right:2vw;
+          bottom:1vh;
+          color: $Color1Lightened;
+          font-family: Helvetica;
+        }
+        .toggle-button2{
+          width:10vw;
+          height:5vw;
+          background-color: gray;
+          border-radius: 30px;
+          padding:0.7vw;
+          transition:all 300ms ease-in-out; 
+          .toggle-circle2{
+            width:3.6vw;
+            height:3.6vw;
+            background-color: white;
+            border-radius: 50%;
+            transition:all 300ms ease-in-out;
+          }
+        }
+        .toggle-button2-active{
+          background-color:$Color1;
+          .toggle-circle2{
             margin-left:2.5vw;
           }
         }
