@@ -19,14 +19,14 @@ body::-webkit-scrollbar {
 
 .container::-webkit-scrollbar-thumb {
   background: #692020;
-  background: -webkit-gradient(linear, left top, right top, from(#692020), color-stop(50%, #421b58), to(rgba(103, 31, 31, 0.989233)));
-  background: linear-gradient(90deg, #692020 0%, #421b58 50%, rgba(103, 31, 31, 0.989233) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#692020), color-stop(50%, #421b58), to(#692020));
+  background: linear-gradient(90deg, #692020 0%, #421b58 50%, #692020 100%);
 }
 
 .container::-webkit-scrollbar-button {
   background: #07112a;
-  background: -webkit-gradient(linear, left top, right top, from(#07112a), color-stop(50%, #671f1f), to(#07112a));
-  background: linear-gradient(90deg, #07112a 0%, #671f1f 50%, #07112a 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#07112a), color-stop(50%, #692020), to(#07112a));
+  background: linear-gradient(90deg, #07112a 0%, #692020 50%, #07112a 100%);
 }
 
 .container {
@@ -103,7 +103,7 @@ body::-webkit-scrollbar {
   }
   body .section1 .h11,
   body .section1 .h21 {
-    color: #b071d4;
+    color: #ae6dd2;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -138,7 +138,7 @@ body::-webkit-scrollbar {
             justify-content: center;
   }
   body .section2 .p11 {
-    color: #b071d4;
+    color: #ae6dd2;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -147,7 +147,7 @@ body::-webkit-scrollbar {
     padding: 20px;
   }
   body .section2 .p12 {
-    color: #b071d4;
+    color: #ae6dd2;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -226,7 +226,7 @@ body::-webkit-scrollbar {
   }
   .section1 .h11,
   .section1 .h21 {
-    color: #b071d4;
+    color: #ae6dd2;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -261,7 +261,7 @@ body::-webkit-scrollbar {
             justify-content: center;
   }
   .section2 .p11 {
-    color: #b071d4;
+    color: #ae6dd2;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -270,7 +270,7 @@ body::-webkit-scrollbar {
     padding: 20px;
   }
   .section2 .p12 {
-    color: #b071d4;
+    color: #ae6dd2;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -441,7 +441,7 @@ body::-webkit-scrollbar {
   }
   .section1 .h11,
   .section1 .h21 {
-    color: #b071d4;
+    color: #ae6dd2;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -476,7 +476,7 @@ body::-webkit-scrollbar {
             justify-content: center;
   }
   .section2 .p11 {
-    color: #b071d4;
+    color: #ae6dd2;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -485,7 +485,7 @@ body::-webkit-scrollbar {
     padding: 20px;
   }
   .section2 .p12 {
-    color: #b071d4;
+    color: #ae6dd2;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;

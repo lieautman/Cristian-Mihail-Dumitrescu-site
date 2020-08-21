@@ -19,14 +19,14 @@ body::-webkit-scrollbar {
 
 .container::-webkit-scrollbar-thumb {
   background: #692020;
-  background: -webkit-gradient(linear, left top, right top, from(#692020), color-stop(50%, #421b58), to(rgba(103, 31, 31, 0.989233)));
-  background: linear-gradient(90deg, #692020 0%, #421b58 50%, rgba(103, 31, 31, 0.989233) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#692020), color-stop(50%, #421b58), to(#692020));
+  background: linear-gradient(90deg, #692020 0%, #421b58 50%, #692020 100%);
 }
 
 .container::-webkit-scrollbar-button {
   background: #07112a;
-  background: -webkit-gradient(linear, left top, right top, from(#07112a), color-stop(50%, #671f1f), to(#07112a));
-  background: linear-gradient(90deg, #07112a 0%, #671f1f 50%, #07112a 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#07112a), color-stop(50%, #692020), to(#07112a));
+  background: linear-gradient(90deg, #07112a 0%, #692020 50%, #07112a 100%);
 }
 
 .container {
@@ -114,13 +114,13 @@ body::-webkit-scrollbar {
     position: relative;
     left: 37.5vw;
     top: 30vh;
-    background-color: #7a236c;
+    background-color: #7d33a6;
     height: 18vh;
     width: 25vw;
     font-size: 20px;
     padding: 4vw;
     border-radius: 30px;
-    border-color: black;
+    border-color: rgba(0, 0, 0, 0.75);
     border-style: solid;
   }
   body .section1 a .download P {
@@ -136,7 +136,7 @@ body::-webkit-scrollbar {
     height: 18vh;
     background-color: #07112a;
     z-index: 100;
-    color: #7a236c;
+    color: #7d33a6;
     text-align: center;
     padding-top: 20px;
   }
@@ -196,13 +196,13 @@ body::-webkit-scrollbar {
     position: relative;
     left: 37.5vw;
     top: 30vh;
-    background-color: #7a236c;
+    background-color: #7d33a6;
     height: 18vh;
     width: 25vw;
     font-size: 20px;
     padding: 4vw;
     border-radius: 30px;
-    border-color: black;
+    border-color: rgba(0, 0, 0, 0.75);
     border-style: solid;
   }
   body .section1 a .download P {
@@ -218,7 +218,7 @@ body::-webkit-scrollbar {
     height: 18vh;
     background-color: #07112a;
     z-index: 100;
-    color: #7a236c;
+    color: #7d33a6;
     text-align: center;
     padding-top: 20px;
   }
@@ -278,13 +278,13 @@ body::-webkit-scrollbar {
     position: relative;
     left: 37.5vw;
     top: 30vh;
-    background-color: #7a236c;
+    background-color: #7d33a6;
     height: 18vh;
     width: 25vw;
     font-size: 20px;
     padding: 4vw;
     border-radius: 30px;
-    border-color: black;
+    border-color: rgba(0, 0, 0, 0.75);
     border-style: solid;
   }
   body .section1 a .download P {
@@ -300,7 +300,7 @@ body::-webkit-scrollbar {
     height: 18vh;
     background-color: #07112a;
     z-index: 100;
-    color: #7a236c;
+    color: #7d33a6;
     text-align: center;
     padding-top: 20px;
   }
@@ -360,13 +360,13 @@ body::-webkit-scrollbar {
     position: relative;
     left: 37.5vw;
     top: 30vh;
-    background-color: #7a236c;
+    background-color: #7d33a6;
     height: 18vh;
     width: 25vw;
     font-size: 20px;
     padding: 4vw;
     border-radius: 30px;
-    border-color: black;
+    border-color: rgba(0, 0, 0, 0.75);
     border-style: solid;
   }
   body .section1 a .download P {
@@ -382,7 +382,7 @@ body::-webkit-scrollbar {
     height: 18vh;
     background-color: #07112a;
     z-index: 100;
-    color: #7a236c;
+    color: #7d33a6;
     text-align: center;
     padding-top: 20px;
   }
@@ -442,13 +442,13 @@ body::-webkit-scrollbar {
     position: relative;
     left: 37.5vw;
     top: 30vh;
-    background-color: #7a236c;
+    background-color: #7d33a6;
     height: 18vh;
     width: 25vw;
     font-size: 20px;
     padding: 4vw;
     border-radius: 30px;
-    border-color: black;
+    border-color: rgba(0, 0, 0, 0.75);
     border-style: solid;
   }
   body .section1 a .download P {
@@ -464,7 +464,7 @@ body::-webkit-scrollbar {
     height: 18vh;
     background-color: #07112a;
     z-index: 100;
-    color: #7a236c;
+    color: #7d33a6;
     text-align: center;
     padding-top: 20px;
   }
@@ -525,13 +525,13 @@ body::-webkit-scrollbar {
     position: relative;
     left: 37.5vw;
     top: 30vh;
-    background-color: #7a236c;
+    background-color: #7d33a6;
     height: 18vh;
     width: 25vw;
     font-size: 20px;
     padding: 4vw;
     border-radius: 30px;
-    border-color: black;
+    border-color: rgba(0, 0, 0, 0.75);
     border-style: solid;
   }
   body .section1 a .download P {
@@ -547,7 +547,7 @@ body::-webkit-scrollbar {
     height: 18vh;
     background-color: #07112a;
     z-index: 100;
-    color: #7a236c;
+    color: #7d33a6;
     text-align: center;
     padding-top: 20px;
   }
@@ -704,13 +704,13 @@ body::-webkit-scrollbar {
     position: relative;
     left: 37.5vw;
     top: 30vh;
-    background-color: #7a236c;
+    background-color: #7d33a6;
     height: 18vh;
     width: 25vw;
     font-size: 20px;
     padding: 4vw;
     border-radius: 30px;
-    border-color: black;
+    border-color: rgba(0, 0, 0, 0.75);
     border-style: solid;
   }
   body .section1 a .download P {
@@ -726,7 +726,7 @@ body::-webkit-scrollbar {
     height: 18vh;
     background-color: #07112a;
     z-index: 100;
-    color: #7a236c;
+    color: #7d33a6;
     text-align: center;
     padding-top: 20px;
   }
@@ -883,13 +883,13 @@ body::-webkit-scrollbar {
     position: relative;
     left: 37.5vw;
     top: 30vh;
-    background-color: #7a236c;
+    background-color: #7d33a6;
     height: 18vh;
     width: 25vw;
     font-size: 20px;
     padding: 4vw;
     border-radius: 30px;
-    border-color: black;
+    border-color: rgba(0, 0, 0, 0.75);
     border-style: solid;
   }
   body .section1 a .download P {
@@ -905,7 +905,7 @@ body::-webkit-scrollbar {
     height: 18vh;
     background-color: #07112a;
     z-index: 100;
-    color: #7a236c;
+    color: #7d33a6;
     text-align: center;
     padding-top: 20px;
   }
@@ -1062,13 +1062,13 @@ body::-webkit-scrollbar {
     position: relative;
     left: 37.5vw;
     top: 30vh;
-    background-color: #7a236c;
+    background-color: #7d33a6;
     height: 18vh;
     width: 25vw;
     font-size: 20px;
     padding: 4vw;
     border-radius: 30px;
-    border-color: black;
+    border-color: rgba(0, 0, 0, 0.75);
     border-style: solid;
   }
   body .section1 a .download P {
@@ -1085,7 +1085,7 @@ body::-webkit-scrollbar {
     height: 18vh;
     background-color: #07112a;
     z-index: 100;
-    color: #7a236c;
+    color: #7d33a6;
     text-align: center;
     padding-top: 20px;
   }
@@ -1242,13 +1242,13 @@ body::-webkit-scrollbar {
     position: relative;
     left: 37.5vw;
     top: 30vh;
-    background-color: #7a236c;
+    background-color: #7d33a6;
     height: 18vh;
     width: 25vw;
     font-size: 20px;
     padding: 4vw;
     border-radius: 30px;
-    border-color: black;
+    border-color: rgba(0, 0, 0, 0.75);
     border-style: solid;
   }
   body .section1 a .download P {
@@ -1265,7 +1265,7 @@ body::-webkit-scrollbar {
     height: 18vh;
     background-color: #07112a;
     z-index: 100;
-    color: #7a236c;
+    color: #7d33a6;
     text-align: center;
     padding-top: 20px;
   }
@@ -1422,13 +1422,13 @@ body::-webkit-scrollbar {
     position: relative;
     left: 37.5vw;
     top: 30vh;
-    background-color: #7a236c;
+    background-color: #7d33a6;
     height: 10vh;
     width: 25vw;
     font-size: 20px;
     padding: 4vw;
     border-radius: 30px;
-    border-color: black;
+    border-color: rgba(0, 0, 0, 0.75);
     border-style: solid;
   }
   body .section1 a .download P {
@@ -1445,7 +1445,7 @@ body::-webkit-scrollbar {
     height: 18vh;
     background-color: #07112a;
     z-index: 100;
-    color: #7a236c;
+    color: #7d33a6;
     text-align: center;
     padding-top: 20px;
   }
@@ -1602,13 +1602,13 @@ body::-webkit-scrollbar {
     position: relative;
     left: 37.5vw;
     top: 30vh;
-    background-color: #7a236c;
+    background-color: #7d33a6;
     height: 10vh;
     width: 25vw;
     font-size: 20px;
     padding: 4vw;
     border-radius: 30px;
-    border-color: black;
+    border-color: rgba(0, 0, 0, 0.75);
     border-style: solid;
   }
   body .section1 a .download P {
@@ -1625,7 +1625,7 @@ body::-webkit-scrollbar {
     height: 18vh;
     background-color: #07112a;
     z-index: 100;
-    color: #7a236c;
+    color: #7d33a6;
     text-align: center;
     padding-top: 20px;
   }

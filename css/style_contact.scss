@@ -1,3 +1,33 @@
+//colors
+$ScrollTrackColor:#07112a;                              //3 ...
+$ScrollBarColor1:rgba(105, 32, 32, 1);                  //2 ...
+$ScrollBarColor2:rgba(66, 27, 88, 1);                   //1 ...
+$ScrollBarButtonColor1:  rgba(7, 17, 42, 1);              //3 ...
+$ScrollBarButtonColor2:  rgba(103, 31, 31, 1);            //2 ...
+$NavColor: #5c2c5e;                                       //1sl ...
+$ToggleButtonActiveColor:rgba(66, 27, 88, 1);            //1 ...
+$S1HeadersColor:rgb(176, 113, 212);                     //1l ...
+$P1ToggleColor:rgb(176, 113, 212);                      //1l ...
+$S2P11Color:rgb(176, 113, 212);                         //1l ...
+$S2BackgroundColor: #161d30;                            //3 ...
+$S2PictureOfMeShadingColor: rgba(122, 35, 108, 1);      //1sl ...
+$S3BackgroundColor:#816e1b;                             //yellow ...
+$S3CarouselBackgroundColor:#07112a;                     //3 ...
+$S3P11Color:rgb(122, 35, 108);                         //1 ..
+$BlackForShadows: rgba(0, 0, 0, 0.75);                 //black ... rgb(7,0,0)
+$S3RedForEmphasis:rgba(103, 31, 31, 1);                //2 ...
+
+$BlackForShadowsAndEffects:rgba(0, 0, 0, 0.75);
+$YellowForBackgroundEffects:#816e1b;
+$Color1:rgba(66, 27, 88, 1);
+$Color2:rgba(105, 32, 32, 1);
+$Color3:rgba(7, 17, 42, 1);
+$Color1Lightened:lighten($Color1,40%);
+$Color1SlightLightened:lighten($Color1,20%);
+$NavColor: #5c2c5e;   
+
+
+
 //destyling
 * {
   margin: 0;
@@ -13,24 +43,24 @@ body::-webkit-scrollbar {
   width: 2.4vw;
 }
 .container::-webkit-scrollbar-track {
-  background: #07112a;
+  background: $Color3;
 }
 .container::-webkit-scrollbar-thumb {
-  background: rgb(105, 32, 32);
+  background:$Color2;
   background: linear-gradient(
     90deg,
-    rgba(105, 32, 32, 1) 0%,
-    rgba(66, 27, 88, 1) 50%,
-    rgba(103, 31, 31, 0.989233193277311) 100%
+    $Color2 0%,
+    $Color1 50%,
+    $Color2 100%
   );
 }
 .container::-webkit-scrollbar-button {
-  background: rgb(7, 17, 42);
+  background: $Color3;
   background: linear-gradient(
     90deg,
-    rgba(7, 17, 42, 1) 0%,
-    rgba(103, 31, 31, 1) 50%,
-    rgba(7, 17, 42, 1) 100%
+    $Color3 0%,
+    $Color2 50%,
+    $Color3 100%
   );
 }
 //smooth scroll
@@ -63,7 +93,7 @@ body::-webkit-scrollbar {
       justify-content: space-around;
       min-height: 8vh;
       width: 100%;
-      background-color: rgb(92, 44, 94);
+      background-color:$NavColor;
       align-items: center;
       .navlist {
         display: flex;
@@ -96,7 +126,7 @@ body::-webkit-scrollbar {
       justify-content: center;
       .h11,
       .h21 {
-        color: rgb(176, 113, 212);
+        color:$Color1Lightened;
         font-family: Helvetica;
         z-index: 1;
         padding: 30px;
@@ -107,7 +137,7 @@ body::-webkit-scrollbar {
         height: 70vh;
         top: 10vh;
         left: 12.5vw;
-        background-color: #07112a;
+        background-color: $Color3;
       }
       .h11 {
         position: relative;
@@ -132,7 +162,7 @@ body::-webkit-scrollbar {
       height: 92vh;
       justify-content: center;
       .p11 {
-        color: rgb(176, 113, 212);
+        color:$Color1Lightened;
         font-family: Helvetica;
         z-index: 1;
         top: 105%;
@@ -145,7 +175,7 @@ body::-webkit-scrollbar {
         width: 75vw;
         height: 70vh;
         top: 10vh;
-        background-color: #07112a;
+        background-color: $Color3;
       }
       .SecondVhImg {
         position: absolute;
@@ -169,7 +199,7 @@ body::-webkit-scrollbar {
         .fieldHalf {
           background: transparent;
           border: 0px;
-          border-bottom: 2px solid #7a236c;
+          border-bottom: 2px solid $NavColor;
           padding: 10px;
           width: 100%;
         }
@@ -191,39 +221,39 @@ body::-webkit-scrollbar {
         }
         ::-webkit-input-placeholder {
           /* Chrome/Opera/Safari */
-          color: #7a236c;
+          color: $NavColor;
         }
         ::-moz-placeholder {
           /* Firefox 19+ */
-          color: #7a236c;
+          color: $NavColor;
         }
         :-ms-input-placeholder {
           /* IE 10+ */
-          color: #7a236c;
+          color: $NavColor;
         }
         input[type="text"] {
           width: 100%;
           border: none;
-          background-color: #07112a;
+          background-color: $Color3;
           border: none;
           font-size: 20px;
           outline-offset: 10px;
-          color: #c742b1;
+          color: $NavColor;
         }
         textarea {
-          background-color: #07112a;
-          outline: 2px solid #7a236c;
-          color: #c742b1;
+          background-color: $Color3;
+          outline: 2px solid $NavColor;
+          color: $NavColor;
           font-size: 30px;
         }
 
         .buttonSubmit {
           position: relative;
-          background: #000303;
+          background: $BlackForShadowsAndEffects;
           text-align: center;
           padding: 15px;
           border-radius: 10px;
-          color: #c742b1;
+          color: $NavColor;
           cursor: pointer;
           text-transform: uppercase;
           left: 0vw;
@@ -232,7 +262,7 @@ body::-webkit-scrollbar {
           list-style-type: none;
         }
         *:focus {
-          outline: 2px solid #7a236c;
+          outline: 2px solid $NavColor;
           box-shadow: none;
         }
       }
@@ -249,7 +279,7 @@ body::-webkit-scrollbar {
       justify-content: space-around;
       min-height: 8vh;
       width: 100%;
-      background-color: rgb(92, 44, 94);
+      background-color:$NavColor;
       align-items: center;
       .navlist {
         display: flex;
@@ -282,7 +312,7 @@ body::-webkit-scrollbar {
       justify-content: center;
       .h11,
       .h21 {
-        color: rgb(176, 113, 212);
+        color:$Color1Lightened;
         font-family: Helvetica;
         z-index: 1;
         padding: 30px;
@@ -293,7 +323,7 @@ body::-webkit-scrollbar {
         height: 70vh;
         top: 10vh;
         left: 12.5vw;
-        background-color: #07112a;
+        background-color: $Color3;
       }
       .h11 {
         position: relative;
@@ -318,7 +348,7 @@ body::-webkit-scrollbar {
       height: 92vh;
       justify-content: center;
       .p11 {
-        color: rgb(176, 113, 212);
+        color:$Color1Lightened;
         font-family: Helvetica;
         z-index: 1;
         top: 105%;
@@ -331,7 +361,7 @@ body::-webkit-scrollbar {
         width: 75vw;
         height: 70vh;
         top: 10vh;
-        background-color: #07112a;
+        background-color: $Color3;
       }
       .SecondVhImg {
         position: absolute;
@@ -356,7 +386,7 @@ body::-webkit-scrollbar {
         .fieldHalf {
           background: transparent;
           border: 0px;
-          border-bottom: 2px solid #7a236c;
+          border-bottom: 2px solid $NavColor;
           padding: 10px;
           width: 100%;
         }
@@ -380,39 +410,39 @@ body::-webkit-scrollbar {
         }
         ::-webkit-input-placeholder {
           /* Chrome/Opera/Safari */
-          color: #7a236c;
+          color: $NavColor;
         }
         ::-moz-placeholder {
           /* Firefox 19+ */
-          color: #7a236c;
+          color: $NavColor;
         }
         :-ms-input-placeholder {
           /* IE 10+ */
-          color: #7a236c;
+          color: $NavColor;
         }
         input[type="text"] {
           width: 100%;
           border: none;
-          background-color: #07112a;
+          background-color: $Color3;
           border: none;
           font-size: 20px;
           outline-offset: 10px;
-          color: #c742b1;
+          color: $NavColor;
         }
         textarea {
-          background-color: #07112a;
-          outline: 2px solid #7a236c;
-          color: #c742b1;
+          background-color: $Color3;
+          outline: 2px solid $NavColor;
+          color: $NavColor;
           font-size: 30px;
         }
 
         .buttonSubmit {
           position: relative;
-          background: #000303;
+          background: $BlackForShadowsAndEffects;
           text-align: center;
           padding: 15px;
           border-radius: 10px;
-          color: #c742b1;
+          color: $NavColor;
           cursor: pointer;
           text-transform: uppercase;
           left: 0vw;
@@ -422,7 +452,7 @@ body::-webkit-scrollbar {
           list-style-type: none;
         }
         *:focus {
-          outline: 2px solid #7a236c;
+          outline: 2px solid $NavColor;
           box-shadow: none;
         }
       }
@@ -438,7 +468,7 @@ body::-webkit-scrollbar {
       justify-content: space-around;
       min-height: 8vh;
       width: 100%;
-      background-color: rgb(92, 44, 94);
+      background-color:$NavColor;
       align-items: center;
       .navlist {
         display: flex;
@@ -471,7 +501,7 @@ body::-webkit-scrollbar {
       justify-content: center;
       .h11,
       .h21 {
-        color: rgb(176, 113, 212);
+        color:$Color1Lightened;
         font-family: Helvetica;
         z-index: 1;
         padding: 30px;
@@ -482,7 +512,7 @@ body::-webkit-scrollbar {
         height: 70vh;
         top: 10vh;
         left: 12.5vw;
-        background-color: #07112a;
+        background-color: $Color3;
       }
       .h11 {
         position: relative;
@@ -508,7 +538,7 @@ body::-webkit-scrollbar {
       height: 92vh;
       justify-content: center;
       .p11 {
-        color: rgb(176, 113, 212);
+        color:$Color1Lightened;
         font-family: Helvetica;
         z-index: 1;
         top: 105%;
@@ -521,7 +551,7 @@ body::-webkit-scrollbar {
         width: 75vw;
         height: 75vh;
         top: 10vh;
-        background-color: #07112a;
+        background-color: $Color3;
       }
       .SecondVhImg {
         position: absolute;
@@ -545,7 +575,7 @@ body::-webkit-scrollbar {
         .fieldHalf {
           background: transparent;
           border: 0px;
-          border-bottom: 2px solid #7a236c;
+          border-bottom: 2px solid $NavColor;
           padding: 5px;
           width: 100%;
           left: 15vw;
@@ -573,42 +603,42 @@ body::-webkit-scrollbar {
         }
         ::-webkit-input-placeholder {
           /* Chrome/Opera/Safari */
-          color: #7a236c;
+          color: $NavColor;
         }
         ::-moz-placeholder {
           /* Firefox 19+ */
-          color: #7a236c;
+          color: $NavColor;
         }
         :-ms-input-placeholder {
           /* IE 10+ */
-          color: #7a236c;
+          color: $NavColor;
         }
         input[type="text"] {
           width: 100%;
           border: none;
-          background-color: #07112a;
+          background-color: $Color3;
           border: none;
           font-size: 15px;
           outline-offset: 10px;
-          color: #c742b1;
+          color: $NavColor;
         }
         textarea {
-          background-color: #07112a;
-          outline: 2px solid #7a236c;
-          color: #c742b1;
+          background-color: $Color3;
+          outline: 2px solid $NavColor;
+          color: $NavColor;
           font-size: 20px;
           align-self: center;
         }
 
         .buttonSubmit {
           position: relative;
-          background: #000303;
+          background: $BlackForShadowsAndEffects;
           text-align: center;
           padding: 10px;
           border-radius: 10px;
           height: 40px;
           width: 100%;
-          color: #c742b1;
+          color: $NavColor;
           cursor: pointer;
           text-transform: uppercase;
           left: 0vw;
@@ -634,7 +664,7 @@ body::-webkit-scrollbar {
       align-items: center;
       min-height: 8vh;
       width: 100%;
-      background-color: rgb(92, 44, 94);
+      background-color:$NavColor;
       z-index: 100;
       .navlist {
         display: flex;
@@ -644,7 +674,7 @@ body::-webkit-scrollbar {
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: rgb(92, 44, 94);
+        background-color:$NavColor;
         flex-direction: column;
         align-items: center;
         transform: translateX(100%);
@@ -688,7 +718,7 @@ body::-webkit-scrollbar {
         right: 0px;
         height: 100vh;
         top: 8vh;
-        background-color: rgb(92, 44, 94);
+        background-color:$NavColor;
         flex-direction: column;
         align-items: center;
         transform: translateX(0%);
@@ -724,7 +754,7 @@ body::-webkit-scrollbar {
       justify-content: center;
       .h11,
       .h21 {
-        color: rgb(176, 113, 212);
+        color:$Color1Lightened;
         font-family: Helvetica;
         z-index: 1;
         padding: 30px;
@@ -735,7 +765,7 @@ body::-webkit-scrollbar {
         height: 70vh;
         top: 10vh;
         left: 12.5vw;
-        background-color: #07112a;
+        background-color: $Color3;
       }
       .h11 {
         position: relative;
@@ -761,7 +791,7 @@ body::-webkit-scrollbar {
       height: 92vh;
       justify-content: center;
       .p11 {
-        color: rgb(176, 113, 212);
+        color:$Color1Lightened;
         font-family: Helvetica;
         z-index: 1;
         top: 105%;
@@ -774,7 +804,7 @@ body::-webkit-scrollbar {
         width: 75vw;
         height: 75vh;
         top: 10vh;
-        background-color: #07112a;
+        background-color: $Color3;
       }
       .SecondVhImg {
         position: absolute;
@@ -798,7 +828,7 @@ body::-webkit-scrollbar {
         .fieldHalf {
           background: transparent;
           border: 0px;
-          border-bottom: 2px solid #7a236c;
+          border-bottom: 2px solid $NavColor;
           padding: 5px;
           width: 100%;
           left: 15vw;
@@ -825,42 +855,42 @@ body::-webkit-scrollbar {
         }
         ::-webkit-input-placeholder {
           /* Chrome/Opera/Safari */
-          color: #7a236c;
+          color: $NavColor;
         }
         ::-moz-placeholder {
           /* Firefox 19+ */
-          color: #7a236c;
+          color: $NavColor;
         }
         :-ms-input-placeholder {
           /* IE 10+ */
-          color: #7a236c;
+          color: $NavColor;
         }
         input[type="text"] {
           width: 100%;
           border: none;
-          background-color: #07112a;
+          background-color: $Color3;
           border: none;
           font-size: 15px;
           outline-offset: 10px;
-          color: #c742b1;
+          color: $NavColor;
         }
         textarea {
-          background-color: #07112a;
-          outline: 2px solid #7a236c;
-          color: #c742b1;
+          background-color: $Color3;
+          outline: 2px solid $NavColor;
+          color: $NavColor;
           font-size: 20px;
           align-self: center;
         }
 
         .buttonSubmit {
           position: relative;
-          background: #000303;
+          background: $BlackForShadowsAndEffects;
           text-align: center;
           padding: 10px;
           border-radius: 10px;
           height: 40px;
           width: 100%;
-          color: #c742b1;
+          color: $NavColor;
           cursor: pointer;
           text-transform: uppercase;
           left: 0vw;

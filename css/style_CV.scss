@@ -1,3 +1,34 @@
+//colors
+$ScrollTrackColor:#07112a;                              //3 ...
+$ScrollBarColor1:rgba(105, 32, 32, 1);                  //2 ...
+$ScrollBarColor2:rgba(66, 27, 88, 1);                   //1 ...
+$ScrollBarButtonColor1:  rgba(7, 17, 42, 1);              //3 ...
+$ScrollBarButtonColor2:  rgba(103, 31, 31, 1);            //2 ...
+$NavColor: #5c2c5e;                                       //1sl ...
+$ToggleButtonActiveColor:rgba(66, 27, 88, 1);            //1 ...
+$S1HeadersColor:rgb(176, 113, 212);                     //1l ...
+$P1ToggleColor:rgb(176, 113, 212);                      //1l ...
+$S2P11Color:rgb(176, 113, 212);                         //1l ...
+$S2BackgroundColor: #161d30;                            //3 ...
+$S2PictureOfMeShadingColor: rgba(122, 35, 108, 1);      //1sl ...
+$S3BackgroundColor:#816e1b;                             //yellow ...
+$S3CarouselBackgroundColor:#07112a;                     //3 ...
+$S3P11Color:rgb(122, 35, 108);                         //1 ..
+$BlackForShadows: rgba(0, 0, 0, 0.75);                 //black ... rgb(7,0,0)
+$S3RedForEmphasis:rgba(103, 31, 31, 1);                //2 ...
+
+$BlackForShadowsAndEffects:rgba(0, 0, 0, 0.75);
+$YellowForBackgroundEffects:#816e1b;
+$Color1:rgba(66, 27, 88, 1);
+$Color2:rgba(105, 32, 32, 1);
+$Color3:rgba(7, 17, 42, 1);
+$Color1Lightened:lighten($Color1,40%);
+$Color1SlightLightened:lighten($Color1,20%);
+$NavColor: #5c2c5e;   
+
+
+
+
 //destyling
 * {
     margin: 0;
@@ -13,24 +44,24 @@
     width: 2.4vw;
   }
   .container::-webkit-scrollbar-track {
-    background: #07112a;
+    background: $Color3;
   }
   .container::-webkit-scrollbar-thumb {
-    background: rgb(105, 32, 32);
+    background: $Color2;
     background: linear-gradient(
       90deg,
-      rgba(105, 32, 32, 1) 0%,
-      rgba(66, 27, 88, 1) 50%,
-      rgba(103, 31, 31, 0.989233193277311) 100%
+      $Color2 0%,
+      $Color1 50%,
+      $Color2 100%
     );
   }
   .container::-webkit-scrollbar-button {
-    background: rgb(7, 17, 42);
+    background: $Color3;
     background: linear-gradient(
       90deg,
-      rgba(7, 17, 42, 1) 0%,
-      rgba(103, 31, 31, 1) 50%,
-      rgba(7, 17, 42, 1) 100%
+      $Color3 0%,
+      $Color2 50%,
+      $Color3 100%
     );
   }
   //smooth scroll
@@ -70,7 +101,7 @@
         align-items: center;
         height: 8vh;
         width: 100%;
-        background-color: #5c2c5e;
+        background-color: $NavColor;
         align-items: center;
         .navlist {
           display: flex;
@@ -107,16 +138,16 @@
             position:relative;
             left:37.5vw;
             top:30vh;
-            background-color: #7a236c;
+            background-color: $Color1SlightLightened;
             height: 18vh;
             width: 25vw;
             font-size:20px;
             padding:4vw;
             border-radius: 30px;
-            border-color:black;
+            border-color:$BlackForShadowsAndEffects;
             border-style:solid;
             P{
-               color:#07112a;
+               color:$Color3;
                align-self: center;
             }
           }
@@ -126,9 +157,9 @@
         top: 46vh;
         width: 100%;
         height: 18vh;
-        background-color: #07112a;
+        background-color: $Color3;
         z-index: 100;
-        color: #7a236c;
+        color: $Color1SlightLightened;
         text-align: center;
         padding-top: 20px;
         }
@@ -145,7 +176,7 @@
         align-items: center;
         height: 8vh;
         width: 100%;
-        background-color: #5c2c5e;
+        background-color: $NavColor;
         align-items: center;
         .navlist {
           display: flex;
@@ -182,16 +213,16 @@
             position:relative;
             left:37.5vw;
             top:30vh;
-            background-color: #7a236c;
+            background-color: $Color1SlightLightened;
             height: 18vh;
             width: 25vw;
             font-size:20px;
             padding:4vw;
             border-radius: 30px;
-            border-color:black;
+            border-color:$BlackForShadowsAndEffects;
             border-style:solid;
             P{
-               color:#07112a;
+               color:$Color3;
                align-self: center;
             }
           }
@@ -201,9 +232,9 @@
         top: 46vh;
         width: 100%;
         height: 18vh;
-        background-color: #07112a;
+        background-color: $Color3;
         z-index: 100;
-        color: #7a236c;
+        color: $Color1SlightLightened;
         text-align: center;
         padding-top: 20px;
         }
@@ -221,7 +252,7 @@
         align-items: center;
         height: 8vh;
         width: 100%;
-        background-color: #5c2c5e;
+        background-color: $NavColor;
         align-items: center;
         .navlist {
           display: flex;
@@ -258,16 +289,16 @@
             position:relative;
             left:37.5vw;
             top:30vh;
-            background-color: #7a236c;
+            background-color: $Color1SlightLightened;
             height: 18vh;
             width: 25vw;
             font-size:20px;
             padding:4vw;
             border-radius: 30px;
-            border-color:black;
+            border-color:$BlackForShadowsAndEffects;
             border-style:solid;
             P{
-               color:#07112a;
+               color:$Color3;
                align-self: center;
             }
           }
@@ -277,9 +308,9 @@
         top: 46vh;
         width: 100%;
         height: 18vh;
-        background-color: #07112a;
+        background-color: $Color3;
         z-index: 100;
-        color: #7a236c;
+        color: $Color1SlightLightened;
         text-align: center;
         padding-top: 20px;
         }
@@ -296,7 +327,7 @@
         align-items: center;
         height: 8vh;
         width: 100%;
-        background-color: #5c2c5e;
+        background-color: $NavColor;
         align-items: center;
         .navlist {
           display: flex;
@@ -333,16 +364,16 @@
             position:relative;
             left:37.5vw;
             top:30vh;
-            background-color: #7a236c;
+            background-color: $Color1SlightLightened;
             height: 18vh;
             width: 25vw;
             font-size:20px;
             padding:4vw;
             border-radius: 30px;
-            border-color:black;
+            border-color:$BlackForShadowsAndEffects;
             border-style:solid;
             P{
-               color:#07112a;
+               color:$Color3;
                align-self: center;
             }
           }
@@ -352,9 +383,9 @@
         top: 46vh;
         width: 100%;
         height: 18vh;
-        background-color: #07112a;
+        background-color: $Color3;
         z-index: 100;
-        color: #7a236c;
+        color: $Color1SlightLightened;
         text-align: center;
         padding-top: 20px;
         }
@@ -371,7 +402,7 @@
         align-items: center;
         height: 8vh;
         width: 100%;
-        background-color: #5c2c5e;
+        background-color: $NavColor;
         align-items: center;
         .navlist {
           display: flex;
@@ -408,16 +439,16 @@
             position:relative;
             left:37.5vw;
             top:30vh;
-            background-color: #7a236c;
+            background-color: $Color1SlightLightened;
             height: 18vh;
             width: 25vw;
             font-size:20px;
             padding:4vw;
             border-radius: 30px;
-            border-color:black;
+            border-color:$BlackForShadowsAndEffects;
             border-style:solid;
             P{
-               color:#07112a;
+               color:$Color3;
                align-self: center;
             }
           }
@@ -427,9 +458,9 @@
         top: 46vh;
         width: 100%;
         height: 18vh;
-        background-color: #07112a;
+        background-color: $Color3;
         z-index: 100;
-        color: #7a236c;
+        color: $Color1SlightLightened;
         text-align: center;
         padding-top: 20px;
         }
@@ -446,7 +477,7 @@
         align-items: center;
         height: 8vh;
         width: 100%;
-        background-color: #5c2c5e;
+        background-color: $NavColor;
         align-items: center;
         .navlist {
           display: flex;
@@ -484,16 +515,16 @@
             position:relative;
             left:37.5vw;
             top:30vh;
-            background-color: #7a236c;
+            background-color: $Color1SlightLightened;
             height: 18vh;
             width: 25vw;
             font-size:20px;
             padding:4vw;
             border-radius: 30px;
-            border-color:black;
+            border-color:$BlackForShadowsAndEffects;
             border-style:solid;
             P{
-               color:#07112a;
+               color:$Color3;
                align-self: center;
             }
           }
@@ -503,9 +534,9 @@
         top: 46vh;
         width: 100%;
         height: 18vh;
-        background-color: #07112a;
+        background-color: $Color3;
         z-index: 100;
-        color: #7a236c;
+        color: $Color1SlightLightened;
         text-align: center;
         padding-top: 20px;
         }
@@ -618,16 +649,16 @@
             position:relative;
             left:37.5vw;
             top:30vh;
-            background-color: #7a236c;
+            background-color: $Color1SlightLightened;
             height: 18vh;
             width: 25vw;
             font-size:20px;
             padding:4vw;
             border-radius: 30px;
-            border-color:black;
+            border-color:$BlackForShadowsAndEffects;
             border-style:solid;
             P{
-               color:#07112a;
+               color:$Color3;
                align-self: center;
             }
           }
@@ -637,9 +668,9 @@
         top: 46vh;
         width: 100%;
         height: 18vh;
-        background-color: #07112a;
+        background-color: $Color3;
         z-index: 100;
-        color: #7a236c;
+        color: $Color1SlightLightened;
         text-align: center;
         padding-top: 20px;
         }
@@ -751,16 +782,16 @@
             position:relative;
             left:37.5vw;
             top:30vh;
-            background-color: #7a236c;
+            background-color: $Color1SlightLightened;
             height: 18vh;
             width: 25vw;
             font-size:20px;
             padding:4vw;
             border-radius: 30px;
-            border-color:black;
+            border-color:$BlackForShadowsAndEffects;
             border-style:solid;
             P{
-               color:#07112a;
+               color:$Color3;
                align-self: center;
             }
           }
@@ -770,9 +801,9 @@
         top: 46vh;
         width: 100%;
         height: 18vh;
-        background-color: #07112a;
+        background-color: $Color3;
         z-index: 100;
-        color: #7a236c;
+        color: $Color1SlightLightened;
         text-align: center;
         padding-top: 20px;
         }
@@ -884,17 +915,17 @@
             position:relative;
             left:37.5vw;
             top:30vh;
-            background-color: #7a236c;
+            background-color: $Color1SlightLightened;
             height: 18vh;
             width: 25vw;
             font-size:20px;
             padding:4vw;
             border-radius: 30px;
-            border-color:black;
+            border-color:$BlackForShadowsAndEffects;
             border-style:solid;
             P{
               font-size:15px;
-               color:#07112a;
+               color:$Color3;
                align-self: center;
             }
           }
@@ -904,9 +935,9 @@
         top: 46vh;
         width: 100%;
         height: 18vh;
-        background-color: #07112a;
+        background-color: $Color3;
         z-index: 100;
-        color: #7a236c;
+        color: $Color1SlightLightened;
         text-align: center;
         padding-top: 20px;
         }
@@ -1018,17 +1049,17 @@
             position:relative;
             left:37.5vw;
             top:30vh;
-            background-color: #7a236c;
+            background-color: $Color1SlightLightened;
             height: 18vh;
             width: 25vw;
             font-size:20px;
             padding:4vw;
             border-radius: 30px;
-            border-color:black;
+            border-color:$BlackForShadowsAndEffects;
             border-style:solid;
             P{
               font-size:15px;
-               color:#07112a;
+               color:$Color3;
                align-self: center;
             }
           }
@@ -1038,9 +1069,9 @@
         top: 46vh;
         width: 100%;
         height: 18vh;
-        background-color: #07112a;
+        background-color: $Color3;
         z-index: 100;
-        color: #7a236c;
+        color: $Color1SlightLightened;
         text-align: center;
         padding-top: 20px;
         }
@@ -1152,17 +1183,17 @@
             position:relative;
             left:37.5vw;
             top:30vh;
-            background-color: #7a236c;
+            background-color: $Color1SlightLightened;
             height: 10vh;
             width: 25vw;
             font-size:20px;
             padding:4vw;
             border-radius: 30px;
-            border-color:black;
+            border-color:$BlackForShadowsAndEffects;
             border-style:solid;
             P{
               font-size:10px;
-               color:#07112a;
+               color:$Color3;
                align-self: center;
             }
           }
@@ -1172,9 +1203,9 @@
         top: 64vh;
         width: 100%;
         height: 18vh;
-        background-color: #07112a;
+        background-color: $Color3;
         z-index: 100;
-        color: #7a236c;
+        color: $Color1SlightLightened;
         text-align: center;
         padding-top: 20px;
         }
@@ -1286,17 +1317,17 @@
             position:relative;
             left:37.5vw;
             top:30vh;
-            background-color: #7a236c;
+            background-color: $Color1SlightLightened;
             height: 10vh;
             width: 25vw;
             font-size:20px;
             padding:4vw;
             border-radius: 30px;
-            border-color:black;
+            border-color:$BlackForShadowsAndEffects;
             border-style:solid;
             P{
               font-size:10px;
-               color:#07112a;
+               color:$Color3;
                align-self: center;
             }
           }
@@ -1306,9 +1337,9 @@
         top: 64vh;
         width: 100%;
         height: 18vh;
-        background-color: #07112a;
+        background-color: $Color3;
         z-index: 100;
-        color: #7a236c;
+        color: $Color1SlightLightened;
         text-align: center;
         padding-top: 20px;
         }
