@@ -236,6 +236,12 @@ const cookies1Enabled = () => {
 };
 
 
+
+function swapStyleSheet(sheet) {
+  document.getElementById("pagestyle").setAttribute("href", sheet);
+};
+
+
 const button2Toggle = () => {
 
   const buttonul = document.querySelector(".toggle-button2");
@@ -250,6 +256,8 @@ const button2Toggle = () => {
     a = a + 1;
     console.log('pt buton2 a este:' + a);
     console.log(document.cookie);
+    if (document.cookie.match(/light/i) != null) swapStyleSheet('./css/style_light.css');
+    else swapStyleSheet('./css/style.css');
   });
 };
 
@@ -258,7 +266,11 @@ const cookies2Enabled = () => {
   const buttonul = document.querySelector(".toggle-button2");
   if (document.cookie.match(/light/i) != null) {
     buttonul.classList.toggle("toggle-button2-active", true);
+    swapStyleSheet('./css/style_light.css');
     return 1;
+  }
+  else {
+    swapStyleSheet('./css/style.css');
   }
   return 0;
 };

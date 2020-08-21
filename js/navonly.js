@@ -34,10 +34,23 @@ const cookies1Enabled = () => {
   return 0;
 };
 
+
+function getStyleSheetName() {
+  let nume = document.getElementById("pagestyle").getAttribute("href");
+  return nume;
+};
+
+
+function swapStyleSheet(sheet) {
+  document.getElementById("pagestyle").setAttribute("href", sheet);
+};
+
 const cookies2Enabled = () => {
   if (document.cookie.match(/light/i) != null) {
+    swapStyleSheet(getStyleSheetName().slice(0, getStyleSheetName().length - 4) + '_light.css');
     return 1;
   }
+  else swapStyleSheet(getStyleSheetName());
   return 0;
 };
 
@@ -47,9 +60,13 @@ const initAllFunctions = () => {
   navSlide();
 
   console.log(document.cookie);
+  console.log(getStyleSheetName());
+  console.log(getStyleSheetName().slice(0, getStyleSheetName().length - 4) + '_light.css');
   cookies1Enabled();
 
   cookies2Enabled();
+
+
 };
 
 

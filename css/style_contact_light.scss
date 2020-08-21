@@ -1,0 +1,921 @@
+//colors
+$ScrollTrackColor:#07112a;                              //3 ...
+$ScrollBarColor1:rgba(105, 32, 32, 1);                  //2 ...
+$ScrollBarColor2:rgba(66, 27, 88, 1);                   //1 ...
+$ScrollBarButtonColor1:  rgba(7, 17, 42, 1);              //3 ...
+$ScrollBarButtonColor2:  rgba(103, 31, 31, 1);            //2 ...
+$NavColor: #5c2c5e;                                       //1sl ...
+$ToggleButtonActiveColor:rgba(66, 27, 88, 1);            //1 ...
+$S1HeadersColor:rgb(176, 113, 212);                     //1l ...
+$P1ToggleColor:rgb(176, 113, 212);                      //1l ...
+$S2P11Color:rgb(176, 113, 212);                         //1l ...
+$S2BackgroundColor: #161d30;                            //3 ...
+$S2PictureOfMeShadingColor: rgba(122, 35, 108, 1);      //1sl ...
+$S3BackgroundColor:#816e1b;                             //yellow ...
+$S3CarouselBackgroundColor:#07112a;                     //3 ...
+$S3P11Color:rgb(122, 35, 108);                         //1 ..
+$BlackForShadows: rgba(0, 0, 0, 0.75);                 //black ... rgb(7,0,0)
+$S3RedForEmphasis:rgba(103, 31, 31, 1);                //2 ...
+
+$BlackForShadowsAndEffects:rgba(0, 0, 0, 0.75);
+$YellowForBackgroundEffects:#816e1b;
+$Color1:rgba(66, 27, 88, 1);
+$Color2:rgba(105, 32, 32, 1);
+$Color3:rgba(7, 17, 42, 1);
+$Color1Lightened:lighten($Color1,40%);
+$Color1SlightLightened:lighten($Color1,20%);
+$NavColor: #5c2c5e;   
+
+
+
+//destyling
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+//no scroll 4 page
+body::-webkit-scrollbar {
+  width: 0vw;
+}
+//cool scroll for elements
+.container::-webkit-scrollbar {
+  width: 2.4vw;
+}
+.container::-webkit-scrollbar-track {
+  background: $Color3;
+}
+.container::-webkit-scrollbar-thumb {
+  background:$Color2;
+  background: linear-gradient(
+    90deg,
+    $Color2 0%,
+    $Color1 50%,
+    $Color2 100%
+  );
+}
+.container::-webkit-scrollbar-button {
+  background: $Color3;
+  background: linear-gradient(
+    90deg,
+    $Color3 0%,
+    $Color2 50%,
+    $Color3 100%
+  );
+}
+//smooth scroll
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  scroll-behavior: smooth;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  .section1 {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    scroll-snap-align: start;
+  }
+  .section2 {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    scroll-snap-align: start;
+  }
+}
+.container-deactivate-scroll{
+  scroll-behavior: auto;
+  .section1 {
+    scroll-snap-align: none;
+  }
+  .section2 {
+    scroll-snap-align: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  //section 1 2 and 3
+  body {
+    //thenav
+    .nav1 {
+      display: flex;
+      justify-content: space-around;
+      min-height: 8vh;
+      width: 100%;
+      background-color:$NavColor;
+      align-items: center;
+      .navlist {
+        display: flex;
+        width: 40%;
+        justify-content: space-around;
+      }
+      .navlist a {
+        text-decoration: none;
+        color: white;
+        letter-spacing: 3px;
+        font-weight: bolder;
+      }
+      .navlist li {
+        list-style: none;
+      }
+      .logo {
+        height: 8vh;
+        width: auto;
+      }
+      .burger {
+        display: none;
+      }
+    }
+
+    //first100vh style
+    .section1 {
+      display: flex;
+      height: 92vh;
+      width: 100%;
+      justify-content: center;
+      .h11,
+      .h21 {
+        color:$Color1Lightened;
+        font-family: Helvetica;
+        z-index: 1;
+        padding: 30px;
+      }
+      .text1 {
+        position: absolute;
+        width: 75vw;
+        height: 70vh;
+        top: 10vh;
+        left: 12.5vw;
+        background-color: $Color3;
+      }
+      .h11 {
+        position: relative;
+        top: 100px;
+        font-size: 40px;
+        text-align: center;
+      }
+      .h21 {
+        position: relative;
+        top: 200px;
+        text-align: center;
+      }
+      .FirstVhImg {
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    //second100vh style
+    .section2 {
+      display: flex;
+      height: 92vh;
+      justify-content: center;
+      .p11 {
+        color:$Color1Lightened;
+        font-family: Helvetica;
+        z-index: 1;
+        top: 105%;
+        font-size: 20px;
+        padding: 10px;
+        text-align: center;
+      }
+      .text1 {
+        position: relative;
+        width: 75vw;
+        height: 70vh;
+        top: 10vh;
+        background-color: $Color3;
+      }
+      .SecondVhImg {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+      }
+      .contactForm {
+        position: relative;
+        padding: 20px;
+        height: 45vh;
+        width: 75vw;
+        left: 0vw;
+        display: flex;
+        padding: 30px;
+        align-items: center;
+        .fields {
+          display: flex;
+          flex-direction: column;
+          margin-right: 4%;
+        }
+        .fieldHalf {
+          background: transparent;
+          border: 0px;
+          border-bottom: 2px solid $NavColor;
+          padding: 10px;
+          width: 100%;
+        }
+        .fields {
+          width: 40vw;
+        }
+        .field {
+          width: 35vw;
+          background: transparent;
+          border: 0px;
+          padding: 10px;
+        }
+        .recaptcha {
+          align-self: center;
+        }
+        .message {
+          width: 100%;
+          height: 212px;
+        }
+        ::-webkit-input-placeholder {
+          /* Chrome/Opera/Safari */
+          color: $NavColor;
+        }
+        ::-moz-placeholder {
+          /* Firefox 19+ */
+          color: $NavColor;
+        }
+        :-ms-input-placeholder {
+          /* IE 10+ */
+          color: $NavColor;
+        }
+        input[type="text"] {
+          width: 100%;
+          border: none;
+          background-color: $Color3;
+          border: none;
+          font-size: 20px;
+          outline-offset: 10px;
+          color: $NavColor;
+        }
+        textarea {
+          background-color: $Color3;
+          outline: 2px solid $NavColor;
+          color: $NavColor;
+          font-size: 30px;
+        }
+
+        .buttonSubmit {
+          position: relative;
+          background: $BlackForShadowsAndEffects;
+          text-align: center;
+          padding: 15px;
+          border-radius: 10px;
+          color: $NavColor;
+          cursor: pointer;
+          text-transform: uppercase;
+          left: 0vw;
+        }
+        ul {
+          list-style-type: none;
+        }
+        *:focus {
+          outline: 2px solid $NavColor;
+          box-shadow: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 850px) {
+  //section 1 2 and 3
+  body {
+    //thenav
+    .nav1 {
+      display: flex;
+      justify-content: space-around;
+      min-height: 8vh;
+      width: 100%;
+      background-color:$NavColor;
+      align-items: center;
+      .navlist {
+        display: flex;
+        width: 50%;
+        justify-content: space-around;
+      }
+      .navlist a {
+        text-decoration: none;
+        color: white;
+        letter-spacing: 3px;
+        font-weight: bolder;
+      }
+      .navlist li {
+        list-style: none;
+      }
+      .logo {
+        height: 8vh;
+        width: auto;
+      }
+      .burger {
+        display: none;
+      }
+    }
+
+    //first100vh style
+    .section1 {
+      display: flex;
+      height: 92vh;
+      width: 100%;
+      justify-content: center;
+      .h11,
+      .h21 {
+        color:$Color1Lightened;
+        font-family: Helvetica;
+        z-index: 1;
+        padding: 30px;
+      }
+      .text1 {
+        position: absolute;
+        width: 75vw;
+        height: 70vh;
+        top: 10vh;
+        left: 12.5vw;
+        background-color: $Color3;
+      }
+      .h11 {
+        position: relative;
+        top: 50px;
+        font-size: 40px;
+        text-align: center;
+      }
+      .h21 {
+        position: relative;
+        top: 100px;
+        text-align: center;
+      }
+      .FirstVhImg {
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    //second100vh style
+    .section2 {
+      display: flex;
+      height: 92vh;
+      justify-content: center;
+      .p11 {
+        color:$Color1Lightened;
+        font-family: Helvetica;
+        z-index: 1;
+        top: 105%;
+        font-size: 20px;
+        padding: 7px;
+        text-align: center;
+      }
+      .text1 {
+        position: relative;
+        width: 75vw;
+        height: 70vh;
+        top: 10vh;
+        background-color: $Color3;
+      }
+      .SecondVhImg {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+      }
+      .contactForm {
+        position: relative;
+        padding: 20px;
+        height: 45vh;
+        width: 75vw;
+        left: 0vw;
+        display: flex;
+        padding: 30px;
+        align-items: center;
+
+        .fields {
+          display: flex;
+          flex-direction: column;
+          margin-right: 4%;
+        }
+        .fieldHalf {
+          background: transparent;
+          border: 0px;
+          border-bottom: 2px solid $NavColor;
+          padding: 10px;
+          width: 100%;
+        }
+        .fields {
+          width: 40vw;
+        }
+        .field {
+          width: 35vw;
+          background: transparent;
+          border: 0px;
+          padding: 10px;
+          align-self: center;
+          margin-top: 20px;
+        }
+        .recaptcha {
+          align-self: center;
+        }
+        .message {
+          width: 100%;
+          height: 212px;
+        }
+        ::-webkit-input-placeholder {
+          /* Chrome/Opera/Safari */
+          color: $NavColor;
+        }
+        ::-moz-placeholder {
+          /* Firefox 19+ */
+          color: $NavColor;
+        }
+        :-ms-input-placeholder {
+          /* IE 10+ */
+          color: $NavColor;
+        }
+        input[type="text"] {
+          width: 100%;
+          border: none;
+          background-color: $Color3;
+          border: none;
+          font-size: 20px;
+          outline-offset: 10px;
+          color: $NavColor;
+        }
+        textarea {
+          background-color: $Color3;
+          outline: 2px solid $NavColor;
+          color: $NavColor;
+          font-size: 30px;
+        }
+
+        .buttonSubmit {
+          position: relative;
+          background: $BlackForShadowsAndEffects;
+          text-align: center;
+          padding: 15px;
+          border-radius: 10px;
+          color: $NavColor;
+          cursor: pointer;
+          text-transform: uppercase;
+          left: 0vw;
+          width: 100%;
+        }
+        ul {
+          list-style-type: none;
+        }
+        *:focus {
+          outline: 2px solid $NavColor;
+          box-shadow: none;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 850px) and (min-width: 750px) {
+  //section 1 2 and 3
+  body {
+    //thenav
+    .nav1 {
+      display: flex;
+      justify-content: space-around;
+      min-height: 8vh;
+      width: 100%;
+      background-color:$NavColor;
+      align-items: center;
+      .navlist {
+        display: flex;
+        width: 50%;
+        justify-content: space-around;
+      }
+      .navlist a {
+        text-decoration: none;
+        color: white;
+        letter-spacing: 3px;
+        font-weight: bolder;
+      }
+      .navlist li {
+        list-style: none;
+      }
+      .logo {
+        height: 8vh;
+        width: auto;
+      }
+      .burger {
+        display: none;
+      }
+    }
+
+    //first100vh style
+    .section1 {
+      display: flex;
+      height: 92vh;
+      width: 100%;
+      justify-content: center;
+      .h11,
+      .h21 {
+        color:$Color1Lightened;
+        font-family: Helvetica;
+        z-index: 1;
+        padding: 30px;
+      }
+      .text1 {
+        position: absolute;
+        width: 75vw;
+        height: 70vh;
+        top: 10vh;
+        left: 12.5vw;
+        background-color: $Color3;
+      }
+      .h11 {
+        position: relative;
+        top: 50px;
+        font-size: 25px;
+        text-align: center;
+      }
+      .h21 {
+        position: relative;
+        top: 100px;
+        text-align: center;
+        font-size: 15px;
+      }
+      .FirstVhImg {
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    //second100vh style
+    .section2 {
+      display: flex;
+      height: 92vh;
+      justify-content: center;
+      .p11 {
+        color:$Color1Lightened;
+        font-family: Helvetica;
+        z-index: 1;
+        top: 105%;
+        font-size: 15px;
+        padding: 7px;
+        text-align: center;
+      }
+      .text1 {
+        position: relative;
+        width: 75vw;
+        height: 75vh;
+        top: 10vh;
+        background-color: $Color3;
+      }
+      .SecondVhImg {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+      }
+      .contactForm {
+        position: relative;
+        padding: 20px;
+        height: 45vh;
+        width: 75vw;
+        left: 0vw;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        .fields {
+          display: flex;
+          flex-direction: column;
+          margin-right: 4%;
+        }
+        .fieldHalf {
+          background: transparent;
+          border: 0px;
+          border-bottom: 2px solid $NavColor;
+          padding: 5px;
+          width: 100%;
+          left: 15vw;
+          position: relative;
+        }
+        .fields {
+          width: 40vw;
+        }
+        .field {
+          width: 35vw;
+          background: transparent;
+          border: 0px;
+          padding: 5px;
+          align-self: center;
+          left: 17vw;
+          position: relative;
+        }
+        .recaptcha {
+          left: 15vw;
+          position: relative;
+        }
+        .message {
+          width: 100%;
+          height: 162px;
+        }
+        ::-webkit-input-placeholder {
+          /* Chrome/Opera/Safari */
+          color: $NavColor;
+        }
+        ::-moz-placeholder {
+          /* Firefox 19+ */
+          color: $NavColor;
+        }
+        :-ms-input-placeholder {
+          /* IE 10+ */
+          color: $NavColor;
+        }
+        input[type="text"] {
+          width: 100%;
+          border: none;
+          background-color: $Color3;
+          border: none;
+          font-size: 15px;
+          outline-offset: 10px;
+          color: $NavColor;
+        }
+        textarea {
+          background-color: $Color3;
+          outline: 2px solid $NavColor;
+          color: $NavColor;
+          font-size: 20px;
+          align-self: center;
+        }
+
+        .buttonSubmit {
+          position: relative;
+          background: $BlackForShadowsAndEffects;
+          text-align: center;
+          padding: 10px;
+          border-radius: 10px;
+          height: 40px;
+          width: 100%;
+          color: $NavColor;
+          cursor: pointer;
+          text-transform: uppercase;
+          left: 0vw;
+        }
+        ul {
+          list-style-type: none;
+        }
+        *:focus {
+          box-shadow: none;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 750px) {
+  //section 1 2 and 3
+  body {
+    overflow: hidden;
+    //thenav
+    .nav1 {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      min-height: 8vh;
+      width: 100%;
+      background-color:$NavColor;
+      z-index: 100;
+      .navlist {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color:$NavColor;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        display: none;
+        z-index: 200;
+      }
+      .navlist a {
+        text-decoration: none;
+        color: white;
+        letter-spacing: 3px;
+        font-weight: bolder;
+      }
+      .navlist li {
+        list-style: none;
+        opacity: 0;
+      }
+      .logo {
+        height: 8vh;
+        width: auto;
+      }
+      .burger div {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 5px;
+        transition: all 0.3s ease;
+      }
+      .burger {
+        display: block;
+        cursor: pointer;
+      }
+      .nav-active1 {
+        display: inline;
+      }
+      .nav-active2 {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        position: absolute;
+        right: 0px;
+        height: 100vh;
+        top: 8vh;
+        background-color:$NavColor;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(0%);
+        transition: transform 0.5s ease-in;
+        z-index: 200;
+      }
+      @keyframes navLinkFade {
+        from {
+          opacity: 0;
+          transform: translateX(50px);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0px);
+        }
+      }
+      .toggle .line1 {
+        transform: rotate(90deg) translate(-5px, -5px);
+      }
+      .toggle .line2 {
+        transform: rotate(90deg);
+      }
+      .toggle .line3 {
+        transform: rotate(90deg) translate(5px, 5px);
+      }
+    }
+
+    //first100vh style
+    .section1 {
+      display: flex;
+      height: 92vh;
+      width: 100%;
+      justify-content: center;
+      .h11,
+      .h21 {
+        color:$Color1Lightened;
+        font-family: Helvetica;
+        z-index: 1;
+        padding: 30px;
+      }
+      .text1 {
+        position: absolute;
+        width: 75vw;
+        height: 70vh;
+        top: 10vh;
+        left: 12.5vw;
+        background-color: $Color3;
+      }
+      .h11 {
+        position: relative;
+        top: 50px;
+        font-size: 25px;
+        text-align: center;
+      }
+      .h21 {
+        position: relative;
+        top: 100px;
+        text-align: center;
+        font-size: 15px;
+      }
+      .FirstVhImg {
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    //second100vh style
+    .section2 {
+      display: flex;
+      height: 92vh;
+      justify-content: center;
+      .p11 {
+        color:$Color1Lightened;
+        font-family: Helvetica;
+        z-index: 1;
+        top: 105%;
+        font-size: 15px;
+        padding: 7px;
+        text-align: center;
+      }
+      .text1 {
+        position: relative;
+        width: 75vw;
+        height: 75vh;
+        top: 10vh;
+        background-color: $Color3;
+      }
+      .SecondVhImg {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+      }
+      .contactForm {
+        position: relative;
+        padding: 20px;
+        height: 45vh;
+        width: 75vw;
+        left: 0vw;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        .fields {
+          display: flex;
+          flex-direction: column;
+          margin-right: 4%;
+        }
+        .fieldHalf {
+          background: transparent;
+          border: 0px;
+          border-bottom: 2px solid $NavColor;
+          padding: 5px;
+          width: 100%;
+          left: 15vw;
+          position: relative;
+        }
+        .fields {
+          width: 40vw;
+        }
+        .field {
+          width: 35vw;
+          background: transparent;
+          border: 0px;
+          padding: 5px;
+          left: 17vw;
+          position: relative;
+        }
+        .recaptcha {
+          left: 0vw;
+          position: relative;
+        }
+        .message {
+          width: 100%;
+          height: 162px;
+        }
+        ::-webkit-input-placeholder {
+          /* Chrome/Opera/Safari */
+          color: $NavColor;
+        }
+        ::-moz-placeholder {
+          /* Firefox 19+ */
+          color: $NavColor;
+        }
+        :-ms-input-placeholder {
+          /* IE 10+ */
+          color: $NavColor;
+        }
+        input[type="text"] {
+          width: 100%;
+          border: none;
+          background-color: $Color3;
+          border: none;
+          font-size: 15px;
+          outline-offset: 10px;
+          color: $NavColor;
+        }
+        textarea {
+          background-color: $Color3;
+          outline: 2px solid $NavColor;
+          color: $NavColor;
+          font-size: 20px;
+          align-self: center;
+        }
+
+        .buttonSubmit {
+          position: relative;
+          background: $BlackForShadowsAndEffects;
+          text-align: center;
+          padding: 10px;
+          border-radius: 10px;
+          height: 40px;
+          width: 100%;
+          color: $NavColor;
+          cursor: pointer;
+          text-transform: uppercase;
+          left: 0vw;
+        }
+        ul {
+          list-style-type: none;
+        }
+        *:focus {
+          box-shadow: none;
+        }
+      }
+    }
+  }
+}
+.textInvizibil {
+  font-size: 0px;
+  visibility: none;
+}
