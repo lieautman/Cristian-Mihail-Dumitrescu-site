@@ -123,10 +123,7 @@ body::-webkit-scrollbar {
     background-image: url(./images/cv_1.jpg);
     background-size: cover;
   }
-  body .section1 a {
-    text-decoration: none;
-  }
-  body .section1 a .download {
+  body .section1 .download {
     position: relative;
     left: 37.5vw;
     top: 30vh;
@@ -139,7 +136,10 @@ body::-webkit-scrollbar {
     border-color: rgba(0, 0, 0, 0.75);
     border-style: solid;
   }
-  body .section1 a .download P {
+  body .section1 .download a {
+    text-decoration: none;
+  }
+  body .section1 .download a P {
     color: #159646;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -205,10 +205,7 @@ body::-webkit-scrollbar {
     background-image: url(./images/cv_1.jpg);
     background-size: cover;
   }
-  body .section1 a {
-    text-decoration: none;
-  }
-  body .section1 a .download {
+  body .section1 .download {
     position: relative;
     left: 37.5vw;
     top: 30vh;
@@ -221,7 +218,10 @@ body::-webkit-scrollbar {
     border-color: rgba(0, 0, 0, 0.75);
     border-style: solid;
   }
-  body .section1 a .download P {
+  body .section1 .download a {
+    text-decoration: none;
+  }
+  body .section1 .download a P {
     color: #159646;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -287,10 +287,7 @@ body::-webkit-scrollbar {
     background-image: url(./images/cv_1.jpg);
     background-size: cover;
   }
-  body .section1 a {
-    text-decoration: none;
-  }
-  body .section1 a .download {
+  body .section1 .download {
     position: relative;
     left: 37.5vw;
     top: 30vh;
@@ -303,7 +300,10 @@ body::-webkit-scrollbar {
     border-color: rgba(0, 0, 0, 0.75);
     border-style: solid;
   }
-  body .section1 a .download P {
+  body .section1 .download a {
+    text-decoration: none;
+  }
+  body .section1 .download a P {
     color: #159646;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -369,10 +369,7 @@ body::-webkit-scrollbar {
     background-image: url(./images/cv_1.jpg);
     background-size: cover;
   }
-  body .section1 a {
-    text-decoration: none;
-  }
-  body .section1 a .download {
+  body .section1 .download {
     position: relative;
     left: 37.5vw;
     top: 30vh;
@@ -385,7 +382,10 @@ body::-webkit-scrollbar {
     border-color: rgba(0, 0, 0, 0.75);
     border-style: solid;
   }
-  body .section1 a .download P {
+  body .section1 .download a {
+    text-decoration: none;
+  }
+  body .section1 .download a P {
     color: #159646;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -451,10 +451,7 @@ body::-webkit-scrollbar {
     background-image: url(./images/cv_1.jpg);
     background-size: cover;
   }
-  body .section1 a {
-    text-decoration: none;
-  }
-  body .section1 a .download {
+  body .section1 .download {
     position: relative;
     left: 37.5vw;
     top: 30vh;
@@ -467,7 +464,10 @@ body::-webkit-scrollbar {
     border-color: rgba(0, 0, 0, 0.75);
     border-style: solid;
   }
-  body .section1 a .download P {
+  body .section1 .download a {
+    text-decoration: none;
+  }
+  body .section1 .download a P {
     color: #159646;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -534,10 +534,7 @@ body::-webkit-scrollbar {
     background-size: cover;
     overflow: hidden;
   }
-  body .section1 a {
-    text-decoration: none;
-  }
-  body .section1 a .download {
+  body .section1 .download {
     position: relative;
     left: 37.5vw;
     top: 30vh;
@@ -550,7 +547,10 @@ body::-webkit-scrollbar {
     border-color: rgba(0, 0, 0, 0.75);
     border-style: solid;
   }
-  body .section1 a .download P {
+  body .section1 .download a {
+    text-decoration: none;
+  }
+  body .section1 .download a P {
     color: #159646;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -713,10 +713,7 @@ body::-webkit-scrollbar {
     background-size: cover;
     overflow: hidden;
   }
-  body .section1 a {
-    text-decoration: none;
-  }
-  body .section1 a .download {
+  body .section1 .download {
     position: relative;
     left: 37.5vw;
     top: 30vh;
@@ -729,7 +726,10 @@ body::-webkit-scrollbar {
     border-color: rgba(0, 0, 0, 0.75);
     border-style: solid;
   }
-  body .section1 a .download P {
+  body .section1 .download a {
+    text-decoration: none;
+  }
+  body .section1 .download a P {
     color: #159646;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -892,10 +892,7 @@ body::-webkit-scrollbar {
     background-size: cover;
     overflow: hidden;
   }
-  body .section1 a {
-    text-decoration: none;
-  }
-  body .section1 a .download {
+  body .section1 .download {
     position: relative;
     left: 37.5vw;
     top: 30vh;
@@ -908,7 +905,10 @@ body::-webkit-scrollbar {
     border-color: rgba(0, 0, 0, 0.75);
     border-style: solid;
   }
-  body .section1 a .download P {
+  body .section1 .download a {
+    text-decoration: none;
+  }
+  body .section1 .download a P {
     color: #159646;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -1071,10 +1071,7 @@ body::-webkit-scrollbar {
     background-size: cover;
     overflow: hidden;
   }
-  body .section1 a {
-    text-decoration: none;
-  }
-  body .section1 a .download {
+  body .section1 .download {
     position: relative;
     left: 37.5vw;
     top: 30vh;
@@ -1087,7 +1084,10 @@ body::-webkit-scrollbar {
     border-color: rgba(0, 0, 0, 0.75);
     border-style: solid;
   }
-  body .section1 a .download P {
+  body .section1 .download a {
+    text-decoration: none;
+  }
+  body .section1 .download a P {
     font-size: 15px;
     color: #159646;
     -ms-flex-item-align: center;
@@ -1251,10 +1251,7 @@ body::-webkit-scrollbar {
     background-size: cover;
     overflow: hidden;
   }
-  body .section1 a {
-    text-decoration: none;
-  }
-  body .section1 a .download {
+  body .section1 .download {
     position: relative;
     left: 37.5vw;
     top: 30vh;
@@ -1267,7 +1264,10 @@ body::-webkit-scrollbar {
     border-color: rgba(0, 0, 0, 0.75);
     border-style: solid;
   }
-  body .section1 a .download P {
+  body .section1 .download a {
+    text-decoration: none;
+  }
+  body .section1 .download a P {
     font-size: 15px;
     color: #159646;
     -ms-flex-item-align: center;
@@ -1431,10 +1431,7 @@ body::-webkit-scrollbar {
     background-size: cover;
     overflow: hidden;
   }
-  body .section1 a {
-    text-decoration: none;
-  }
-  body .section1 a .download {
+  body .section1 .download {
     position: relative;
     left: 37.5vw;
     top: 30vh;
@@ -1447,7 +1444,10 @@ body::-webkit-scrollbar {
     border-color: rgba(0, 0, 0, 0.75);
     border-style: solid;
   }
-  body .section1 a .download P {
+  body .section1 .download a {
+    text-decoration: none;
+  }
+  body .section1 .download a P {
     font-size: 10px;
     color: #159646;
     -ms-flex-item-align: center;
@@ -1611,10 +1611,7 @@ body::-webkit-scrollbar {
     background-size: cover;
     overflow: hidden;
   }
-  body .section1 a {
-    text-decoration: none;
-  }
-  body .section1 a .download {
+  body .section1 .download {
     position: relative;
     left: 37.5vw;
     top: 30vh;
@@ -1627,7 +1624,10 @@ body::-webkit-scrollbar {
     border-color: rgba(0, 0, 0, 0.75);
     border-style: solid;
   }
-  body .section1 a .download P {
+  body .section1 .download a {
+    text-decoration: none;
+  }
+  body .section1 .download a P {
     font-size: 10px;
     color: #159646;
     -ms-flex-item-align: center;

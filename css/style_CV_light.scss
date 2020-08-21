@@ -1,22 +1,3 @@
-//colors
-$ScrollTrackColor:#07112a;                              //3 ...
-$ScrollBarColor1:rgba(105, 32, 32, 1);                  //2 ...
-$ScrollBarColor2:rgba(66, 27, 88, 1);                   //1 ...
-$ScrollBarButtonColor1:  rgba(7, 17, 42, 1);              //3 ...
-$ScrollBarButtonColor2:  rgba(103, 31, 31, 1);            //2 ...
-$NavColor: #5c2c5e;                                       //1sl ...
-$ToggleButtonActiveColor:rgba(66, 27, 88, 1);            //1 ...
-$S1HeadersColor:rgb(176, 113, 212);                     //1l ...
-$P1ToggleColor:rgb(176, 113, 212);                      //1l ...
-$S2P11Color:rgb(176, 113, 212);                         //1l ...
-$S2BackgroundColor: #161d30;                            //3 ...
-$S2PictureOfMeShadingColor: rgba(122, 35, 108, 1);      //1sl ...
-$S3BackgroundColor:#816e1b;                             //yellow ...
-$S3CarouselBackgroundColor:#07112a;                     //3 ...
-$S3P11Color:rgb(122, 35, 108);                         //1 ..
-$BlackForShadows: rgba(0, 0, 0, 0.75);                 //black ... rgb(7,0,0)
-$S3RedForEmphasis:rgba(103, 31, 31, 1);                //2 ...
-
 $BlackForShadowsAndEffects:rgba(0, 0, 0, 0.75);
 $YellowForBackgroundEffects:#816e1b;
 $Color1:rgb(139, 68, 26);
@@ -25,7 +6,6 @@ $Color3:rgb(21, 150, 70);
 $Color1Lightened:lighten($Color1,40%);
 $Color1SlightLightened:darken($Color1,20%);
 $NavColor: rgb(20, 57, 71);   
-
 
 
 //destyling
@@ -144,8 +124,7 @@ $NavColor: rgb(20, 57, 71);
         justify-content: center;
         background-image: url(./images/cv_1.jpg);
         background-size: cover;
-        a{
-          text-decoration: none;
+        
           .download{
             position:relative;
             left:37.5vw;
@@ -158,10 +137,12 @@ $NavColor: rgb(20, 57, 71);
             border-radius: 30px;
             border-color:$BlackForShadowsAndEffects;
             border-style:solid;
-            P{
-               color:$Color3;
-               align-self: center;
-            }
+            a{
+              text-decoration: none;
+              P{
+                color:$Color3;
+                align-self: center;
+              }
           }
         }
         .footer {
@@ -219,8 +200,7 @@ $NavColor: rgb(20, 57, 71);
         justify-content: center;
         background-image: url(./images/cv_1.jpg);
         background-size: cover;
-        a{
-          text-decoration: none;
+       
           .download{
             position:relative;
             left:37.5vw;
@@ -233,10 +213,12 @@ $NavColor: rgb(20, 57, 71);
             border-radius: 30px;
             border-color:$BlackForShadowsAndEffects;
             border-style:solid;
-            P{
-               color:$Color3;
-               align-self: center;
-            }
+            a{
+              text-decoration: none;
+              P{
+                color:$Color3;
+                align-self: center;
+              }
           }
         }
         .footer {
@@ -295,8 +277,7 @@ $NavColor: rgb(20, 57, 71);
         justify-content: center;
         background-image: url(./images/cv_1.jpg);
         background-size: cover;
-        a{
-          text-decoration: none;
+        
           .download{
             position:relative;
             left:37.5vw;
@@ -309,10 +290,12 @@ $NavColor: rgb(20, 57, 71);
             border-radius: 30px;
             border-color:$BlackForShadowsAndEffects;
             border-style:solid;
-            P{
-               color:$Color3;
-               align-self: center;
-            }
+            a{
+            text-decoration: none;
+              P{
+                color:$Color3;
+                align-self: center;
+              }
           }
         }
         .footer {
@@ -370,8 +353,7 @@ $NavColor: rgb(20, 57, 71);
         justify-content: center;
         background-image: url(./images/cv_1.jpg);
         background-size: cover;
-        a{
-          text-decoration: none;
+        
           .download{
             position:relative;
             left:37.5vw;
@@ -384,10 +366,12 @@ $NavColor: rgb(20, 57, 71);
             border-radius: 30px;
             border-color:$BlackForShadowsAndEffects;
             border-style:solid;
-            P{
-               color:$Color3;
-               align-self: center;
-            }
+            a{
+              text-decoration: none;
+              P{
+                 color:$Color3;
+                align-self: center;
+              }
           }
         }
         .footer {
@@ -445,8 +429,7 @@ $NavColor: rgb(20, 57, 71);
         justify-content: center;
         background-image: url(./images/cv_1.jpg);
         background-size: cover;
-        a{
-          text-decoration: none;
+        
           .download{
             position:relative;
             left:37.5vw;
@@ -459,10 +442,12 @@ $NavColor: rgb(20, 57, 71);
             border-radius: 30px;
             border-color:$BlackForShadowsAndEffects;
             border-style:solid;
-            P{
-               color:$Color3;
-               align-self: center;
-            }
+            a{
+              text-decoration: none;
+              P{
+                color:$Color3;
+                align-self: center;
+              }
           }
         }
         .footer {
@@ -521,8 +506,7 @@ $NavColor: rgb(20, 57, 71);
         background-image: url(./images/cv_1.jpg);
         background-size: cover;
         overflow: hidden;
-        a{
-          text-decoration: none;
+        
           .download{
             position:relative;
             left:37.5vw;
@@ -535,10 +519,12 @@ $NavColor: rgb(20, 57, 71);
             border-radius: 30px;
             border-color:$BlackForShadowsAndEffects;
             border-style:solid;
-            P{
-               color:$Color3;
-               align-self: center;
-            }
+            a{
+              text-decoration: none;
+              P{
+                color:$Color3;
+                align-self: center;
+              }
           }
         }
         .footer {
@@ -655,8 +641,7 @@ $NavColor: rgb(20, 57, 71);
         background-image: url(./images/cv_1.jpg);
         background-size: cover;
         overflow: hidden;
-        a{
-          text-decoration: none;
+       
           .download{
             position:relative;
             left:37.5vw;
@@ -669,10 +654,12 @@ $NavColor: rgb(20, 57, 71);
             border-radius: 30px;
             border-color:$BlackForShadowsAndEffects;
             border-style:solid;
-            P{
-               color:$Color3;
-               align-self: center;
-            }
+             a{
+              text-decoration: none;
+              P{
+                color:$Color3;
+                align-self: center;
+              }
           }
         }
         .footer {
@@ -788,8 +775,7 @@ $NavColor: rgb(20, 57, 71);
         background-image: url(./images/cv_1.jpg);
         background-size: cover;
         overflow: hidden;
-        a{
-          text-decoration: none;
+        
           .download{
             position:relative;
             left:37.5vw;
@@ -802,10 +788,12 @@ $NavColor: rgb(20, 57, 71);
             border-radius: 30px;
             border-color:$BlackForShadowsAndEffects;
             border-style:solid;
-            P{
-               color:$Color3;
-               align-self: center;
-            }
+            a{
+              text-decoration: none;
+              P{
+                color:$Color3;
+                align-self: center;
+              }
           }
         }
         .footer {
@@ -921,8 +909,7 @@ $NavColor: rgb(20, 57, 71);
         background-image: url(./images/cv_1.jpg);
         background-size: cover;
         overflow: hidden;
-        a{
-          text-decoration: none;
+        
           .download{
             position:relative;
             left:37.5vw;
@@ -935,11 +922,13 @@ $NavColor: rgb(20, 57, 71);
             border-radius: 30px;
             border-color:$BlackForShadowsAndEffects;
             border-style:solid;
-            P{
-              font-size:15px;
-               color:$Color3;
-               align-self: center;
-            }
+            a{
+              text-decoration: none;
+              P{
+                font-size:15px;
+                color:$Color3;
+                align-self: center;
+              }
           }
         }
         .footer {
@@ -1055,8 +1044,7 @@ $NavColor: rgb(20, 57, 71);
         background-image: url(./images/cv_1.jpg);
         background-size: cover;
         overflow: hidden;
-        a{
-          text-decoration: none;
+        
           .download{
             position:relative;
             left:37.5vw;
@@ -1069,11 +1057,13 @@ $NavColor: rgb(20, 57, 71);
             border-radius: 30px;
             border-color:$BlackForShadowsAndEffects;
             border-style:solid;
-            P{
-              font-size:15px;
-               color:$Color3;
-               align-self: center;
-            }
+            a{
+              text-decoration: none;
+              P{
+                font-size:15px;
+                color:$Color3;
+                align-self: center;
+              }
           }
         }
         .footer {
@@ -1189,8 +1179,7 @@ $NavColor: rgb(20, 57, 71);
         background-image: url(./images/cv_1.jpg);
         background-size: cover;
         overflow: hidden;
-        a{
-          text-decoration: none;
+        
           .download{
             position:relative;
             left:37.5vw;
@@ -1203,11 +1192,13 @@ $NavColor: rgb(20, 57, 71);
             border-radius: 30px;
             border-color:$BlackForShadowsAndEffects;
             border-style:solid;
-            P{
-              font-size:10px;
-               color:$Color3;
-               align-self: center;
-            }
+            a{
+              text-decoration: none;
+              P{
+                font-size:10px;
+                color:$Color3;
+                align-self: center;
+              }
           }
         }
         .footer {
@@ -1323,8 +1314,7 @@ $NavColor: rgb(20, 57, 71);
         background-image: url(./images/cv_1.jpg);
         background-size: cover;
         overflow: hidden;
-        a{
-          text-decoration: none;
+        
           .download{
             position:relative;
             left:37.5vw;
@@ -1337,11 +1327,13 @@ $NavColor: rgb(20, 57, 71);
             border-radius: 30px;
             border-color:$BlackForShadowsAndEffects;
             border-style:solid;
-            P{
-              font-size:10px;
-               color:$Color3;
-               align-self: center;
-            }
+            a{
+             text-decoration: none;
+              P{
+                font-size:10px;
+                color:$Color3;
+                align-self: center;
+              }
           }
         }
         .footer {
