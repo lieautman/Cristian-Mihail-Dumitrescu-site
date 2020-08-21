@@ -210,7 +210,6 @@ const buttonToggle = () => {
   if (cookies1Enabled() == 1) a = 1;
 
   buttonul.addEventListener("click", () => {
-    document.cookie = ' activated dark';
     buttonul.classList.toggle("toggle-button-active");
     container.classList.toggle("container-deactivate-scroll");
     if (a % 2 == 0 && document.cookie.match(/light/i) != null) document.cookie = ' deactivated light';
@@ -218,6 +217,8 @@ const buttonToggle = () => {
     else if (a % 2 == 1 && document.cookie.match(/light/i) != null) document.cookie = ' activated light';
     else if (a % 2 == 1 && document.cookie.match(/light/i) == null) document.cookie = ' activated dark';
     a = a + 1;
+    console.log('pt buton1 a este:' + a);
+    console.log(document.cookie);
   });
 };
 
@@ -236,7 +237,7 @@ const cookies1Enabled = () => {
 
 
 const button2Toggle = () => {
-  document.cookie = ' activated dark';
+
   const buttonul = document.querySelector(".toggle-button2");
   let a = 0;
   if (cookies2Enabled() == 1) a = 1;
@@ -247,6 +248,8 @@ const button2Toggle = () => {
     else if (a % 2 == 1 && document.cookie.match(/deactivated/i) != null) document.cookie = ' deactivated dark';
     else if (a % 2 == 1 && document.cookie.match(/deactivated/i) == null) document.cookie = ' activated dark';
     a = a + 1;
+    console.log('pt buton2 a este:' + a);
+    console.log(document.cookie);
   });
 };
 
