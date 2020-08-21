@@ -177,6 +177,40 @@ body::-webkit-scrollbar {
           }
         }
       }
+      .toggle-container2{
+        position:absolute;
+        top:15%;
+        right:6.6%;
+        z-index:10;
+        p{
+          position:relative;
+          right:2vw;
+          bottom:1vh;
+          color: $Color1Lightened;
+          font-family: Helvetica;
+        }
+        .toggle-button2{
+          width:5vw;
+          height:2.5vw;
+          background-color: gray;
+          border-radius: 30px;
+          padding:0.35vw;
+          transition:all 300ms ease-in-out; 
+          .toggle-circle2{
+            width:1.8vw;
+            height:1.8vw;
+            background-color: white;
+            border-radius: 50%;
+            transition:all 300ms ease-in-out;
+          }
+        }
+        .toggle-button2-active{
+          background-color:$Color1;
+          .toggle-circle2{
+            margin-left:2.5vw;
+          }
+        }
+      }
       .h11,
       .h21,
       .h22 {

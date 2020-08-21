@@ -202,15 +202,62 @@ const navSlide = () => {
 
 
 
+
 const buttonToggle = () => {
   const buttonul = document.querySelector(".toggle-button");
   const container = document.querySelector(".container");
+  let a = 0;
+  if (cookies1Enabled() == 1) a = 1;
 
   buttonul.addEventListener("click", () => {
     buttonul.classList.toggle("toggle-button-active");
     container.classList.toggle("container-deactivate-scroll");
+    if (a % 2 == 0 && document.cookie.match(/light/i) != null) document.cookie = ' deactivated light';
+    else if (a % 2 == 0 && document.cookie.match(/light/i) == null) document.cookie = ' deactivated dark';
+    else if (a % 2 == 1 && document.cookie.match(/light/i) != null) document.cookie = ' activated light';
+    else if (a % 2 == 1 && document.cookie.match(/light/i) == null) document.cookie = ' activated dark';
+    a = a + 1;
   });
 };
+
+
+
+const cookies1Enabled = () => {
+  const buttonul = document.querySelector(".toggle-button");
+  const container = document.querySelector(".container");
+  if (document.cookie.match(/deactivated/i) != null) {
+    buttonul.classList.toggle("toggle-button-active", true);
+    container.classList.toggle("container-deactivate-scroll", true);
+    return 1;
+  }
+  return 0;
+};
+
+
+const button2Toggle = () => {
+  const buttonul = document.querySelector(".toggle-button2");
+  let a = 0;
+  if (cookies2Enabled() == 1) a = 1;
+  buttonul.addEventListener("click", () => {
+    buttonul.classList.toggle("toggle-button2-active");
+    if (a % 2 == 0 && document.cookie.match(/deactivated/i) != null) document.cookie = ' deactivated light';
+    else if (a % 2 == 0 && document.cookie.match(/deactivated/i) == null) document.cookie = ' activated light';
+    else if (a % 2 == 1 && document.cookie.match(/deactivated/i) != null) document.cookie = ' deactivated dark';
+    else if (a % 2 == 1 && document.cookie.match(/deactivated/i) == null) document.cookie = ' activated dark';
+    a = a + 1;
+  });
+};
+
+
+const cookies2Enabled = () => {
+  const buttonul = document.querySelector(".toggle-button2");
+  if (document.cookie.match(/light/i) != null) {
+    buttonul.classList.toggle("toggle-button2-active", true);
+    return 1;
+  }
+  return 0;
+};
+
 
 
 const initAllFunctions = () => {
@@ -219,6 +266,13 @@ const initAllFunctions = () => {
   carouselSlide();
 
   buttonToggle();
+
+  button2Toggle();
+
+  cookies1Enabled();
+
+  cookies2Enabled();
+
 };
 
 
