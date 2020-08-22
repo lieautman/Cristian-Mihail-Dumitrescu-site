@@ -1118,7 +1118,7 @@ body::-webkit-scrollbar {
     background-color: #421b58;
   }
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
-    margin-left: 2.5vw;
+    margin-left: 5vw;
   }
   body .section1 .toggle-container2 {
     position: absolute;
@@ -1154,7 +1154,7 @@ body::-webkit-scrollbar {
     background-color: #421b58;
   }
   body .section1 .toggle-container2 .toggle-button2-active .toggle-circle2 {
-    margin-left: 2.5vw;
+    margin-left: 5vw;
   }
   body .section1 .h11,
   body .section1 .h21,
@@ -1431,7 +1431,7 @@ body::-webkit-scrollbar {
     background-color: #421b58;
   }
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
-    margin-left: 2.5vw;
+    margin-left: 5vw;
   }
   body .section1 .toggle-container2 {
     position: absolute;
@@ -1467,7 +1467,7 @@ body::-webkit-scrollbar {
     background-color: #421b58;
   }
   body .section1 .toggle-container2 .toggle-button2-active .toggle-circle2 {
-    margin-left: 2.5vw;
+    margin-left: 5vw;
   }
   body .section1 .h11,
   body .section1 .h21,
@@ -1822,7 +1822,7 @@ body::-webkit-scrollbar {
   }
   body .section1 .toggle-container .toggle-button {
     width: 10vw;
-    height: 5;
+    height: 5vw;
     background-color: gray;
     border-radius: 30px;
     padding: 0.7vw;
@@ -1841,7 +1841,7 @@ body::-webkit-scrollbar {
     background-color: #421b58;
   }
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
-    margin-left: 2.5vw;
+    margin-left: 5vw;
   }
   body .section1 .toggle-container2 {
     position: absolute;
@@ -1877,7 +1877,7 @@ body::-webkit-scrollbar {
     background-color: #421b58;
   }
   body .section1 .toggle-container2 .toggle-button2-active .toggle-circle2 {
-    margin-left: 2.5vw;
+    margin-left: 5vw;
   }
   body .section1 .h11,
   body .section1 .h21,
@@ -2253,7 +2253,7 @@ body::-webkit-scrollbar {
     background-color: #421b58;
   }
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
-    margin-left: 2.5vw;
+    margin-left: 5vw;
   }
   body .section1 .toggle-container2 {
     position: absolute;
@@ -2290,7 +2290,7 @@ body::-webkit-scrollbar {
     background-color: #421b58;
   }
   body .section1 .toggle-container2 .toggle-button2-active .toggle-circle2 {
-    margin-left: 2.5vw;
+    margin-left: 5vw;
   }
   body .section1 .h11,
   body .section1 .h21,
@@ -2665,7 +2665,7 @@ body::-webkit-scrollbar {
     background-color: #421b58;
   }
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
-    margin-left: 2.5vw;
+    margin-left: 5vw;
   }
   body .section1 .toggle-container2 {
     position: absolute;
@@ -2702,7 +2702,7 @@ body::-webkit-scrollbar {
     background-color: #421b58;
   }
   body .section1 .toggle-container2 .toggle-button2-active .toggle-circle2 {
-    margin-left: 2.5vw;
+    margin-left: 5vw;
   }
   body .section1 .h11,
   body .section1 .h21,
@@ -3073,7 +3073,7 @@ body::-webkit-scrollbar {
     background-color: #421b58;
   }
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
-    margin-left: 2.5vw;
+    margin-left: 5vw;
   }
   body .section1 .toggle-container2 {
     position: absolute;
@@ -3110,7 +3110,7 @@ body::-webkit-scrollbar {
     background-color: #421b58;
   }
   body .section1 .toggle-container2 .toggle-button2-active .toggle-circle2 {
-    margin-left: 2.5vw;
+    margin-left: 5vw;
   }
   body .section1 .h11,
   body .section1 .h21,
@@ -3481,7 +3481,7 @@ body::-webkit-scrollbar {
     background-color: #421b58;
   }
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
-    margin-left: 2.5vw;
+    margin-left: 5vw;
   }
   body .section1 .toggle-container2 {
     position: absolute;
@@ -3518,7 +3518,7 @@ body::-webkit-scrollbar {
     background-color: #421b58;
   }
   body .section1 .toggle-container2 .toggle-button2-active .toggle-circle2 {
-    margin-left: 2.5vw;
+    margin-left: 5vw;
   }
   body .section1 .h11,
   body .section1 .h21,
@@ -3889,7 +3889,7 @@ body::-webkit-scrollbar {
     background-color: #421b58;
   }
   body .section1 .toggle-container .toggle-button-active .toggle-circle {
-    margin-left: 2.5vw;
+    margin-left: 5vw;
   }
   body .section1 .toggle-container2 {
     position: absolute;
@@ -3926,7 +3926,7 @@ body::-webkit-scrollbar {
     background-color: #421b58;
   }
   body .section1 .toggle-container2 .toggle-button2-active .toggle-circle2 {
-    margin-left: 2.5vw;
+    margin-left: 5vw;
   }
   body .section1 .h11,
   body .section1 .h21,
