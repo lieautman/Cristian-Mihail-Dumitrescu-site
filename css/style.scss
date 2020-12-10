@@ -17,6 +17,7 @@ $S3P11Color:rgb(122, 35, 108);                         //1 ..
 $BlackForShadows: rgba(0, 0, 0, 0.75);                 //black ... rgb(7,0,0)
 $S3RedForEmphasis:rgba(103, 31, 31, 1);                //2 ...
 
+//final colors
 $BlackForShadowsAndEffects:rgba(0, 0, 0, 0.75);
 $YellowForBackgroundEffects:#816e1b;
 $Color1:rgba(66, 27, 88, 1);
@@ -725,7 +726,7 @@ body::-webkit-scrollbar {
         height: 14vh;
         background-color: $Color3;
         z-index: 100;
-        color: #7a236c;
+        color: $Color1;
         text-align: center;
         padding-top: 20px;
       }
@@ -1017,7 +1018,7 @@ body::-webkit-scrollbar {
         height: 19vh;
         background-color: $Color3;
         z-index: 100;
-        color: #7a236c;
+        color: $Color1;
         text-align: center;
         padding-top: 20px;
       }
@@ -1309,7 +1310,7 @@ body::-webkit-scrollbar {
         height: 19vh;
         background-color: $Color3;
         z-index: 100;
-        color: #7a236c;
+        color: $Color1;
         text-align: center;
         padding-top: 20px;
       }
@@ -1601,7 +1602,7 @@ body::-webkit-scrollbar {
         height: 19vh;
         background-color: $Color3;
         z-index: 100;
-        color: #7a236c;
+        color: $Color1;
         text-align: center;
         padding-top: 20px;
         font-size: 13.7px;
@@ -1954,7 +1955,7 @@ body::-webkit-scrollbar {
         height: 19vh;
         background-color: $Color3;
         z-index: 100;
-        color: #7a236c;
+        color: $Color1;
         text-align: center;
         padding-top: 20px;
         font-size: 12px;
@@ -2306,7 +2307,7 @@ body::-webkit-scrollbar {
         height: 19vh;
         background-color: $Color3;
         z-index: 100;
-        color: #7a236c;
+        color: $Color1;
         text-align: center;
         padding-top: 20px;
         font-size: 10px;
@@ -2657,7 +2658,7 @@ body::-webkit-scrollbar {
         height: 19vh;
         background-color: $Color3;
         z-index: 100;
-        color: #7a236c;
+        color: $Color1;
         text-align: center;
         padding-top: 20px;
         font-size: 10px;
@@ -3008,7 +3009,7 @@ body::-webkit-scrollbar {
         height: 19vh;
         background-color: $Color3;
         z-index: 100;
-        color: #7a236c;
+        color: $Color1;
         text-align: center;
         padding-top: 20px;
         font-size: 10px;
@@ -3359,7 +3360,7 @@ body::-webkit-scrollbar {
         height: 22vh;
         background-color: $Color3;
         z-index: 100;
-        color: #7a236c;
+        color: $Color1;
         text-align: center;
         padding-top: 20px;
         font-size: 10px;
@@ -3710,7 +3711,7 @@ body::-webkit-scrollbar {
         height: 22vh;
         background-color: $Color3;
         z-index: 100;
-        color: #7a236c;
+        color: $Color1;
         text-align: center;
         padding-top: 20px;
         font-size: 10px;
