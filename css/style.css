@@ -1937,8 +1937,7 @@ body::-webkit-scrollbar {
   body .section2 .PictureOfMe {
     position: relative;
     top: 0;
-    left: -30px;
-    height: 60vh;
+    height: 40vh;
     width: 40vw;
     border-radius: 15px;
     z-index: 1;
@@ -2750,16 +2749,17 @@ body::-webkit-scrollbar {
   body .section2 .p11 {
     color: #ae6dd2;
     position: absolute;
-    left: 50vw;
     font-family: Helvetica;
     z-index: 1;
     padding: 30px;
+    top: 0px;
+    left: 50%;
     font-size: 15px;
   }
   body .section2 .PictureOfMe {
     position: relative;
-    left: 0vw;
-    height: 30vh;
+    top: 0;
+    height: 40vh;
     width: 40vw;
     border-radius: 15px;
     z-index: 1;
@@ -2771,10 +2771,14 @@ body::-webkit-scrollbar {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     top: 20vh;
-    left: 7vw;
+    left: 10vw;
     height: 60vh;
-    width: 85vw;
+    width: 80vw;
     background-image: url(./images/2.jpg);
     background-size: cover;
     background-position: center;
@@ -3157,16 +3161,17 @@ body::-webkit-scrollbar {
   body .section2 .p11 {
     color: #ae6dd2;
     position: absolute;
-    left: 50vw;
     font-family: Helvetica;
     z-index: 1;
-    padding: 10px;
+    padding: 30px;
+    top: 0px;
+    left: 50%;
     font-size: 15px;
   }
   body .section2 .PictureOfMe {
     position: relative;
-    left: 0vw;
-    height: 30vh;
+    top: 0;
+    height: 40vh;
     width: 40vw;
     border-radius: 15px;
     z-index: 1;
@@ -3178,10 +3183,14 @@ body::-webkit-scrollbar {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     top: 20vh;
-    left: 7vw;
-    height: 40vh;
-    width: 85vw;
+    left: 10vw;
+    height: 60vh;
+    width: 80vw;
     background-image: url(./images/2.jpg);
     background-size: cover;
     background-position: center;
@@ -3564,16 +3573,17 @@ body::-webkit-scrollbar {
   body .section2 .p11 {
     color: #ae6dd2;
     position: absolute;
-    left: 50vw;
     font-family: Helvetica;
     z-index: 1;
-    padding: 10px;
+    padding: 30px;
+    top: 0px;
+    left: 50%;
     font-size: 15px;
   }
   body .section2 .PictureOfMe {
     position: relative;
-    left: 0vw;
-    height: 30vh;
+    top: 0;
+    height: 40vh;
     width: 40vw;
     border-radius: 15px;
     z-index: 1;
@@ -3585,10 +3595,14 @@ body::-webkit-scrollbar {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     top: 20vh;
-    left: 7vw;
-    height: 40vh;
-    width: 85vw;
+    left: 10vw;
+    height: 60vh;
+    width: 80vw;
     background-image: url(./images/2.jpg);
     background-size: cover;
     background-position: center;
@@ -3971,16 +3985,17 @@ body::-webkit-scrollbar {
   body .section2 .p11 {
     color: #ae6dd2;
     position: absolute;
-    left: 50vw;
     font-family: Helvetica;
     z-index: 1;
-    padding: 10px;
+    padding: 30px;
+    top: 0px;
+    left: 50%;
     font-size: 15px;
   }
   body .section2 .PictureOfMe {
     position: relative;
-    left: 0vw;
-    height: 30vh;
+    top: 0;
+    height: 40vh;
     width: 40vw;
     border-radius: 15px;
     z-index: 1;
@@ -3992,10 +4007,14 @@ body::-webkit-scrollbar {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     top: 20vh;
-    left: 7vw;
+    left: 10vw;
     height: 60vh;
-    width: 85vw;
+    width: 80vw;
     background-image: url(./images/2.jpg);
     background-size: cover;
     background-position: center;

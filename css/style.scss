@@ -35,49 +35,7 @@ $NavColor: #5c2c5e;
 
     //second100vh style
     .section2 {
-      height: 92vh;
-      justify-content: center;
-      background-color: $Color3;
-      .p11 {
-        color: $Color1Lightened;
-        position: absolute;
-        font-family: Helvetica;
-        z-index: 1;
-        padding: 30px;
-        top: 30%;
-        left: 50%;
-        font-size: 40px;
-      }
-      .Shading2 {
-        height: 100vh;
-        width: 97.6vw;
-        position: absolute;
-        top: 100vh;
-        left: 0;
-        opacity: 0.4;
-      }
-      .PictureOfMe {
-        position: absolute;
-        top: 0;
-        left: -20px;
-        height: 80vh;
-        width: 30vw;
-        border-radius: 15px;
-        z-index: 1;
-        -webkit-box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-        -moz-box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-        box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-      }
-      .square {
-        position: relative;
-        top: 10vh;
-        left: 15vw;
-        height: 80vh;
-        width: 70vw;
-        background-image: url(./images/2.jpg);
-        background-size: cover;
-        background-position: center;
-      }
+      @include home-section2-form1();
     }
 
     //third100vh style
@@ -228,49 +186,7 @@ $NavColor: #5c2c5e;
 
     //second100vh style
     .section2 {
-      height: 92vh;
-      justify-content: center;
-      background-color: $Color3;
-      .p11 {
-        color: $Color1Lightened;
-        position: absolute;
-        font-family: Helvetica;
-        z-index: 1;
-        padding: 30px;
-        top: 30%;
-        left: 50%;
-        font-size: 40px;
-      }
-      .Shading2 {
-        height: 100vh;
-        width: 97.6vw;
-        position: absolute;
-        top: 100vh;
-        left: 0;
-        opacity: 0.4;
-      }
-      .PictureOfMe {
-        position: absolute;
-        top: 0;
-        left: -20px;
-        height: 80vh;
-        width: 30vw;
-        border-radius: 15px;
-        z-index: 1;
-        -webkit-box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-        -moz-box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-        box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-      }
-      .square {
-        position: relative;
-        top: 10vh;
-        left: 15vw;
-        height: 80vh;
-        width: 70vw;
-        background-image: url(./images/2.jpg);
-        background-size: cover;
-        background-position: center;
-      }
+      @include home-section2-form1();
     }
 
     //third100vh style
@@ -380,51 +296,7 @@ $NavColor: #5c2c5e;
 
     //second100vh style
     .section2 {
-      height: 92vh;
-      justify-content: center;
-      background-color: $Color3;
-      .Shading2 {
-        height: 100vh;
-        width: 97.6vw;
-        position: absolute;
-        top: 100vh;
-        left: 0;
-        opacity: 0.4;
-      }
-      .p11 {
-        color: $Color1Lightened;
-        position: absolute;
-        font-family: Helvetica;
-        z-index: 1;
-        padding: 30px;
-        top: 0px;
-        left: 50%;
-        font-size: 25px;
-      }
-      .PictureOfMe {
-        position: relative;
-        top: 0;
-        left: -30px;
-        height: 60vh;
-        width: 40vw;
-        border-radius: 15px;
-        z-index: 1;
-        -webkit-box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-        -moz-box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-        box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-      }
-      .square {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        top: 20vh;
-        left: 10vw;
-        height: 60vh;
-        width: 80vw;
-        background-image: url(./images/2.jpg);
-        background-size: cover;
-        background-position: center;
-      }
+      @include home-section2-form2();
     }
 
     //third100vh style
@@ -534,51 +406,7 @@ $NavColor: #5c2c5e;
 
     //second100vh style
     .section2 {
-      height: 92vh;
-      justify-content: center;
-      background-color: $Color3;
-      .Shading2 {
-        height: 100vh;
-        width: 97.6vw;
-        position: absolute;
-        top: 100vh;
-        left: 0;
-        opacity: 0.4;
-      }
-      .p11 {
-        color: $Color1Lightened;
-        position: absolute;
-        font-family: Helvetica;
-        z-index: 1;
-        padding: 30px;
-        top: 0px;
-        left: 50%;
-        font-size: 25px;
-      }
-      .PictureOfMe {
-        position: relative;
-        top: 0;
-        left: -30px;
-        height: 60vh;
-        width: 40vw;
-        border-radius: 15px;
-        z-index: 1;
-        -webkit-box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-        -moz-box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-        box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-      }
-      .square {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        top: 20vh;
-        left: 10vw;
-        height: 60vh;
-        width: 80vw;
-        background-image: url(./images/2.jpg);
-        background-size: cover;
-        background-position: center;
-      }
+      @include home-section2-form2();
     }
 
     //third100vh style
@@ -688,51 +516,7 @@ $NavColor: #5c2c5e;
 
     //second100vh style
     .section2 {
-      height: 92vh;
-      justify-content: center;
-      background-color: $Color3;
-      .Shading2 {
-        height: 100vh;
-        width: 97.6vw;
-        position: absolute;
-        top: 100vh;
-        left: 0;
-        opacity: 0.4;
-      }
-      .p11 {
-        color: $Color1Lightened;
-        position: absolute;
-        font-family: Helvetica;
-        z-index: 1;
-        padding: 30px;
-        top: 0px;
-        left: 50%;
-        font-size: 25px;
-      }
-      .PictureOfMe {
-        position: relative;
-        top: 0;
-        left: -30px;
-        height: 60vh;
-        width: 40vw;
-        border-radius: 15px;
-        z-index: 1;
-        -webkit-box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-        -moz-box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-        box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-      }
-      .square {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        top: 20vh;
-        left: 10vw;
-        height: 60vh;
-        width: 80vw;
-        background-image: url(./images/2.jpg);
-        background-size: cover;
-        background-position: center;
-      }
+      @include home-section2-form2();
     }
 
     //third100vh style
@@ -843,54 +627,8 @@ $NavColor: #5c2c5e;
 
     //second100vh style
     .section2 {
-      height: 92vh;
-      justify-content: center;
-      background-color: $Color3;
-      .Shading2 {
-        height: 100vh;
-        width: 97.6vw;
-        position: absolute;
-        top: 100vh;
-        left: 0;
-        opacity: 0.4;
-      }
-      .p11 {
-        color: $Color1Lightened;
-        position: absolute;
-        font-family: Helvetica;
-        z-index: 1;
-        padding: 30px;
-        top: 0px;
-        left: 50%;
-        font-size: 20px;
-      }
-      .PictureOfMe {
-        position: relative;
-        top: 0;
-        left: -30px;
-        height: 60vh;
-        width: 40vw;
-        border-radius: 15px;
-        z-index: 1;
-        -webkit-box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-        -moz-box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-        box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-      }
-      .square {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        top: 20vh;
-        left: 10vw;
-        height: 60vh;
-        width: 80vw;
-        background-image: url(./images/2.jpg);
-        background-size: cover;
-        background-position: center;
-        border-radius: 15px;
-      }
+      @include home-section2-form3(20px);
     }
-
 
     //third100vh style
     .section3 {
@@ -999,51 +737,7 @@ $NavColor: #5c2c5e;
 
     //second100vh style
     .section2 {
-      height: 92vh;
-      justify-content: center;
-      background-color: $Color3;
-      .Shading2 {
-        height: 100vh;
-        width: 97.6vw;
-        position: absolute;
-        top: 100vh;
-        left: 0;
-        opacity: 0.4;
-      }
-      .p11 {
-        color: $Color1Lightened;
-        position: absolute;
-        font-family: Helvetica;
-        z-index: 1;
-        padding: 30px;
-        top: 0px;
-        left: 50%;
-        font-size: 15px;
-      }
-      .PictureOfMe {
-        position: relative;
-        top: 0;
-        height: 40vh;
-        width: 40vw;
-        border-radius: 15px;
-        z-index: 1;
-        -webkit-box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-        -moz-box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-        box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-      }
-      .square {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        top: 20vh;
-        left: 10vw;
-        height: 60vh;
-        width: 80vw;
-        background-image: url(./images/2.jpg);
-        background-size: cover;
-        background-position: center;
-        border-radius: 15px;
-      }
+      @include home-section2-form3(15px);
     }
 
     //third100vh style
@@ -1153,49 +847,7 @@ $NavColor: #5c2c5e;
 
     //second100vh style
     .section2 {
-      height: 92vh;
-      justify-content: center;
-      background-color: $Color3;
-      .Shading2 {
-        height: 100vh;
-        width: 97.6vw;
-        position: absolute;
-        top: 100vh;
-        left: 0;
-        opacity: 0.4;
-      }
-      .p11 {
-        color: $Color1Lightened;
-        position: absolute;
-        left: 50vw;
-        font-family: Helvetica;
-        z-index: 1;
-        padding: 30px;
-        font-size: 15px;
-      }
-      .PictureOfMe {
-        position: relative;
-        left: 0vw;
-        height: 30vh;
-        width: 40vw;
-        border-radius: 15px;
-        z-index: 1;
-        -webkit-box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-        -moz-box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-        box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-      }
-      .square {
-        position: relative;
-        display: flex;
-        top: 20vh;
-        left: 7vw;
-        height: 60vh;
-        width: 85vw;
-        background-image: url(./images/2.jpg);
-        background-size: cover;
-        background-position: center;
-        border-radius: 15px;
-      }
+      @include home-section2-form3(15px);
     }
 
     //third100vh style
@@ -1306,49 +958,7 @@ $NavColor: #5c2c5e;
 
     //second100vh style
     .section2 {
-      height: 92vh;
-      justify-content: center;
-      background-color: $Color3;
-      .Shading2 {
-        height: 100vh;
-        width: 97.6vw;
-        position: absolute;
-        top: 100vh;
-        left: 0;
-        opacity: 0.4;
-      }
-      .p11 {
-        color: $Color1Lightened;
-        position: absolute;
-        left: 50vw;
-        font-family: Helvetica;
-        z-index: 1;
-        padding: 10px;
-        font-size: 15px;
-      }
-      .PictureOfMe {
-        position: relative;
-        left: 0vw;
-        height: 30vh;
-        width: 40vw;
-        border-radius: 15px;
-        z-index: 1;
-        -webkit-box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-        -moz-box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-        box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-      }
-      .square {
-        position: relative;
-        display: flex;
-        top: 20vh;
-        left: 7vw;
-        height: 40vh;
-        width: 85vw;
-        background-image: url(./images/2.jpg);
-        background-size: cover;
-        background-position: center;
-        border-radius: 15px;
-      }
+      @include home-section2-form3(15px);
     }
 
     //third100vh style
@@ -1459,49 +1069,7 @@ $NavColor: #5c2c5e;
 
     //second100vh style
     .section2 {
-      height: 92vh;
-      justify-content: center;
-      background-color: $Color3;
-      .Shading2 {
-        height: 100vh;
-        width: 97.6vw;
-        position: absolute;
-        top: 100vh;
-        left: 0;
-        opacity: 0.4;
-      }
-      .p11 {
-        color: $Color1Lightened;
-        position: absolute;
-        left: 50vw;
-        font-family: Helvetica;
-        z-index: 1;
-        padding: 10px;
-        font-size: 15px;
-      }
-      .PictureOfMe {
-        position: relative;
-        left: 0vw;
-        height: 30vh;
-        width: 40vw;
-        border-radius: 15px;
-        z-index: 1;
-        -webkit-box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-        -moz-box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-        box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-      }
-      .square {
-        position: relative;
-        display: flex;
-        top: 20vh;
-        left: 7vw;
-        height: 40vh;
-        width: 85vw;
-        background-image: url(./images/2.jpg);
-        background-size: cover;
-        background-position: center;
-        border-radius: 15px;
-      }
+      @include home-section2-form3(15px);
     }
 
     //third100vh style
@@ -1612,49 +1180,7 @@ $NavColor: #5c2c5e;
 
     //second100vh style
     .section2 {
-      height: 92vh;
-      justify-content: center;
-      background-color: $Color3;
-      .Shading2 {
-        height: 100vh;
-        width: 97.6vw;
-        position: absolute;
-        top: 100vh;
-        left: 0;
-        opacity: 0.4;
-      }
-      .p11 {
-        color: $Color1Lightened;
-        position: absolute;
-        left: 50vw;
-        font-family: Helvetica;
-        z-index: 1;
-        padding: 10px;
-        font-size: 15px;
-      }
-      .PictureOfMe {
-        position: relative;
-        left: 0vw;
-        height: 30vh;
-        width: 40vw;
-        border-radius: 15px;
-        z-index: 1;
-        -webkit-box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-        -moz-box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-        box-shadow: 24px 0px 39px -10px $Color1SlightLightened;
-      }
-      .square {
-        position: relative;
-        display: flex;
-        top: 20vh;
-        left: 7vw;
-        height: 60vh;
-        width: 85vw;
-        background-image: url(./images/2.jpg);
-        background-size: cover;
-        background-position: center;
-        border-radius: 15px;
-      }
+      @include home-section2-form3(15px);
     }
 
     //third100vh style
