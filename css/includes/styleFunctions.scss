@@ -1,4 +1,41 @@
-@mixin smoothscroll-container(){
+@mixin pageandcontainermaking(){
+  //destyling
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+//no scroll 4 page
+body::-webkit-scrollbar {
+  width: 0vw;
+}
+//cool scroll for elements
+.container::-webkit-scrollbar {
+  width: 2.4vw;
+}
+.container::-webkit-scrollbar-track {
+  background: $Color3;
+}
+.container::-webkit-scrollbar-thumb {
+  background: $Color2;
+  background: linear-gradient(
+    90deg,
+    $Color2 0%,
+    $Color3 50%,
+    $Color2 100%
+  );
+}
+.container::-webkit-scrollbar-button {
+  background: $Color3;
+  background: linear-gradient(
+    90deg,
+    $Color3 0%,
+    $Color2 50%,
+    $Color3 100%
+  );
+}
+//smooth scroll
+.container {
   position: relative;
   height: 100vh;
   width: 100%;
@@ -24,19 +61,348 @@
     scroll-snap-align: start;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+.container-deactivate-scroll{
+  scroll-behavior: auto;
+  .section1 {
+    scroll-snap-align: none;
+  }
+  .section2 {
+    scroll-snap-align: none;
+  }
+  .section3 {
+    scroll-snap-align: none;
+  }
+}
+}
+@mixin navfordesktop($widthforlist){
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8vh;
+  width: 100%;
+  background-color: $NavColor;
+  align-items: center;
+  .navlist {
+    display: flex;
+    width: $widthforlist;
+    justify-content: space-around;
+  }
+  .navlist a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: bolder;
+  }
+  .navlist li {
+    list-style: none;
+  }
+  .logo {
+    height: 8vh;
+    width: auto;
+  }
+  .burger {
+    display: none;
+  }
+}
+@mixin navformobile(){
+  display: flex;
+      justify-content: space-around;
+      align-items: center;
+      min-height: 8vh;
+      width: 100%;
+      background-color: $NavColor;
+      z-index: 100;
+      .navlist {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: $NavColor;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        display: none;
+        z-index: 200;
+      }
+      .navlist a {
+        text-decoration: none;
+        color: white;
+        letter-spacing: 3px;
+        font-weight: bolder;
+      }
+      .navlist li {
+        list-style: none;
+        opacity: 0;
+      }
+      .logo {
+        height: 8vh;
+        width: auto;
+      }
+      .burger div {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 5px;
+        transition: all 0.3s ease;
+      }
+      .burger {
+        display: block;
+        cursor: pointer;
+      }
+      .nav-active1 {
+        display: inline;
+      }
+      .nav-active2 {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        position: absolute;
+        right: 0px;
+        height: 100vh;
+        top: 8vh;
+        background-color: $NavColor;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(0%);
+        transition: transform 0.5s ease-in;
+        z-index: 200;
+      }
+      @keyframes navLinkFade {
+        from {
+          opacity: 0;
+          transform: translateX(50px);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0px);
+        }
+      }
+      .toggle .line1 {
+        transform: rotate(90deg) translate(-5px, -5px);
+      }
+      .toggle .line2 {
+        transform: rotate(90deg);
+      }
+      .toggle .line3 {
+        transform: rotate(90deg) translate(5px, 5px);
+      }
+}
+@mixin home-section1($container2rightmargin, $clippathakaimagineadinfata, $buttonwidthandheight, $circlewidthandheight){
+  display: flex;
+  height: 92vh;
+  justify-content: center;
+  background-image: url(./images/1.jpg);
+  background-size: cover;
+  .toggle-container{
+    position:absolute;
+    top:5%;
+    right:5%;
+    z-index:10;
+    p{
+      position:relative;
+      right:2vw;
+      bottom:1vh;
+      color: $Color1Lightened;
+      font-family: Helvetica;
+    }
+    .toggle-button{
+      width:$buttonwidthandheight;
+      height:$buttonwidthandheight/2;
+      background-color: gray;
+      border-radius: 30px;
+      padding:0.35vw;
+      transition:all 300ms ease-in-out; 
+      .toggle-circle{
+        width:$circlewidthandheight;
+        height:$circlewidthandheight;
+        background-color: white;
+        border-radius: 50%;
+        transition:all 300ms ease-in-out;
+      }
+    }
+    .toggle-button-active{
+      background-color:$Color1;
+      .toggle-circle{
+        margin-left:2.5vw;
+      }
+    }
+  }
+  .toggle-container2{
+    position:absolute;
+    top:15%;
+    right:$container2rightmargin;
+    z-index:10;
+    p{
+      position:relative;
+      right:2vw;
+      bottom:1vh;
+      color: $Color1Lightened;
+      font-family: Helvetica;
+    }
+    .toggle-button2{
+      width:$buttonwidthandheight;
+      height:$buttonwidthandheight/2;
+      background-color: gray;
+      border-radius: 30px;
+      padding:0.35vw;
+      transition:all 300ms ease-in-out; 
+      .toggle-circle2{
+        width:$circlewidthandheight;
+        height:$circlewidthandheight;
+        background-color: white;
+        border-radius: 50%;
+        transition:all 300ms ease-in-out;
+      }
+    }
+    .toggle-button2-active{
+      background-color:$Color1;
+      .toggle-circle2{
+        margin-left:2.5vw;
+      }
+    }
+  }
+  .h11,
+  .h21,
+  .h22 {
+    color: $Color1Lightened;
+    position: absolute;
+    font-family: Helvetica;
+    z-index: 1;
+    padding: 30px;
+  }
+  .h11 {
+    top: 35%;
+    font-size: 40px;
+  }
+  .h21 {
+    top: 50%;
+  }
+  .h22 {
+    top: 80%;
+  }
+  .Shading1 {
+    height: 100vh;
+    width: 97.6vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+  }
+  .FirstVhImg {
+    clip-path: $clippathakaimagineadinfata;
+  }
+}
+@mixin home-section1-mobile($container2rightmargin, $fontsizeparagraph, $clippathakaimagineadinfata, $buttonwidthandheight, $circlewidthandheight){
+  display: flex;
+  height: 92vh;
+  justify-content: center;
+  background-image: url(./images/1.jpg);
+  background-size: cover;
+  .toggle-container{
+    position:absolute;
+    top:5%;
+    right:5%;
+    z-index:10;
+    p{
+      font-size:$fontsizeparagraph;
+      position:relative;
+      right:2vw;
+      bottom:1vh;
+      color: $Color1Lightened;
+      font-family: Helvetica;
+    }
+    .toggle-button{
+      width:$buttonwidthandheight;
+      height:$buttonwidthandheight/2;
+      background-color: gray;
+      border-radius: 30px;
+      padding:0.35vw;
+      transition:all 300ms ease-in-out; 
+      .toggle-circle{
+        width:$circlewidthandheight;
+        height:$circlewidthandheight;
+        background-color: white;
+        border-radius: 50%;
+        transition:all 300ms ease-in-out;
+      }
+    }
+    .toggle-button-active{
+      background-color:$Color1;
+      .toggle-circle{
+        margin-left:2.5vw;
+      }
+    }
+  }
+  .toggle-container2{
+    position:absolute;
+    top:15%;
+    right:$container2rightmargin;
+    z-index:10;
+    p{
+      font-size:$fontsizeparagraph;
+      position:relative;
+      right:2vw;
+      bottom:1vh;
+      color: $Color1Lightened;
+      font-family: Helvetica;
+    }
+    .toggle-button2{
+      width:$buttonwidthandheight;
+      height:$buttonwidthandheight/2;
+      background-color: gray;
+      border-radius: 30px;
+      padding:0.35vw;
+      transition:all 300ms ease-in-out; 
+      .toggle-circle2{
+        width:$circlewidthandheight;
+        height:$circlewidthandheight;
+        background-color: white;
+        border-radius: 50%;
+        transition:all 300ms ease-in-out;
+      }
+    }
+    .toggle-button2-active{
+      background-color:$Color1;
+      .toggle-circle2{
+        margin-left:2.5vw;
+      }
+    }
+  }
+  .h11,
+  .h21,
+  .h22 {
+    color: $Color1Lightened;
+    position: absolute;
+    font-family: Helvetica;
+    z-index: 1;
+    padding: 30px;
+  }
+  .h11 {
+    top: 35%;
+    font-size: 40px;
+  }
+  .h21 {
+    top: 50%;
+  }
+  .h22 {
+    top: 80%;
+  }
+  .Shading1 {
+    height: 100vh;
+    width: 97.6vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+  }
+  .FirstVhImg {
+    clip-path: $clippathakaimagineadinfata;
+  }
+}
 
 
 
