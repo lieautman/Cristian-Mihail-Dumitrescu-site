@@ -376,6 +376,7 @@ body::-webkit-scrollbar {
     color: #421b58;
     text-align: center;
     padding-top: 20px;
+    font-size: 20px;
   }
   body .nav1-active {
     display: -webkit-box;
@@ -711,12 +712,13 @@ body::-webkit-scrollbar {
     position: relative;
     top: 67vh;
     width: 100%;
-    height: 14vh;
+    height: 18vh;
     background-color: #07112a;
     z-index: 100;
     color: #421b58;
     text-align: center;
     padding-top: 20px;
+    font-size: 20px;
   }
 }
 
@@ -1030,6 +1032,7 @@ body::-webkit-scrollbar {
     color: #421b58;
     text-align: center;
     padding-top: 20px;
+    font-size: 20px;
   }
 }
 
@@ -1343,6 +1346,7 @@ body::-webkit-scrollbar {
     color: #421b58;
     text-align: center;
     padding-top: 20px;
+    font-size: 20px;
   }
 }
 
