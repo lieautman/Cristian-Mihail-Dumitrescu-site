@@ -1,11 +1,11 @@
 $BlackForShadowsAndEffects:rgba(0, 0, 0, 0.75);
 $YellowForBackgroundEffects:#816e1b;
-$Color1:rgb(139, 68, 26);
-$Color2:rgb(32, 92, 116);
-$Color3:rgb(21, 150, 70);
+$Color1:#363F4E;
+$Color2:#8CAA91;
+$Color3:#f1f1bf;
 $Color1Lightened:lighten($Color1,40%);
 $Color1SlightLightened:darken($Color1,20%);
-$NavColor: rgb(20, 57, 71);   
+$NavColor:#213255;     
 
 
 //destyling
@@ -30,7 +30,7 @@ $NavColor: rgb(20, 57, 71);
     background: linear-gradient(
       90deg,
       $Color2 0%,
-      $Color1 50%,
+      $Color3 50%,
       $Color2 100%
     );
   }

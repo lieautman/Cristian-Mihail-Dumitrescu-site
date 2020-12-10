@@ -14,19 +14,19 @@ body::-webkit-scrollbar {
 }
 
 .container::-webkit-scrollbar-track {
-  background: #159646;
+  background: #f1f1bf;
 }
 
 .container::-webkit-scrollbar-thumb {
-  background: #205c74;
-  background: -webkit-gradient(linear, left top, right top, from(#205c74), color-stop(50%, #8b441a), to(#205c74));
-  background: linear-gradient(90deg, #205c74 0%, #8b441a 50%, #205c74 100%);
+  background: #8CAA91;
+  background: -webkit-gradient(linear, left top, right top, from(#8CAA91), color-stop(50%, #f1f1bf), to(#8CAA91));
+  background: linear-gradient(90deg, #8CAA91 0%, #f1f1bf 50%, #8CAA91 100%);
 }
 
 .container::-webkit-scrollbar-button {
-  background: #159646;
-  background: -webkit-gradient(linear, left top, right top, from(#159646), color-stop(50%, #205c74), to(#159646));
-  background: linear-gradient(90deg, #159646 0%, #205c74 50%, #159646 100%);
+  background: #f1f1bf;
+  background: -webkit-gradient(linear, left top, right top, from(#f1f1bf), color-stop(50%, #8CAA91), to(#f1f1bf));
+  background: linear-gradient(90deg, #f1f1bf 0%, #8CAA91 50%, #f1f1bf 100%);
 }
 
 .container {
@@ -88,7 +88,7 @@ body::-webkit-scrollbar {
             align-items: center;
     height: 8vh;
     width: 100%;
-    background-color: #143947;
+    background-color: #213255;
     align-items: center;
   }
   body .nav1 .navlist {
@@ -127,7 +127,7 @@ body::-webkit-scrollbar {
     position: relative;
     left: 37.5vw;
     top: 30vh;
-    background-color: #351a0a;
+    background-color: #0c0e12;
     height: 18vh;
     width: 25vw;
     font-size: 20px;
@@ -140,7 +140,7 @@ body::-webkit-scrollbar {
     text-decoration: none;
   }
   body .section1 .download a P {
-    color: #159646;
+    color: #f1f1bf;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -150,9 +150,9 @@ body::-webkit-scrollbar {
     top: 46vh;
     width: 100%;
     height: 18vh;
-    background-color: #159646;
+    background-color: #f1f1bf;
     z-index: 100;
-    color: #351a0a;
+    color: #0c0e12;
     text-align: center;
     padding-top: 20px;
   }
@@ -170,7 +170,7 @@ body::-webkit-scrollbar {
             align-items: center;
     height: 8vh;
     width: 100%;
-    background-color: #143947;
+    background-color: #213255;
     align-items: center;
   }
   body .nav1 .navlist {
@@ -209,7 +209,7 @@ body::-webkit-scrollbar {
     position: relative;
     left: 37.5vw;
     top: 30vh;
-    background-color: #351a0a;
+    background-color: #0c0e12;
     height: 18vh;
     width: 25vw;
     font-size: 20px;
@@ -222,7 +222,7 @@ body::-webkit-scrollbar {
     text-decoration: none;
   }
   body .section1 .download a P {
-    color: #159646;
+    color: #f1f1bf;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -232,9 +232,9 @@ body::-webkit-scrollbar {
     top: 46vh;
     width: 100%;
     height: 18vh;
-    background-color: #159646;
+    background-color: #f1f1bf;
     z-index: 100;
-    color: #351a0a;
+    color: #0c0e12;
     text-align: center;
     padding-top: 20px;
   }
@@ -252,7 +252,7 @@ body::-webkit-scrollbar {
             align-items: center;
     height: 8vh;
     width: 100%;
-    background-color: #143947;
+    background-color: #213255;
     align-items: center;
   }
   body .nav1 .navlist {
@@ -291,7 +291,7 @@ body::-webkit-scrollbar {
     position: relative;
     left: 37.5vw;
     top: 30vh;
-    background-color: #351a0a;
+    background-color: #0c0e12;
     height: 18vh;
     width: 25vw;
     font-size: 20px;
@@ -304,7 +304,7 @@ body::-webkit-scrollbar {
     text-decoration: none;
   }
   body .section1 .download a P {
-    color: #159646;
+    color: #f1f1bf;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -314,9 +314,9 @@ body::-webkit-scrollbar {
     top: 46vh;
     width: 100%;
     height: 18vh;
-    background-color: #159646;
+    background-color: #f1f1bf;
     z-index: 100;
-    color: #351a0a;
+    color: #0c0e12;
     text-align: center;
     padding-top: 20px;
   }
@@ -334,7 +334,7 @@ body::-webkit-scrollbar {
             align-items: center;
     height: 8vh;
     width: 100%;
-    background-color: #143947;
+    background-color: #213255;
     align-items: center;
   }
   body .nav1 .navlist {
@@ -373,7 +373,7 @@ body::-webkit-scrollbar {
     position: relative;
     left: 37.5vw;
     top: 30vh;
-    background-color: #351a0a;
+    background-color: #0c0e12;
     height: 18vh;
     width: 25vw;
     font-size: 20px;
@@ -386,7 +386,7 @@ body::-webkit-scrollbar {
     text-decoration: none;
   }
   body .section1 .download a P {
-    color: #159646;
+    color: #f1f1bf;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -396,9 +396,9 @@ body::-webkit-scrollbar {
     top: 46vh;
     width: 100%;
     height: 18vh;
-    background-color: #159646;
+    background-color: #f1f1bf;
     z-index: 100;
-    color: #351a0a;
+    color: #0c0e12;
     text-align: center;
     padding-top: 20px;
   }
@@ -416,7 +416,7 @@ body::-webkit-scrollbar {
             align-items: center;
     height: 8vh;
     width: 100%;
-    background-color: #143947;
+    background-color: #213255;
     align-items: center;
   }
   body .nav1 .navlist {
@@ -455,7 +455,7 @@ body::-webkit-scrollbar {
     position: relative;
     left: 37.5vw;
     top: 30vh;
-    background-color: #351a0a;
+    background-color: #0c0e12;
     height: 18vh;
     width: 25vw;
     font-size: 20px;
@@ -468,7 +468,7 @@ body::-webkit-scrollbar {
     text-decoration: none;
   }
   body .section1 .download a P {
-    color: #159646;
+    color: #f1f1bf;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -478,9 +478,9 @@ body::-webkit-scrollbar {
     top: 46vh;
     width: 100%;
     height: 18vh;
-    background-color: #159646;
+    background-color: #f1f1bf;
     z-index: 100;
-    color: #351a0a;
+    color: #0c0e12;
     text-align: center;
     padding-top: 20px;
   }
@@ -498,7 +498,7 @@ body::-webkit-scrollbar {
             align-items: center;
     height: 8vh;
     width: 100%;
-    background-color: #143947;
+    background-color: #213255;
     align-items: center;
   }
   body .nav1 .navlist {
@@ -538,7 +538,7 @@ body::-webkit-scrollbar {
     position: relative;
     left: 37.5vw;
     top: 30vh;
-    background-color: #351a0a;
+    background-color: #0c0e12;
     height: 18vh;
     width: 25vw;
     font-size: 20px;
@@ -551,7 +551,7 @@ body::-webkit-scrollbar {
     text-decoration: none;
   }
   body .section1 .download a P {
-    color: #159646;
+    color: #f1f1bf;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -561,9 +561,9 @@ body::-webkit-scrollbar {
     top: 46vh;
     width: 100%;
     height: 18vh;
-    background-color: #159646;
+    background-color: #f1f1bf;
     z-index: 100;
-    color: #351a0a;
+    color: #0c0e12;
     text-align: center;
     padding-top: 20px;
   }
@@ -717,7 +717,7 @@ body::-webkit-scrollbar {
     position: relative;
     left: 37.5vw;
     top: 30vh;
-    background-color: #351a0a;
+    background-color: #0c0e12;
     height: 18vh;
     width: 25vw;
     font-size: 20px;
@@ -730,7 +730,7 @@ body::-webkit-scrollbar {
     text-decoration: none;
   }
   body .section1 .download a P {
-    color: #159646;
+    color: #f1f1bf;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -740,9 +740,9 @@ body::-webkit-scrollbar {
     top: 46vh;
     width: 100%;
     height: 18vh;
-    background-color: #159646;
+    background-color: #f1f1bf;
     z-index: 100;
-    color: #351a0a;
+    color: #0c0e12;
     text-align: center;
     padding-top: 20px;
   }
@@ -896,7 +896,7 @@ body::-webkit-scrollbar {
     position: relative;
     left: 37.5vw;
     top: 30vh;
-    background-color: #351a0a;
+    background-color: #0c0e12;
     height: 18vh;
     width: 25vw;
     font-size: 20px;
@@ -909,7 +909,7 @@ body::-webkit-scrollbar {
     text-decoration: none;
   }
   body .section1 .download a P {
-    color: #159646;
+    color: #f1f1bf;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -919,9 +919,9 @@ body::-webkit-scrollbar {
     top: 46vh;
     width: 100%;
     height: 18vh;
-    background-color: #159646;
+    background-color: #f1f1bf;
     z-index: 100;
-    color: #351a0a;
+    color: #0c0e12;
     text-align: center;
     padding-top: 20px;
   }
@@ -1075,7 +1075,7 @@ body::-webkit-scrollbar {
     position: relative;
     left: 37.5vw;
     top: 30vh;
-    background-color: #351a0a;
+    background-color: #0c0e12;
     height: 18vh;
     width: 25vw;
     font-size: 20px;
@@ -1089,7 +1089,7 @@ body::-webkit-scrollbar {
   }
   body .section1 .download a P {
     font-size: 15px;
-    color: #159646;
+    color: #f1f1bf;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -1099,9 +1099,9 @@ body::-webkit-scrollbar {
     top: 46vh;
     width: 100%;
     height: 18vh;
-    background-color: #159646;
+    background-color: #f1f1bf;
     z-index: 100;
-    color: #351a0a;
+    color: #0c0e12;
     text-align: center;
     padding-top: 20px;
   }
@@ -1255,7 +1255,7 @@ body::-webkit-scrollbar {
     position: relative;
     left: 37.5vw;
     top: 30vh;
-    background-color: #351a0a;
+    background-color: #0c0e12;
     height: 18vh;
     width: 25vw;
     font-size: 20px;
@@ -1269,7 +1269,7 @@ body::-webkit-scrollbar {
   }
   body .section1 .download a P {
     font-size: 15px;
-    color: #159646;
+    color: #f1f1bf;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -1279,9 +1279,9 @@ body::-webkit-scrollbar {
     top: 46vh;
     width: 100%;
     height: 18vh;
-    background-color: #159646;
+    background-color: #f1f1bf;
     z-index: 100;
-    color: #351a0a;
+    color: #0c0e12;
     text-align: center;
     padding-top: 20px;
   }
@@ -1435,7 +1435,7 @@ body::-webkit-scrollbar {
     position: relative;
     left: 37.5vw;
     top: 30vh;
-    background-color: #351a0a;
+    background-color: #0c0e12;
     height: 10vh;
     width: 25vw;
     font-size: 20px;
@@ -1449,7 +1449,7 @@ body::-webkit-scrollbar {
   }
   body .section1 .download a P {
     font-size: 10px;
-    color: #159646;
+    color: #f1f1bf;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -1459,9 +1459,9 @@ body::-webkit-scrollbar {
     top: 64vh;
     width: 100%;
     height: 18vh;
-    background-color: #159646;
+    background-color: #f1f1bf;
     z-index: 100;
-    color: #351a0a;
+    color: #0c0e12;
     text-align: center;
     padding-top: 20px;
   }
@@ -1615,7 +1615,7 @@ body::-webkit-scrollbar {
     position: relative;
     left: 37.5vw;
     top: 30vh;
-    background-color: #351a0a;
+    background-color: #0c0e12;
     height: 10vh;
     width: 25vw;
     font-size: 20px;
@@ -1629,7 +1629,7 @@ body::-webkit-scrollbar {
   }
   body .section1 .download a P {
     font-size: 10px;
-    color: #159646;
+    color: #f1f1bf;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -1639,9 +1639,9 @@ body::-webkit-scrollbar {
     top: 64vh;
     width: 100%;
     height: 18vh;
-    background-color: #159646;
+    background-color: #f1f1bf;
     z-index: 100;
-    color: #351a0a;
+    color: #0c0e12;
     text-align: center;
     padding-top: 20px;
   }

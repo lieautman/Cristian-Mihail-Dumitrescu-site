@@ -14,19 +14,19 @@ body::-webkit-scrollbar {
 }
 
 .container::-webkit-scrollbar-track {
-  background: #36230a;
+  background: #f1f1bf;
 }
 
 .container::-webkit-scrollbar-thumb {
-  background: #205c74;
-  background: -webkit-gradient(linear, left top, right top, from(#205c74), color-stop(50%, #8b441a), to(#205c74));
-  background: linear-gradient(90deg, #205c74 0%, #8b441a 50%, #205c74 100%);
+  background: #8CAA91;
+  background: -webkit-gradient(linear, left top, right top, from(#8CAA91), color-stop(50%, #f1f1bf), to(#8CAA91));
+  background: linear-gradient(90deg, #8CAA91 0%, #f1f1bf 50%, #8CAA91 100%);
 }
 
 .container::-webkit-scrollbar-button {
-  background: #36230a;
-  background: -webkit-gradient(linear, left top, right top, from(#36230a), color-stop(50%, #205c74), to(#36230a));
-  background: linear-gradient(90deg, #36230a 0%, #205c74 50%, #36230a 100%);
+  background: #f1f1bf;
+  background: -webkit-gradient(linear, left top, right top, from(#f1f1bf), color-stop(50%, #8CAA91), to(#f1f1bf));
+  background: linear-gradient(90deg, #f1f1bf 0%, #8CAA91 50%, #f1f1bf 100%);
 }
 
 .container {
@@ -77,7 +77,7 @@ body::-webkit-scrollbar {
             align-items: center;
     min-height: 8vh;
     width: 100%;
-    background-color: #143947;
+    background-color: #213255;
     align-items: center;
   }
   body .nav1 .navlist {
@@ -115,7 +115,7 @@ body::-webkit-scrollbar {
   }
   body .section1 .h11,
   body .section1 .h21 {
-    color: #e9ac88;
+    color: #98a4b8;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -150,7 +150,7 @@ body::-webkit-scrollbar {
             justify-content: center;
   }
   body .section2 .p11 {
-    color: #e9ac88;
+    color: #98a4b8;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -159,14 +159,14 @@ body::-webkit-scrollbar {
     padding: 20px;
   }
   body .section2 .p12 {
-    color: #e9ac88;
+    color: #98a4b8;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
     top: 115%;
     font-size: 20px;
     padding: 150px;
-    background-color: #36230a;
+    background-color: #f1f1bf;
   }
   body .section2 .Shading2 {
     height: 100vh;
@@ -194,7 +194,7 @@ body::-webkit-scrollbar {
             align-items: center;
     min-height: 8vh;
     width: 100%;
-    background-color: #143947;
+    background-color: #213255;
     align-items: center;
   }
   .navlist {
@@ -238,7 +238,7 @@ body::-webkit-scrollbar {
   }
   .section1 .h11,
   .section1 .h21 {
-    color: #e9ac88;
+    color: #98a4b8;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -273,7 +273,7 @@ body::-webkit-scrollbar {
             justify-content: center;
   }
   .section2 .p11 {
-    color: #e9ac88;
+    color: #98a4b8;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -282,14 +282,14 @@ body::-webkit-scrollbar {
     padding: 20px;
   }
   .section2 .p12 {
-    color: #e9ac88;
+    color: #98a4b8;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
     top: 115%;
     font-size: 20px;
     padding: 150px;
-    background-color: #36230a;
+    background-color: #f1f1bf;
   }
   .section2 .Shading2 {
     height: 100vh;
@@ -320,7 +320,7 @@ body::-webkit-scrollbar {
             align-items: center;
     min-height: 8vh;
     width: 100%;
-    background-color: #143947;
+    background-color: #213255;
   }
   .navlist {
     display: -webkit-box;
@@ -333,7 +333,7 @@ body::-webkit-scrollbar {
     right: 0px;
     height: 92vh;
     top: 10vh;
-    background-color: #143947;
+    background-color: #213255;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -390,7 +390,7 @@ body::-webkit-scrollbar {
     right: 0px;
     height: 100vh;
     top: 8vh;
-    background-color: #143947;
+    background-color: #213255;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -453,7 +453,7 @@ body::-webkit-scrollbar {
   }
   .section1 .h11,
   .section1 .h21 {
-    color: #e9ac88;
+    color: #98a4b8;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -488,7 +488,7 @@ body::-webkit-scrollbar {
             justify-content: center;
   }
   .section2 .p11 {
-    color: #e9ac88;
+    color: #98a4b8;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -497,14 +497,14 @@ body::-webkit-scrollbar {
     padding: 20px;
   }
   .section2 .p12 {
-    color: #e9ac88;
+    color: #98a4b8;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
     top: 115%;
     font-size: 10px;
     padding: 150px;
-    background-color: #36230a;
+    background-color: #f1f1bf;
   }
   .section2 .Shading2 {
     height: 100vh;
