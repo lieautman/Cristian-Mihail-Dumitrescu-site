@@ -378,44 +378,6 @@ body::-webkit-scrollbar {
     padding-top: 20px;
     font-size: 20px;
   }
-  body .nav1-active {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    height: 8vh;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.75);
-    align-items: center;
-  }
-  body .nav1-active .navlist {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 40%;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  body .nav1-active .navlist a {
-    text-decoration: none;
-    color: white;
-    letter-spacing: 3px;
-    font-weight: bolder;
-  }
-  body .nav1-active .navlist li {
-    list-style: none;
-  }
-  body .nav1-active .logo {
-    height: 8vh;
-    width: auto;
-  }
-  body .nav1-active .burger {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 1550px) and (min-width: 1300px) {
@@ -665,7 +627,7 @@ body::-webkit-scrollbar {
     position: relative;
     background-color: #07112a;
     color: #421b58;
-    font-size: 18px;
+    font-size: 20px;
   }
   body .section3 #prevBtn {
     height: 50px;
@@ -696,6 +658,7 @@ body::-webkit-scrollbar {
     top: 74vh;
     right: 23vw;
     border-color: #692020;
+    background-color: #07112a;
     border-radius: 50%;
     border-width: 5px;
     border-style: solid;
@@ -1604,7 +1567,7 @@ body::-webkit-scrollbar {
     position: relative;
     background-color: #07112a;
     color: #421b58;
-    font-size: 13px;
+    font-size: 14.5px;
   }
   body .section3 #prevBtn {
     height: 40px;
