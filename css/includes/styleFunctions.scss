@@ -284,6 +284,9 @@ body::-webkit-scrollbar {
   .h22 {
     top: 80%;
   }
+  .FirstVhImg {
+    clip-path: $clippathakaimagineadinfata;
+  }
   .Shading1 {
     height: 100vh;
     width: 97.6vw;
@@ -291,9 +294,6 @@ body::-webkit-scrollbar {
     top: 0;
     left: 0;
     opacity: 0.3;
-  }
-  .FirstVhImg {
-    clip-path: $clippathakaimagineadinfata;
   }
 }
 @mixin home-section1-mobile($container2rightmargin, $fontsizeparagraph, $clippathakaimagineadinfata, $buttonwidthandheight, $circlewidthandheight){

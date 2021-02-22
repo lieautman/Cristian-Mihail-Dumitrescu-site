@@ -217,6 +217,10 @@ body::-webkit-scrollbar {
   body .section1 .h22 {
     top: 80%;
   }
+  body .section1 .FirstVhImg {
+    -webkit-clip-path: polygon(20% 20%, 31% 0, 100% 0, 59% 72%, 36% 100%, 0 100%, 0 75%, 16% 58%);
+            clip-path: polygon(20% 20%, 31% 0, 100% 0, 59% 72%, 36% 100%, 0 100%, 0 75%, 16% 58%);
+  }
   body .section1 .Shading1 {
     height: 100vh;
     width: 97.6vw;
@@ -224,10 +228,6 @@ body::-webkit-scrollbar {
     top: 0;
     left: 0;
     opacity: 0.3;
-  }
-  body .section1 .FirstVhImg {
-    -webkit-clip-path: polygon(20% 20%, 31% 0, 100% 0, 59% 72%, 36% 100%, 0 100%, 0 75%, 16% 58%);
-            clip-path: polygon(20% 20%, 31% 0, 100% 0, 59% 72%, 36% 100%, 0 100%, 0 75%, 16% 58%);
   }
   body .section2 {
     height: 92vh;
@@ -521,6 +521,10 @@ body::-webkit-scrollbar {
   body .section1 .h22 {
     top: 80%;
   }
+  body .section1 .FirstVhImg {
+    -webkit-clip-path: polygon(20% 20%, 31% 0, 100% 0, 59% 72%, 36% 100%, 0 100%, 0 75%, 16% 58%);
+            clip-path: polygon(20% 20%, 31% 0, 100% 0, 59% 72%, 36% 100%, 0 100%, 0 75%, 16% 58%);
+  }
   body .section1 .Shading1 {
     height: 100vh;
     width: 97.6vw;
@@ -528,10 +532,6 @@ body::-webkit-scrollbar {
     top: 0;
     left: 0;
     opacity: 0.3;
-  }
-  body .section1 .FirstVhImg {
-    -webkit-clip-path: polygon(20% 20%, 31% 0, 100% 0, 59% 72%, 36% 100%, 0 100%, 0 75%, 16% 58%);
-            clip-path: polygon(20% 20%, 31% 0, 100% 0, 59% 72%, 36% 100%, 0 100%, 0 75%, 16% 58%);
   }
   body .section2 {
     height: 92vh;
@@ -825,6 +825,10 @@ body::-webkit-scrollbar {
   body .section1 .h22 {
     top: 80%;
   }
+  body .section1 .FirstVhImg {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 46% 100%, 0 100%, 0% 50%);
+            clip-path: polygon(0 0, 100% 0, 100% 50%, 46% 100%, 0 100%, 0% 50%);
+  }
   body .section1 .Shading1 {
     height: 100vh;
     width: 97.6vw;
@@ -832,10 +836,6 @@ body::-webkit-scrollbar {
     top: 0;
     left: 0;
     opacity: 0.3;
-  }
-  body .section1 .FirstVhImg {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 46% 100%, 0 100%, 0% 50%);
-            clip-path: polygon(0 0, 100% 0, 100% 50%, 46% 100%, 0 100%, 0% 50%);
   }
   body .section2 {
     height: 92vh;
@@ -1138,6 +1138,10 @@ body::-webkit-scrollbar {
   body .section1 .h22 {
     top: 80%;
   }
+  body .section1 .FirstVhImg {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 46% 100%, 0 100%, 0% 50%);
+            clip-path: polygon(0 0, 100% 0, 100% 50%, 46% 100%, 0 100%, 0% 50%);
+  }
   body .section1 .Shading1 {
     height: 100vh;
     width: 97.6vw;
@@ -1145,10 +1149,6 @@ body::-webkit-scrollbar {
     top: 0;
     left: 0;
     opacity: 0.3;
-  }
-  body .section1 .FirstVhImg {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 46% 100%, 0 100%, 0% 50%);
-            clip-path: polygon(0 0, 100% 0, 100% 50%, 46% 100%, 0 100%, 0% 50%);
   }
   body .section2 {
     height: 92vh;
@@ -1451,6 +1451,10 @@ body::-webkit-scrollbar {
   body .section1 .h22 {
     top: 80%;
   }
+  body .section1 .FirstVhImg {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 46% 100%, 0 100%, 0% 50%);
+            clip-path: polygon(0 0, 100% 0, 100% 50%, 46% 100%, 0 100%, 0% 50%);
+  }
   body .section1 .Shading1 {
     height: 100vh;
     width: 97.6vw;
@@ -1458,10 +1462,6 @@ body::-webkit-scrollbar {
     top: 0;
     left: 0;
     opacity: 0.3;
-  }
-  body .section1 .FirstVhImg {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 46% 100%, 0 100%, 0% 50%);
-            clip-path: polygon(0 0, 100% 0, 100% 50%, 46% 100%, 0 100%, 0% 50%);
   }
   body .section2 {
     height: 92vh;
@@ -1567,7 +1567,7 @@ body::-webkit-scrollbar {
     position: relative;
     background-color: #07112a;
     color: #421b58;
-    font-size: 14.5px;
+    font-size: 13px;
   }
   body .section3 #prevBtn {
     height: 40px;
@@ -1860,6 +1860,10 @@ body::-webkit-scrollbar {
   body .section1 .h22 {
     top: 80%;
   }
+  body .section1 .FirstVhImg {
+    -webkit-clip-path: polygon(0 0, 100% 2%, 100% 49%, 55% 100%, 0 100%, 0% 50%);
+            clip-path: polygon(0 0, 100% 2%, 100% 49%, 55% 100%, 0 100%, 0% 50%);
+  }
   body .section1 .Shading1 {
     height: 100vh;
     width: 97.6vw;
@@ -1867,10 +1871,6 @@ body::-webkit-scrollbar {
     top: 0;
     left: 0;
     opacity: 0.3;
-  }
-  body .section1 .FirstVhImg {
-    -webkit-clip-path: polygon(0 0, 100% 2%, 100% 49%, 55% 100%, 0 100%, 0% 50%);
-            clip-path: polygon(0 0, 100% 2%, 100% 49%, 55% 100%, 0 100%, 0% 50%);
   }
   body .section2 {
     height: 92vh;
