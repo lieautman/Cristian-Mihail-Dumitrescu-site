@@ -379,6 +379,7 @@ body::-webkit-scrollbar {
     width: 100%;
     height: 18vh;
     background-color: #07112a;
+    padding: 10px;
     z-index: 100;
     color: #421b58;
     text-align: center;
@@ -682,6 +683,7 @@ body::-webkit-scrollbar {
     width: 100%;
     height: 18vh;
     background-color: #07112a;
+    padding: 10px;
     z-index: 100;
     color: #421b58;
     text-align: center;
@@ -995,6 +997,7 @@ body::-webkit-scrollbar {
     width: 100%;
     height: 19vh;
     background-color: #07112a;
+    padding: 10px;
     z-index: 100;
     color: #421b58;
     text-align: center;
@@ -1308,6 +1311,7 @@ body::-webkit-scrollbar {
     width: 100%;
     height: 19vh;
     background-color: #07112a;
+    padding: 10px;
     z-index: 100;
     color: #421b58;
     text-align: center;
@@ -1621,6 +1625,7 @@ body::-webkit-scrollbar {
     width: 100%;
     height: 19vh;
     background-color: #07112a;
+    padding: 10px;
     z-index: 100;
     color: #421b58;
     text-align: center;
@@ -2030,6 +2035,7 @@ body::-webkit-scrollbar {
     width: 100%;
     height: 19vh;
     background-color: #07112a;
+    padding: 10px;
     z-index: 100;
     color: #421b58;
     text-align: center;
@@ -2439,6 +2445,7 @@ body::-webkit-scrollbar {
     width: 100%;
     height: 19vh;
     background-color: #07112a;
+    padding: 10px;
     z-index: 100;
     color: #421b58;
     text-align: center;
@@ -2849,6 +2856,7 @@ body::-webkit-scrollbar {
     width: 100%;
     height: 19vh;
     background-color: #07112a;
+    padding: 10px;
     z-index: 100;
     color: #421b58;
     text-align: center;
@@ -3259,6 +3267,7 @@ body::-webkit-scrollbar {
     width: 100%;
     height: 19vh;
     background-color: #07112a;
+    padding: 10px;
     z-index: 100;
     color: #421b58;
     text-align: center;
@@ -3669,6 +3678,7 @@ body::-webkit-scrollbar {
     width: 100%;
     height: 22vh;
     background-color: #07112a;
+    padding: 10px;
     z-index: 100;
     color: #421b58;
     text-align: center;
@@ -4079,6 +4089,7 @@ body::-webkit-scrollbar {
     width: 100%;
     height: 22vh;
     background-color: #07112a;
+    padding: 10px;
     z-index: 100;
     color: #421b58;
     text-align: center;
