@@ -165,7 +165,7 @@ body::-webkit-scrollbar {
     z-index: 1;
     top: 115%;
     font-size: 20px;
-    padding: 150px;
+    padding: 75px;
     background-color: #07112a;
   }
   body .section2 .Shading2 {
@@ -287,8 +287,8 @@ body::-webkit-scrollbar {
     font-family: Helvetica;
     z-index: 1;
     top: 115%;
-    font-size: 20px;
-    padding: 150px;
+    font-size: 18px;
+    padding: 40px;
     background-color: #07112a;
   }
   .section2 .Shading2 {

@@ -76,6 +76,14 @@ body::-webkit-scrollbar {
   scroll-snap-align: none;
 }
 
+#nextBtn {
+  background-color: #07112a;
+}
+
+#prevBtn {
+  background-color: #07112a;
+}
+
 @media screen and (min-width: 1550px) {
   body .nav1 {
     display: -webkit-box;
@@ -288,7 +296,7 @@ body::-webkit-scrollbar {
   }
   body .section3 .h31 {
     font-size: 40px;
-    color: #421b58;
+    color: #ae6dd2;
     padding-top: 3.7vh;
   }
   body .section3 .container {
@@ -322,7 +330,7 @@ body::-webkit-scrollbar {
     width: 25vw;
     position: relative;
     background-color: #07112a;
-    color: #421b58;
+    color: #ae6dd2;
     font-size: 20px;
   }
   body .section3 #prevBtn {
@@ -348,7 +356,6 @@ body::-webkit-scrollbar {
   body .section3 #nextBtn {
     height: 50px;
     width: 50px;
-    background-color: transparent;
     cursor: pointer;
     position: absolute;
     top: 74vh;
@@ -592,7 +599,7 @@ body::-webkit-scrollbar {
   }
   body .section3 .h31 {
     font-size: 40px;
-    color: #421b58;
+    color: #ae6dd2;
     padding-top: 3.7vh;
   }
   body .section3 .container {
@@ -626,7 +633,7 @@ body::-webkit-scrollbar {
     width: 25vw;
     position: relative;
     background-color: #07112a;
-    color: #421b58;
+    color: #ae6dd2;
     font-size: 20px;
   }
   body .section3 #prevBtn {
@@ -652,7 +659,6 @@ body::-webkit-scrollbar {
   body .section3 #nextBtn {
     height: 50px;
     width: 50px;
-    background-color: transparent;
     cursor: pointer;
     position: absolute;
     top: 74vh;
@@ -741,6 +747,7 @@ body::-webkit-scrollbar {
     z-index: 10;
   }
   body .section1 .toggle-container p {
+    font-size: 10px;
     position: relative;
     right: 2vw;
     bottom: 1vh;
@@ -777,6 +784,7 @@ body::-webkit-scrollbar {
     z-index: 10;
   }
   body .section1 .toggle-container2 p {
+    font-size: 10px;
     position: relative;
     right: 2vw;
     bottom: 1vh;
@@ -825,10 +833,6 @@ body::-webkit-scrollbar {
   body .section1 .h22 {
     top: 80%;
   }
-  body .section1 .FirstVhImg {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 46% 100%, 0 100%, 0% 50%);
-            clip-path: polygon(0 0, 100% 0, 100% 50%, 46% 100%, 0 100%, 0% 50%);
-  }
   body .section1 .Shading1 {
     height: 100vh;
     width: 97.6vw;
@@ -836,6 +840,9 @@ body::-webkit-scrollbar {
     top: 0;
     left: 0;
     opacity: 0.3;
+  }
+  body .section1 .FirstVhImg {
+    display: none;
   }
   body .section2 {
     height: 92vh;
@@ -902,7 +909,7 @@ body::-webkit-scrollbar {
   }
   body .section3 .h31 {
     font-size: 30px;
-    color: #421b58;
+    color: #ae6dd2;
     padding: 3vh;
   }
   body .section3 .container {
@@ -940,7 +947,7 @@ body::-webkit-scrollbar {
     width: 65vw;
     position: relative;
     background-color: #07112a;
-    color: #421b58;
+    color: #ae6dd2;
     font-size: 15px;
   }
   body .section3 #prevBtn {
@@ -966,7 +973,6 @@ body::-webkit-scrollbar {
   body .section3 #nextBtn {
     height: 40px;
     width: 40px;
-    background-color: transparent;
     cursor: pointer;
     position: absolute;
     top: 72.5vh;
@@ -1054,6 +1060,7 @@ body::-webkit-scrollbar {
     z-index: 10;
   }
   body .section1 .toggle-container p {
+    font-size: 10px;
     position: relative;
     right: 2vw;
     bottom: 1vh;
@@ -1090,6 +1097,7 @@ body::-webkit-scrollbar {
     z-index: 10;
   }
   body .section1 .toggle-container2 p {
+    font-size: 10px;
     position: relative;
     right: 2vw;
     bottom: 1vh;
@@ -1138,10 +1146,6 @@ body::-webkit-scrollbar {
   body .section1 .h22 {
     top: 80%;
   }
-  body .section1 .FirstVhImg {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 46% 100%, 0 100%, 0% 50%);
-            clip-path: polygon(0 0, 100% 0, 100% 50%, 46% 100%, 0 100%, 0% 50%);
-  }
   body .section1 .Shading1 {
     height: 100vh;
     width: 97.6vw;
@@ -1149,6 +1153,9 @@ body::-webkit-scrollbar {
     top: 0;
     left: 0;
     opacity: 0.3;
+  }
+  body .section1 .FirstVhImg {
+    display: none;
   }
   body .section2 {
     height: 92vh;
@@ -1215,7 +1222,7 @@ body::-webkit-scrollbar {
   }
   body .section3 .h31 {
     font-size: 30px;
-    color: #421b58;
+    color: #ae6dd2;
     padding: 3vh;
   }
   body .section3 .container {
@@ -1253,7 +1260,7 @@ body::-webkit-scrollbar {
     width: 65vw;
     position: relative;
     background-color: #07112a;
-    color: #421b58;
+    color: #ae6dd2;
     font-size: 14.5px;
   }
   body .section3 #prevBtn {
@@ -1279,7 +1286,6 @@ body::-webkit-scrollbar {
   body .section3 #nextBtn {
     height: 40px;
     width: 40px;
-    background-color: transparent;
     cursor: pointer;
     position: absolute;
     top: 72.5vh;
@@ -1367,6 +1373,7 @@ body::-webkit-scrollbar {
     z-index: 10;
   }
   body .section1 .toggle-container p {
+    font-size: 10px;
     position: relative;
     right: 2vw;
     bottom: 1vh;
@@ -1403,6 +1410,7 @@ body::-webkit-scrollbar {
     z-index: 10;
   }
   body .section1 .toggle-container2 p {
+    font-size: 10px;
     position: relative;
     right: 2vw;
     bottom: 1vh;
@@ -1451,10 +1459,6 @@ body::-webkit-scrollbar {
   body .section1 .h22 {
     top: 80%;
   }
-  body .section1 .FirstVhImg {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 46% 100%, 0 100%, 0% 50%);
-            clip-path: polygon(0 0, 100% 0, 100% 50%, 46% 100%, 0 100%, 0% 50%);
-  }
   body .section1 .Shading1 {
     height: 100vh;
     width: 97.6vw;
@@ -1462,6 +1466,9 @@ body::-webkit-scrollbar {
     top: 0;
     left: 0;
     opacity: 0.3;
+  }
+  body .section1 .FirstVhImg {
+    display: none;
   }
   body .section2 {
     height: 92vh;
@@ -1528,7 +1535,7 @@ body::-webkit-scrollbar {
   }
   body .section3 .h31 {
     font-size: 30px;
-    color: #421b58;
+    color: #ae6dd2;
     padding: 3vh;
   }
   body .section3 .container {
@@ -1566,7 +1573,7 @@ body::-webkit-scrollbar {
     width: 65vw;
     position: relative;
     background-color: #07112a;
-    color: #421b58;
+    color: #ae6dd2;
     font-size: 13px;
   }
   body .section3 #prevBtn {
@@ -1592,7 +1599,6 @@ body::-webkit-scrollbar {
   body .section3 #nextBtn {
     height: 40px;
     width: 40px;
-    background-color: transparent;
     cursor: pointer;
     position: absolute;
     top: 72.5vh;
@@ -1776,6 +1782,7 @@ body::-webkit-scrollbar {
     z-index: 10;
   }
   body .section1 .toggle-container p {
+    font-size: 10px;
     position: relative;
     right: 2vw;
     bottom: 1vh;
@@ -1812,6 +1819,7 @@ body::-webkit-scrollbar {
     z-index: 10;
   }
   body .section1 .toggle-container2 p {
+    font-size: 10px;
     position: relative;
     right: 2vw;
     bottom: 1vh;
@@ -1860,10 +1868,6 @@ body::-webkit-scrollbar {
   body .section1 .h22 {
     top: 80%;
   }
-  body .section1 .FirstVhImg {
-    -webkit-clip-path: polygon(0 0, 100% 2%, 100% 49%, 55% 100%, 0 100%, 0% 50%);
-            clip-path: polygon(0 0, 100% 2%, 100% 49%, 55% 100%, 0 100%, 0% 50%);
-  }
   body .section1 .Shading1 {
     height: 100vh;
     width: 97.6vw;
@@ -1871,6 +1875,9 @@ body::-webkit-scrollbar {
     top: 0;
     left: 0;
     opacity: 0.3;
+  }
+  body .section1 .FirstVhImg {
+    display: none;
   }
   body .section2 {
     height: 92vh;
@@ -1937,7 +1944,7 @@ body::-webkit-scrollbar {
   }
   body .section3 .h31 {
     font-size: 30px;
-    color: #421b58;
+    color: #ae6dd2;
     padding: 3vh;
   }
   body .section3 .container {
@@ -1975,7 +1982,7 @@ body::-webkit-scrollbar {
     width: 75vw;
     position: relative;
     background-color: #07112a;
-    color: #421b58;
+    color: #ae6dd2;
     font-size: 16px;
   }
   body .section3 #prevBtn {
@@ -2001,7 +2008,6 @@ body::-webkit-scrollbar {
   body .section3 #nextBtn {
     height: 40px;
     width: 40px;
-    background-color: transparent;
     cursor: pointer;
     position: absolute;
     top: 74vh;
@@ -2280,8 +2286,7 @@ body::-webkit-scrollbar {
     opacity: 0.3;
   }
   body .section1 .FirstVhImg {
-    -webkit-clip-path: polygon(0 0, 100% 2%, 100% 49%, 55% 100%, 0 100%, 0% 50%);
-            clip-path: polygon(0 0, 100% 2%, 100% 49%, 55% 100%, 0 100%, 0% 50%);
+    display: none;
   }
   body .section2 {
     height: 92vh;
@@ -2348,7 +2353,7 @@ body::-webkit-scrollbar {
   }
   body .section3 .h31 {
     font-size: 30px;
-    color: #421b58;
+    color: #ae6dd2;
     padding: 3vh;
   }
   body .section3 .container {
@@ -2386,7 +2391,7 @@ body::-webkit-scrollbar {
     width: 75vw;
     position: relative;
     background-color: #07112a;
-    color: #421b58;
+    color: #ae6dd2;
     font-size: 13px;
   }
   body .section3 #prevBtn {
@@ -2412,7 +2417,6 @@ body::-webkit-scrollbar {
   body .section3 #nextBtn {
     height: 40px;
     width: 40px;
-    background-color: transparent;
     cursor: pointer;
     position: absolute;
     top: 74vh;
@@ -2691,8 +2695,7 @@ body::-webkit-scrollbar {
     opacity: 0.3;
   }
   body .section1 .FirstVhImg {
-    -webkit-clip-path: polygon(0 0, 100% 2%, 100% 49%, 55% 100%, 0 100%, 0% 50%);
-            clip-path: polygon(0 0, 100% 2%, 100% 49%, 55% 100%, 0 100%, 0% 50%);
+    display: none;
   }
   body .section2 {
     height: 92vh;
@@ -2759,7 +2762,7 @@ body::-webkit-scrollbar {
   }
   body .section3 .h31 {
     font-size: 30px;
-    color: #421b58;
+    color: #ae6dd2;
     padding: 3vh;
   }
   body .section3 .container {
@@ -2797,7 +2800,7 @@ body::-webkit-scrollbar {
     width: 75vw;
     position: relative;
     background-color: #07112a;
-    color: #421b58;
+    color: #ae6dd2;
     font-size: 13px;
   }
   body .section3 #prevBtn {
@@ -2823,7 +2826,6 @@ body::-webkit-scrollbar {
   body .section3 #nextBtn {
     height: 37px;
     width: 37px;
-    background-color: transparent;
     cursor: pointer;
     position: absolute;
     top: 50vh;
@@ -3103,8 +3105,7 @@ body::-webkit-scrollbar {
     opacity: 0.3;
   }
   body .section1 .FirstVhImg {
-    -webkit-clip-path: polygon(0 0, 100% 2%, 100% 49%, 55% 100%, 0 100%, 0% 50%);
-            clip-path: polygon(0 0, 100% 2%, 100% 49%, 55% 100%, 0 100%, 0% 50%);
+    display: none;
   }
   body .section2 {
     height: 92vh;
@@ -3171,7 +3172,7 @@ body::-webkit-scrollbar {
   }
   body .section3 .h31 {
     font-size: 30px;
-    color: #421b58;
+    color: #ae6dd2;
     padding: 3vh;
   }
   body .section3 .container {
@@ -3209,7 +3210,7 @@ body::-webkit-scrollbar {
     width: 75vw;
     position: relative;
     background-color: #07112a;
-    color: #421b58;
+    color: #ae6dd2;
     font-size: 13px;
   }
   body .section3 #prevBtn {
@@ -3235,7 +3236,6 @@ body::-webkit-scrollbar {
   body .section3 #nextBtn {
     height: 37px;
     width: 37px;
-    background-color: transparent;
     cursor: pointer;
     position: absolute;
     top: 50vh;
@@ -3515,8 +3515,7 @@ body::-webkit-scrollbar {
     opacity: 0.3;
   }
   body .section1 .FirstVhImg {
-    -webkit-clip-path: polygon(0 0, 100% 2%, 100% 49%, 55% 100%, 0 100%, 0% 50%);
-            clip-path: polygon(0 0, 100% 2%, 100% 49%, 55% 100%, 0 100%, 0% 50%);
+    display: none;
   }
   body .section2 {
     height: 92vh;
@@ -3583,7 +3582,7 @@ body::-webkit-scrollbar {
   }
   body .section3 .h31 {
     font-size: 30px;
-    color: #421b58;
+    color: #ae6dd2;
     padding: 3vh;
   }
   body .section3 .container {
@@ -3621,7 +3620,7 @@ body::-webkit-scrollbar {
     width: 75vw;
     position: relative;
     background-color: #07112a;
-    color: #421b58;
+    color: #ae6dd2;
     font-size: 13px;
   }
   body .section3 #prevBtn {
@@ -3647,7 +3646,6 @@ body::-webkit-scrollbar {
   body .section3 #nextBtn {
     height: 37px;
     width: 37px;
-    background-color: transparent;
     cursor: pointer;
     position: absolute;
     top: 50vh;
@@ -3927,8 +3925,7 @@ body::-webkit-scrollbar {
     opacity: 0.3;
   }
   body .section1 .FirstVhImg {
-    -webkit-clip-path: polygon(0 0, 100% 2%, 100% 49%, 55% 100%, 0 100%, 0% 50%);
-            clip-path: polygon(0 0, 100% 2%, 100% 49%, 55% 100%, 0 100%, 0% 50%);
+    display: none;
   }
   body .section2 {
     height: 92vh;
@@ -3995,7 +3992,7 @@ body::-webkit-scrollbar {
   }
   body .section3 .h31 {
     font-size: 30px;
-    color: #421b58;
+    color: #ae6dd2;
     padding: 3vh;
   }
   body .section3 .container {
@@ -4033,7 +4030,7 @@ body::-webkit-scrollbar {
     width: 75vw;
     position: relative;
     background-color: #07112a;
-    color: #421b58;
+    color: #ae6dd2;
     font-size: 10px;
   }
   body .section3 #prevBtn {
@@ -4059,7 +4056,6 @@ body::-webkit-scrollbar {
   body .section3 #nextBtn {
     height: 37px;
     width: 37px;
-    background-color: transparent;
     cursor: pointer;
     position: absolute;
     top: 50vh;

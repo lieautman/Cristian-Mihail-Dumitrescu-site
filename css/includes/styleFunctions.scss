@@ -1,78 +1,84 @@
 @mixin pageandcontainermaking(){
   //destyling
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-//no scroll 4 page
-body::-webkit-scrollbar {
-  width: 0vw;
-}
-//cool scroll for elements
-.container::-webkit-scrollbar {
-  width: 2.4vw;
-}
-.container::-webkit-scrollbar-track {
-  background: $Color3;
-}
-.container::-webkit-scrollbar-thumb {
-  background: $Color2;
-  background: linear-gradient(
-    90deg,
-    $Color2 0%,
-    $Color3 50%,
-    $Color2 100%
-  );
-}
-.container::-webkit-scrollbar-button {
-  background: $Color3;
-  background: linear-gradient(
-    90deg,
-    $Color3 0%,
-    $Color2 50%,
-    $Color3 100%
-  );
-}
-//smooth scroll
-.container {
-  position: relative;
-  height: 100vh;
-  width: 100%;
-  scroll-behavior: smooth;
-  overflow: auto;
-  scroll-snap-type: y mandatory;
-  .section1 {
-    width: 100%;
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  //no scroll 4 page
+  body::-webkit-scrollbar {
+    width: 0vw;
+  }
+  //cool scroll for elements
+  .container::-webkit-scrollbar {
+    width: 2.4vw;
+  }
+  .container::-webkit-scrollbar-track {
+    background: $Color3;
+  }
+  .container::-webkit-scrollbar-thumb {
+    background: $Color2;
+    background: linear-gradient(
+      90deg,
+      $Color2 0%,
+      $Color3 50%,
+      $Color2 100%
+    );
+  }
+  .container::-webkit-scrollbar-button {
+    background: $Color3;
+    background: linear-gradient(
+      90deg,
+      $Color3 0%,
+      $Color2 50%,
+      $Color3 100%
+    );
+  }
+  //smooth scroll
+  .container {
+    position: relative;
     height: 100vh;
-    background-size: cover;
-    scroll-snap-align: start;
-  }
-  .section2 {
     width: 100%;
-    height: 100vh;
-    background-size: cover;
-    scroll-snap-align: start;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    .section1 {
+      width: 100%;
+      height: 100vh;
+      background-size: cover;
+      scroll-snap-align: start;
+    }
+    .section2 {
+      width: 100%;
+      height: 100vh;
+      background-size: cover;
+      scroll-snap-align: start;
+    }
+    .section3 {
+      width: 100%;
+      height: 100vh;
+      background-size: cover;
+      scroll-snap-align: start;
+    }
   }
-  .section3 {
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    scroll-snap-align: start;
+  .container-deactivate-scroll{
+    scroll-behavior: auto;
+    .section1 {
+      scroll-snap-align: none;
+    }
+    .section2 {
+      scroll-snap-align: none;
+    }
+    .section3 {
+      scroll-snap-align: none;
+    }
+  } 
+  #nextBtn{
+    background-color: $Color3;
   }
-}
-.container-deactivate-scroll{
-  scroll-behavior: auto;
-  .section1 {
-    scroll-snap-align: none;
+  #prevBtn{
+    background-color: $Color3;
   }
-  .section2 {
-    scroll-snap-align: none;
-  }
-  .section3 {
-    scroll-snap-align: none;
-  }
-}
 }
 @mixin navfordesktop($widthforlist){
   display: flex;
@@ -296,7 +302,7 @@ body::-webkit-scrollbar {
     opacity: 0.3;
   }
 }
-@mixin home-section1-mobile($container2rightmargin, $fontsizeparagraph, $clippathakaimagineadinfata, $buttonwidthandheight, $circlewidthandheight){
+@mixin home-section1-mobile($container2rightmargin, $fontsizeparagraph, $buttonwidthandheight, $circlewidthandheight){
   display: flex;
   height: 92vh;
   justify-content: center;
@@ -400,7 +406,7 @@ body::-webkit-scrollbar {
     opacity: 0.3;
   }
   .FirstVhImg {
-    clip-path: $clippathakaimagineadinfata;
+    display: none;
   }
 }
 @mixin home-section2-form1(){
@@ -554,7 +560,7 @@ body::-webkit-scrollbar {
   }
   .h31 {
     font-size: 40px;
-    color: $Color1;
+    color: $Color1Lightened;
     padding-top: 3.7vh;
   }
   .container {
@@ -584,7 +590,7 @@ body::-webkit-scrollbar {
         width: 25vw;
         position: relative;
         background-color: $Color3;
-        color: $Color1;
+        color: $Color1Lightened;
         font-size: 20px;
       }
     }
@@ -611,7 +617,6 @@ body::-webkit-scrollbar {
   #nextBtn {
     height: 50px;
     width: 50px;
-    background-color: transparent;
     cursor: pointer;
     position: absolute;
     top: 74vh;
@@ -640,7 +645,7 @@ body::-webkit-scrollbar {
       }
       .h31 {
         font-size: 30px;
-        color: $Color1;
+        color: $Color1Lightened;
         padding: 3vh;
       }
       .container {
@@ -671,7 +676,7 @@ body::-webkit-scrollbar {
             width: 65vw;
             position: relative;
             background-color: $Color3;
-            color: $Color1;
+            color: $Color1Lightened;
             font-size: 15px;
           }
         }
@@ -698,7 +703,6 @@ body::-webkit-scrollbar {
       #nextBtn {
         height: 40px;
         width: 40px;
-        background-color: transparent;
         cursor: pointer;
         position: absolute;
         top: 72.5vh;
@@ -726,7 +730,7 @@ body::-webkit-scrollbar {
   }
   .h31 {
     font-size: 30px;
-    color: $Color1;
+    color: $Color1Lightened;
     padding: 3vh;
   }
   .container {
@@ -757,7 +761,7 @@ body::-webkit-scrollbar {
         width: 65vw;
         position: relative;
         background-color: $Color3;
-        color: $Color1;
+        color: $Color1Lightened;
         font-size: 14.5px;
       }
     }
@@ -784,7 +788,6 @@ body::-webkit-scrollbar {
   #nextBtn {
     height: 40px;
     width: 40px;
-    background-color: transparent;
     cursor: pointer;
     position: absolute;
     top: 72.5vh;
@@ -812,7 +815,7 @@ body::-webkit-scrollbar {
       }
       .h31 {
         font-size: 30px;
-        color: $Color1;
+        color: $Color1Lightened;
         padding: 3vh;
       }
       .container {
@@ -843,7 +846,7 @@ body::-webkit-scrollbar {
             width: 65vw;
             position: relative;
             background-color: $Color3;
-            color: $Color1;
+            color: $Color1Lightened;
             font-size: 13px;
           }
         }
@@ -870,7 +873,6 @@ body::-webkit-scrollbar {
       #nextBtn {
         height: 40px;
         width: 40px;
-        background-color: transparent;
         cursor: pointer;
         position: absolute;
         top: 72.5vh;

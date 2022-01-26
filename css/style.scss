@@ -94,7 +94,7 @@ $NavColor: #5c2c5e;
     
     //first100vh style
     .section1 {
-      @include home-section1(7.5%, polygon(0 0, 100% 0, 100% 50%, 46% 100%, 0 100%, 0% 50%),5vw,1.8vw);
+      @include home-section1-mobile(7.5%, 10px,5vw,1.8vw);
     }
 
     //second100vh style
@@ -121,7 +121,7 @@ $NavColor: #5c2c5e;
 
     //first100vh style
     .section1 {
-      @include home-section1(7.5%, polygon(0 0, 100% 0, 100% 50%, 46% 100%, 0 100%, 0% 50%),10vw,3.6vw);
+      @include home-section1-mobile(7.5%,10px,10vw,3.6vw);
     }
 
     //second100vh style
@@ -148,7 +148,7 @@ $NavColor: #5c2c5e;
 
     //first100vh style
     .section1 {
-      @include home-section1(8.5%, polygon(0 0, 100% 0, 100% 50%, 46% 100%, 0 100%, 0% 50%),10vw,3.6vw);
+      @include home-section1-mobile(8.5%, 10px,10vw,3.6vw);
     }
 
     //second100vh style
@@ -176,7 +176,7 @@ $NavColor: #5c2c5e;
 
     //first100vh style
     .section1 {
-      @include home-section1(8.5%, polygon(0 0, 100% 2%, 100% 49%, 55% 100%, 0 100%, 0% 50%),10vw,3.6vw);
+      @include home-section1-mobile(8.5%, 10px,10vw,3.6vw);
     }
 
     //second100vh style
@@ -196,7 +196,7 @@ $NavColor: #5c2c5e;
       }
       .h31 {
         font-size: 30px;
-        color: $Color1;
+        color: $Color1Lightened;
         padding: 3vh;
       }
       .container {
@@ -227,7 +227,7 @@ $NavColor: #5c2c5e;
             width: 75vw;
             position: relative;
             background-color: $Color3;
-            color: $Color1;
+            color: $Color1Lightened;
             font-size: 16px;
           }
         }
@@ -254,7 +254,6 @@ $NavColor: #5c2c5e;
       #nextBtn {
         height: 40px;
         width: 40px;
-        background-color: transparent;
         cursor: pointer;
         position: absolute;
         top: 74vh;
@@ -286,7 +285,7 @@ $NavColor: #5c2c5e;
 
     //first100vh style
     .section1 {
-      @include home-section1-mobile(8%, 10px, polygon(0 0, 100% 2%, 100% 49%, 55% 100%, 0 100%, 0% 50%),10vw,3.6vw);
+      @include home-section1-mobile(8%, 10px,10vw,3.6vw);
     }
 
     //second100vh style
@@ -306,7 +305,7 @@ $NavColor: #5c2c5e;
       }
       .h31 {
         font-size: 30px;
-        color: $Color1;
+        color: $Color1Lightened;
         padding: 3vh;
       }
       .container {
@@ -337,7 +336,7 @@ $NavColor: #5c2c5e;
             width: 75vw;
             position: relative;
             background-color: $Color3;
-            color: $Color1;
+            color: $Color1Lightened;
             font-size: 13px;
           }
         }
@@ -364,7 +363,6 @@ $NavColor: #5c2c5e;
       #nextBtn {
         height: 40px;
         width: 40px;
-        background-color: transparent;
         cursor: pointer;
         position: absolute;
         top: 74vh;
@@ -396,7 +394,7 @@ $NavColor: #5c2c5e;
 
     //first100vh style
     .section1 {
-      @include home-section1-mobile(8%, 10px, polygon(0 0, 100% 2%, 100% 49%, 55% 100%, 0 100%, 0% 50%),10vw,3.6vw);
+      @include home-section1-mobile(8%, 10px, 10vw,3.6vw);
     }
 
     //second100vh style
@@ -416,7 +414,7 @@ $NavColor: #5c2c5e;
       }
       .h31 {
         font-size: 30px;
-        color: $Color1;
+        color: $Color1Lightened;
         padding: 3vh;
       }
       .container {
@@ -447,7 +445,7 @@ $NavColor: #5c2c5e;
             width: 75vw;
             position: relative;
             background-color: $Color3;
-            color: $Color1;
+            color: $Color1Lightened;
             font-size: 13px;
           }
         }
@@ -474,7 +472,6 @@ $NavColor: #5c2c5e;
       #nextBtn {
         height: 37px;
         width: 37px;
-        background-color: transparent;
         cursor: pointer;
         position: absolute;
         top: 50vh;
@@ -507,7 +504,7 @@ $NavColor: #5c2c5e;
 
     //first100vh style
     .section1 {
-      @include home-section1-mobile(8%, 10px, polygon(0 0, 100% 2%, 100% 49%, 55% 100%, 0 100%, 0% 50%),10vw,3.6vw);
+      @include home-section1-mobile(8%, 10px, 10vw,3.6vw);
     }
 
     //second100vh style
@@ -527,7 +524,7 @@ $NavColor: #5c2c5e;
       }
       .h31 {
         font-size: 30px;
-        color: $Color1;
+        color: $Color1Lightened;
         padding: 3vh;
       }
       .container {
@@ -558,7 +555,7 @@ $NavColor: #5c2c5e;
             width: 75vw;
             position: relative;
             background-color: $Color3;
-            color: $Color1;
+            color: $Color1Lightened;
             font-size: 13px;
           }
         }
@@ -585,7 +582,6 @@ $NavColor: #5c2c5e;
       #nextBtn {
         height: 37px;
         width: 37px;
-        background-color: transparent;
         cursor: pointer;
         position: absolute;
         top: 50vh;
@@ -618,7 +614,7 @@ $NavColor: #5c2c5e;
 
     //first100vh style
     .section1 {
-      @include home-section1-mobile(8%, 10px, polygon(0 0, 100% 2%, 100% 49%, 55% 100%, 0 100%, 0% 50%),10vw,3.6vw);
+      @include home-section1-mobile(8%, 10px, 10vw,3.6vw);
     }
 
     //second100vh style
@@ -638,7 +634,7 @@ $NavColor: #5c2c5e;
       }
       .h31 {
         font-size: 30px;
-        color: $Color1;
+        color: $Color1Lightened;
         padding: 3vh;
       }
       .container {
@@ -669,7 +665,7 @@ $NavColor: #5c2c5e;
             width: 75vw;
             position: relative;
             background-color: $Color3;
-            color: $Color1;
+            color: $Color1Lightened;
             font-size: 13px;
           }
         }
@@ -696,7 +692,6 @@ $NavColor: #5c2c5e;
       #nextBtn {
         height: 37px;
         width: 37px;
-        background-color: transparent;
         cursor: pointer;
         position: absolute;
         top: 50vh;
@@ -729,7 +724,7 @@ $NavColor: #5c2c5e;
 
     //first100vh style
     .section1 {
-      @include home-section1-mobile(8%, 10px, polygon(0 0, 100% 2%, 100% 49%, 55% 100%, 0 100%, 0% 50%),10vw,3.6vw);
+      @include home-section1-mobile(8%, 10px, 10vw,3.6vw);
     }
 
     //second100vh style
@@ -749,7 +744,7 @@ $NavColor: #5c2c5e;
       }
       .h31 {
         font-size: 30px;
-        color: $Color1;
+        color: $Color1Lightened;
         padding: 3vh;
       }
       .container {
@@ -780,7 +775,7 @@ $NavColor: #5c2c5e;
             width: 75vw;
             position: relative;
             background-color: $Color3;
-            color: $Color1;
+            color: $Color1Lightened;
             font-size: 10px;
           }
         }
@@ -807,7 +802,6 @@ $NavColor: #5c2c5e;
       #nextBtn {
         height: 37px;
         width: 37px;
-        background-color: transparent;
         cursor: pointer;
         position: absolute;
         top: 50vh;
