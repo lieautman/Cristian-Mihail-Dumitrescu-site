@@ -14,19 +14,19 @@ body::-webkit-scrollbar {
 }
 
 .container::-webkit-scrollbar-track {
-  background: #f1f1bf;
+  background: #b39069;
 }
 
 .container::-webkit-scrollbar-thumb {
-  background: #8CAA91;
-  background: -webkit-gradient(linear, left top, right top, from(#8CAA91), color-stop(50%, #f1f1bf), to(#8CAA91));
-  background: linear-gradient(90deg, #8CAA91 0%, #f1f1bf 50%, #8CAA91 100%);
+  background: #102c15;
+  background: -webkit-gradient(linear, left top, right top, from(#102c15), color-stop(50%, #b39069), to(#102c15));
+  background: linear-gradient(90deg, #102c15 0%, #b39069 50%, #102c15 100%);
 }
 
 .container::-webkit-scrollbar-button {
-  background: #f1f1bf;
-  background: -webkit-gradient(linear, left top, right top, from(#f1f1bf), color-stop(50%, #8CAA91), to(#f1f1bf));
-  background: linear-gradient(90deg, #f1f1bf 0%, #8CAA91 50%, #f1f1bf 100%);
+  background: #b39069;
+  background: -webkit-gradient(linear, left top, right top, from(#b39069), color-stop(50%, #102c15), to(#b39069));
+  background: linear-gradient(90deg, #b39069 0%, #102c15 50%, #b39069 100%);
 }
 
 .container {
@@ -150,7 +150,7 @@ body::-webkit-scrollbar {
             justify-content: center;
   }
   body .section2 .p11 {
-    color: #98a4b8;
+    color: #102c15;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -159,14 +159,14 @@ body::-webkit-scrollbar {
     padding: 20px;
   }
   body .section2 .p12 {
-    color: #98a4b8;
+    color: #102c15;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
     top: 115%;
     font-size: 20px;
     padding: 150px;
-    background-color: #f1f1bf;
+    background-color: #b39069;
   }
   body .section2 .Shading2 {
     height: 100vh;
@@ -273,7 +273,7 @@ body::-webkit-scrollbar {
             justify-content: center;
   }
   .section2 .p11 {
-    color: #98a4b8;
+    color: #102c15;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -282,14 +282,14 @@ body::-webkit-scrollbar {
     padding: 20px;
   }
   .section2 .p12 {
-    color: #98a4b8;
+    color: #102c15;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
     top: 115%;
     font-size: 20px;
     padding: 150px;
-    background-color: #f1f1bf;
+    background-color: #b39069;
   }
   .section2 .Shading2 {
     height: 100vh;
@@ -488,7 +488,7 @@ body::-webkit-scrollbar {
             justify-content: center;
   }
   .section2 .p11 {
-    color: #98a4b8;
+    color: #102c15;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
@@ -497,14 +497,14 @@ body::-webkit-scrollbar {
     padding: 20px;
   }
   .section2 .p12 {
-    color: #98a4b8;
+    color: #102c15;
     position: absolute;
     font-family: Helvetica;
     z-index: 1;
     top: 115%;
     font-size: 10px;
     padding: 150px;
-    background-color: #f1f1bf;
+    background-color: #b39069;
   }
   .section2 .Shading2 {
     height: 100vh;

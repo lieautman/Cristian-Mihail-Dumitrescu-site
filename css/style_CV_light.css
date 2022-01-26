@@ -14,19 +14,19 @@ body::-webkit-scrollbar {
 }
 
 .container::-webkit-scrollbar-track {
-  background: #f1f1bf;
+  background: #b39069;
 }
 
 .container::-webkit-scrollbar-thumb {
-  background: #8CAA91;
-  background: -webkit-gradient(linear, left top, right top, from(#8CAA91), color-stop(50%, #f1f1bf), to(#8CAA91));
-  background: linear-gradient(90deg, #8CAA91 0%, #f1f1bf 50%, #8CAA91 100%);
+  background: #102c15;
+  background: -webkit-gradient(linear, left top, right top, from(#102c15), color-stop(50%, #b39069), to(#102c15));
+  background: linear-gradient(90deg, #102c15 0%, #b39069 50%, #102c15 100%);
 }
 
 .container::-webkit-scrollbar-button {
-  background: #f1f1bf;
-  background: -webkit-gradient(linear, left top, right top, from(#f1f1bf), color-stop(50%, #8CAA91), to(#f1f1bf));
-  background: linear-gradient(90deg, #f1f1bf 0%, #8CAA91 50%, #f1f1bf 100%);
+  background: #b39069;
+  background: -webkit-gradient(linear, left top, right top, from(#b39069), color-stop(50%, #102c15), to(#b39069));
+  background: linear-gradient(90deg, #b39069 0%, #102c15 50%, #b39069 100%);
 }
 
 .container {
@@ -140,7 +140,7 @@ body::-webkit-scrollbar {
     text-decoration: none;
   }
   body .section1 .download a P {
-    color: #f1f1bf;
+    color: #b39069;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -150,7 +150,7 @@ body::-webkit-scrollbar {
     top: 46vh;
     width: 100%;
     height: 18vh;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     z-index: 100;
     color: #0c0e12;
     text-align: center;
@@ -222,7 +222,7 @@ body::-webkit-scrollbar {
     text-decoration: none;
   }
   body .section1 .download a P {
-    color: #f1f1bf;
+    color: #b39069;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -232,7 +232,7 @@ body::-webkit-scrollbar {
     top: 46vh;
     width: 100%;
     height: 18vh;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     z-index: 100;
     color: #0c0e12;
     text-align: center;
@@ -304,7 +304,7 @@ body::-webkit-scrollbar {
     text-decoration: none;
   }
   body .section1 .download a P {
-    color: #f1f1bf;
+    color: #b39069;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -314,7 +314,7 @@ body::-webkit-scrollbar {
     top: 46vh;
     width: 100%;
     height: 18vh;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     z-index: 100;
     color: #0c0e12;
     text-align: center;
@@ -386,7 +386,7 @@ body::-webkit-scrollbar {
     text-decoration: none;
   }
   body .section1 .download a P {
-    color: #f1f1bf;
+    color: #b39069;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -396,7 +396,7 @@ body::-webkit-scrollbar {
     top: 46vh;
     width: 100%;
     height: 18vh;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     z-index: 100;
     color: #0c0e12;
     text-align: center;
@@ -468,7 +468,7 @@ body::-webkit-scrollbar {
     text-decoration: none;
   }
   body .section1 .download a P {
-    color: #f1f1bf;
+    color: #b39069;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -478,7 +478,7 @@ body::-webkit-scrollbar {
     top: 46vh;
     width: 100%;
     height: 18vh;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     z-index: 100;
     color: #0c0e12;
     text-align: center;
@@ -551,7 +551,7 @@ body::-webkit-scrollbar {
     text-decoration: none;
   }
   body .section1 .download a P {
-    color: #f1f1bf;
+    color: #b39069;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -561,7 +561,7 @@ body::-webkit-scrollbar {
     top: 46vh;
     width: 100%;
     height: 18vh;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     z-index: 100;
     color: #0c0e12;
     text-align: center;
@@ -730,7 +730,7 @@ body::-webkit-scrollbar {
     text-decoration: none;
   }
   body .section1 .download a P {
-    color: #f1f1bf;
+    color: #b39069;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -740,7 +740,7 @@ body::-webkit-scrollbar {
     top: 46vh;
     width: 100%;
     height: 18vh;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     z-index: 100;
     color: #0c0e12;
     text-align: center;
@@ -909,7 +909,7 @@ body::-webkit-scrollbar {
     text-decoration: none;
   }
   body .section1 .download a P {
-    color: #f1f1bf;
+    color: #b39069;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -919,7 +919,7 @@ body::-webkit-scrollbar {
     top: 46vh;
     width: 100%;
     height: 18vh;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     z-index: 100;
     color: #0c0e12;
     text-align: center;
@@ -1089,7 +1089,7 @@ body::-webkit-scrollbar {
   }
   body .section1 .download a P {
     font-size: 15px;
-    color: #f1f1bf;
+    color: #b39069;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -1099,7 +1099,7 @@ body::-webkit-scrollbar {
     top: 46vh;
     width: 100%;
     height: 18vh;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     z-index: 100;
     color: #0c0e12;
     text-align: center;
@@ -1269,7 +1269,7 @@ body::-webkit-scrollbar {
   }
   body .section1 .download a P {
     font-size: 15px;
-    color: #f1f1bf;
+    color: #b39069;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -1279,7 +1279,7 @@ body::-webkit-scrollbar {
     top: 46vh;
     width: 100%;
     height: 18vh;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     z-index: 100;
     color: #0c0e12;
     text-align: center;
@@ -1449,7 +1449,7 @@ body::-webkit-scrollbar {
   }
   body .section1 .download a P {
     font-size: 10px;
-    color: #f1f1bf;
+    color: #b39069;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -1459,7 +1459,7 @@ body::-webkit-scrollbar {
     top: 64vh;
     width: 100%;
     height: 18vh;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     z-index: 100;
     color: #0c0e12;
     text-align: center;
@@ -1629,7 +1629,7 @@ body::-webkit-scrollbar {
   }
   body .section1 .download a P {
     font-size: 10px;
-    color: #f1f1bf;
+    color: #b39069;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -1639,7 +1639,7 @@ body::-webkit-scrollbar {
     top: 64vh;
     width: 100%;
     height: 18vh;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     z-index: 100;
     color: #0c0e12;
     text-align: center;

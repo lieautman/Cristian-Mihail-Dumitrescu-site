@@ -1,8 +1,8 @@
 $BlackForShadowsAndEffects:rgba(0, 0, 0, 0.75);
 $YellowForBackgroundEffects:#816e1b;
 $Color1:#363F4E;
-$Color2:#8CAA91;
-$Color3:#f1f1bf;
+$Color2:#102c15;
+$Color3:#b39069;
 $Color1Lightened:lighten($Color1,40%);
 $Color1SlightLightened:darken($Color1,20%);
 $NavColor:#213255;   
@@ -149,7 +149,7 @@ body::-webkit-scrollbar {
       height: 92vh;
       justify-content: center;
       .p11 {
-        color: $Color1Lightened;
+        color: $Color2;
         position: absolute;
         font-family: Helvetica;
         z-index: 1;
@@ -158,7 +158,7 @@ body::-webkit-scrollbar {
         padding: 20px;
       }
       .p12 {
-        color: $Color1Lightened;
+        color: $Color2;
         position: absolute;
         font-family: Helvetica;
         z-index: 1;
@@ -259,7 +259,7 @@ body::-webkit-scrollbar {
     height: 92vh;
     justify-content: center;
     .p11 {
-      color: $Color1Lightened;
+      color: $Color2;
       position: absolute;
       font-family: Helvetica;
       z-index: 1;
@@ -268,7 +268,7 @@ body::-webkit-scrollbar {
       padding: 20px;
     }
     .p12 {
-      color: $Color1Lightened;
+      color: $Color2;
       position: absolute;
       font-family: Helvetica;
       z-index: 1;
@@ -422,7 +422,7 @@ body::-webkit-scrollbar {
     height: 92vh;
     justify-content: center;
     .p11 {
-      color: $Color1Lightened;
+      color: $Color2;
       position: absolute;
       font-family: Helvetica;
       z-index: 1;
@@ -431,7 +431,7 @@ body::-webkit-scrollbar {
       padding: 20px;
     }
     .p12 {
-      color: $Color1Lightened;
+      color: $Color2;
       position: absolute;
       font-family: Helvetica;
       z-index: 1;

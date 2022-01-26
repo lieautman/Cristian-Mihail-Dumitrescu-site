@@ -14,19 +14,19 @@ body::-webkit-scrollbar {
 }
 
 .container::-webkit-scrollbar-track {
-  background: #f1f1bf;
+  background: #b39069;
 }
 
 .container::-webkit-scrollbar-thumb {
-  background: #8CAA91;
-  background: -webkit-gradient(linear, left top, right top, from(#8CAA91), color-stop(50%, #f1f1bf), to(#8CAA91));
-  background: linear-gradient(90deg, #8CAA91 0%, #f1f1bf 50%, #8CAA91 100%);
+  background: #102c15;
+  background: -webkit-gradient(linear, left top, right top, from(#102c15), color-stop(50%, #b39069), to(#102c15));
+  background: linear-gradient(90deg, #102c15 0%, #b39069 50%, #102c15 100%);
 }
 
 .container::-webkit-scrollbar-button {
-  background: #f1f1bf;
-  background: -webkit-gradient(linear, left top, right top, from(#f1f1bf), color-stop(50%, #8CAA91), to(#f1f1bf));
-  background: linear-gradient(90deg, #f1f1bf 0%, #8CAA91 50%, #f1f1bf 100%);
+  background: #b39069;
+  background: -webkit-gradient(linear, left top, right top, from(#b39069), color-stop(50%, #102c15), to(#b39069));
+  background: linear-gradient(90deg, #b39069 0%, #102c15 50%, #b39069 100%);
 }
 
 .container {
@@ -234,7 +234,7 @@ body::-webkit-scrollbar {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #f1f1bf;
+    background-color: #b39069;
   }
   body .section2 .p11 {
     color: #98a4b8;
@@ -281,7 +281,7 @@ body::-webkit-scrollbar {
     position: relative;
   }
   body .section3 .divh31 {
-    background-color: #f1f1bf;
+    background-color: #b39069;
     overflow: hidden;
     height: 15vh;
     text-align: center;
@@ -321,7 +321,7 @@ body::-webkit-scrollbar {
     height: 64vh;
     width: 25vw;
     position: relative;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     color: #363F4E;
     font-size: 20px;
   }
@@ -332,8 +332,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 74vh;
     left: 25vw;
-    border-color: #8CAA91;
-    background-color: #f1f1bf;
+    border-color: #102c15;
+    background-color: #b39069;
     border-radius: 50%;
     border-width: 5px;
     border-style: solid;
@@ -353,8 +353,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 74vh;
     right: 23vw;
-    border-color: #8CAA91;
-    background-color: #f1f1bf;
+    border-color: #102c15;
+    background-color: #b39069;
     border-radius: 50%;
     border-width: 5px;
     border-style: solid;
@@ -371,7 +371,7 @@ body::-webkit-scrollbar {
     top: 67vh;
     width: 100%;
     height: 18vh;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     z-index: 100;
     color: #363F4E;
     text-align: center;
@@ -576,7 +576,7 @@ body::-webkit-scrollbar {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #f1f1bf;
+    background-color: #b39069;
   }
   body .section2 .p11 {
     color: #98a4b8;
@@ -623,7 +623,7 @@ body::-webkit-scrollbar {
     position: relative;
   }
   body .section3 .divh31 {
-    background-color: #f1f1bf;
+    background-color: #b39069;
     overflow: hidden;
     height: 15vh;
     text-align: center;
@@ -663,7 +663,7 @@ body::-webkit-scrollbar {
     height: 64vh;
     width: 25vw;
     position: relative;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     color: #363F4E;
     font-size: 18px;
   }
@@ -674,8 +674,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 74vh;
     left: 25vw;
-    border-color: #8CAA91;
-    background-color: #f1f1bf;
+    border-color: #102c15;
+    background-color: #b39069;
     border-radius: 50%;
     border-width: 5px;
     border-style: solid;
@@ -695,7 +695,7 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 74vh;
     right: 23vw;
-    border-color: #8CAA91;
+    border-color: #102c15;
     border-radius: 50%;
     border-width: 5px;
     border-style: solid;
@@ -712,7 +712,7 @@ body::-webkit-scrollbar {
     top: 67vh;
     width: 100%;
     height: 14vh;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     z-index: 100;
     color: #363F4E;
     text-align: center;
@@ -879,7 +879,7 @@ body::-webkit-scrollbar {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #f1f1bf;
+    background-color: #b39069;
   }
   body .section2 .Shading2 {
     height: 100vh;
@@ -933,7 +933,7 @@ body::-webkit-scrollbar {
     position: relative;
   }
   body .section3 .divh31 {
-    background-color: #f1f1bf;
+    background-color: #b39069;
     height: 10vh;
     text-align: center;
   }
@@ -976,7 +976,7 @@ body::-webkit-scrollbar {
     height: 37vh;
     width: 65vw;
     position: relative;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     color: #363F4E;
     font-size: 15px;
   }
@@ -987,8 +987,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 72.5vh;
     left: 18vw;
-    border-color: #8CAA91;
-    background-color: #f1f1bf;
+    border-color: #102c15;
+    background-color: #b39069;
     border-radius: 50%;
     border-width: 5px;
     border-style: solid;
@@ -1008,7 +1008,7 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 72.5vh;
     right: 15.5vw;
-    border-color: #8CAA91;
+    border-color: #102c15;
     border-radius: 50%;
     border-width: 5px;
     border-style: solid;
@@ -1025,7 +1025,7 @@ body::-webkit-scrollbar {
     top: 71vh;
     width: 100%;
     height: 19vh;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     z-index: 100;
     color: #363F4E;
     text-align: center;
@@ -1192,7 +1192,7 @@ body::-webkit-scrollbar {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #f1f1bf;
+    background-color: #b39069;
   }
   body .section2 .Shading2 {
     height: 100vh;
@@ -1246,7 +1246,7 @@ body::-webkit-scrollbar {
     position: relative;
   }
   body .section3 .divh31 {
-    background-color: #f1f1bf;
+    background-color: #b39069;
     height: 10vh;
     text-align: center;
   }
@@ -1289,7 +1289,7 @@ body::-webkit-scrollbar {
     height: 37vh;
     width: 65vw;
     position: relative;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     color: #363F4E;
     font-size: 14.5px;
   }
@@ -1300,8 +1300,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 72.5vh;
     left: 18vw;
-    border-color: #8CAA91;
-    background-color: #f1f1bf;
+    border-color: #102c15;
+    background-color: #b39069;
     border-radius: 50%;
     border-width: 5px;
     border-style: solid;
@@ -1321,7 +1321,7 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 72.5vh;
     right: 15.5vw;
-    border-color: #8CAA91;
+    border-color: #102c15;
     border-radius: 50%;
     border-width: 5px;
     border-style: solid;
@@ -1338,7 +1338,7 @@ body::-webkit-scrollbar {
     top: 71vh;
     width: 100%;
     height: 19vh;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     z-index: 100;
     color: #363F4E;
     text-align: center;
@@ -1505,7 +1505,7 @@ body::-webkit-scrollbar {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #f1f1bf;
+    background-color: #b39069;
   }
   body .section2 .Shading2 {
     height: 100vh;
@@ -1559,7 +1559,7 @@ body::-webkit-scrollbar {
     position: relative;
   }
   body .section3 .divh31 {
-    background-color: #f1f1bf;
+    background-color: #b39069;
     height: 10vh;
     text-align: center;
   }
@@ -1602,7 +1602,7 @@ body::-webkit-scrollbar {
     height: 37vh;
     width: 65vw;
     position: relative;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     color: #363F4E;
     font-size: 13px;
   }
@@ -1613,8 +1613,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 72.5vh;
     left: 18vw;
-    border-color: #8CAA91;
-    background-color: #f1f1bf;
+    border-color: #102c15;
+    background-color: #b39069;
     border-radius: 50%;
     border-width: 5px;
     border-style: solid;
@@ -1634,7 +1634,7 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 72.5vh;
     right: 15.5vw;
-    border-color: #8CAA91;
+    border-color: #102c15;
     border-radius: 50%;
     border-width: 5px;
     border-style: solid;
@@ -1651,7 +1651,7 @@ body::-webkit-scrollbar {
     top: 71vh;
     width: 100%;
     height: 19vh;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     z-index: 100;
     color: #363F4E;
     text-align: center;
@@ -1915,7 +1915,7 @@ body::-webkit-scrollbar {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #f1f1bf;
+    background-color: #b39069;
   }
   body .section2 .Shading2 {
     height: 100vh;
@@ -1970,7 +1970,7 @@ body::-webkit-scrollbar {
     position: relative;
   }
   body .section3 .divh31 {
-    background-color: #f1f1bf;
+    background-color: #b39069;
     height: 10vh;
     text-align: center;
   }
@@ -2013,7 +2013,7 @@ body::-webkit-scrollbar {
     height: 47vh;
     width: 75vw;
     position: relative;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     color: #363F4E;
     font-size: 16px;
   }
@@ -2024,8 +2024,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 74vh;
     left: 13vw;
-    border-color: #8CAA91;
-    background-color: #f1f1bf;
+    border-color: #102c15;
+    background-color: #b39069;
     border-radius: 50%;
     border-width: 3px;
     border-style: solid;
@@ -2045,7 +2045,7 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 74vh;
     right: 11vw;
-    border-color: #8CAA91;
+    border-color: #102c15;
     border-radius: 50%;
     border-width: 3px;
     border-style: solid;
@@ -2062,7 +2062,7 @@ body::-webkit-scrollbar {
     top: 71vh;
     width: 100%;
     height: 19vh;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     z-index: 100;
     color: #363F4E;
     text-align: center;
@@ -2328,7 +2328,7 @@ body::-webkit-scrollbar {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #f1f1bf;
+    background-color: #b39069;
   }
   body .section2 .Shading2 {
     height: 100vh;
@@ -2382,7 +2382,7 @@ body::-webkit-scrollbar {
     position: relative;
   }
   body .section3 .divh31 {
-    background-color: #f1f1bf;
+    background-color: #b39069;
     height: 10vh;
     text-align: center;
   }
@@ -2425,7 +2425,7 @@ body::-webkit-scrollbar {
     height: 47vh;
     width: 75vw;
     position: relative;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     color: #363F4E;
     font-size: 13px;
   }
@@ -2436,8 +2436,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 74vh;
     left: 13vw;
-    border-color: #8CAA91;
-    background-color: #f1f1bf;
+    border-color: #102c15;
+    background-color: #b39069;
     border-radius: 50%;
     border-width: 3px;
     border-style: solid;
@@ -2457,7 +2457,7 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 74vh;
     right: 11vw;
-    border-color: #8CAA91;
+    border-color: #102c15;
     border-radius: 50%;
     border-width: 3px;
     border-style: solid;
@@ -2474,7 +2474,7 @@ body::-webkit-scrollbar {
     top: 71vh;
     width: 100%;
     height: 19vh;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     z-index: 100;
     color: #363F4E;
     text-align: center;
@@ -2740,7 +2740,7 @@ body::-webkit-scrollbar {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #f1f1bf;
+    background-color: #b39069;
   }
   body .section2 .Shading2 {
     height: 100vh;
@@ -2789,7 +2789,7 @@ body::-webkit-scrollbar {
     position: relative;
   }
   body .section3 .divh31 {
-    background-color: #f1f1bf;
+    background-color: #b39069;
     height: 10vh;
     text-align: center;
   }
@@ -2832,7 +2832,7 @@ body::-webkit-scrollbar {
     height: 47vh;
     width: 75vw;
     position: relative;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     color: #363F4E;
     font-size: 13px;
   }
@@ -2843,8 +2843,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 50vh;
     left: 2.3vw;
-    border-color: #8CAA91;
-    background-color: #f1f1bf;
+    border-color: #102c15;
+    background-color: #b39069;
     border-radius: 50%;
     border-width: 3px;
     border-style: solid;
@@ -2864,8 +2864,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 50vh;
     right: 0vw;
-    border-color: #8CAA91;
-    background-color: #f1f1bf;
+    border-color: #102c15;
+    background-color: #b39069;
     border-radius: 50%;
     border-width: 3px;
     border-style: solid;
@@ -2882,7 +2882,7 @@ body::-webkit-scrollbar {
     top: 71vh;
     width: 100%;
     height: 19vh;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     z-index: 100;
     color: #363F4E;
     text-align: center;
@@ -3148,7 +3148,7 @@ body::-webkit-scrollbar {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #f1f1bf;
+    background-color: #b39069;
   }
   body .section2 .Shading2 {
     height: 100vh;
@@ -3197,7 +3197,7 @@ body::-webkit-scrollbar {
     position: relative;
   }
   body .section3 .divh31 {
-    background-color: #f1f1bf;
+    background-color: #b39069;
     height: 10vh;
     text-align: center;
   }
@@ -3240,7 +3240,7 @@ body::-webkit-scrollbar {
     height: 47vh;
     width: 75vw;
     position: relative;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     color: #363F4E;
     font-size: 13px;
   }
@@ -3251,8 +3251,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 50vh;
     left: 2.3vw;
-    border-color: #8CAA91;
-    background-color: #f1f1bf;
+    border-color: #102c15;
+    background-color: #b39069;
     border-radius: 50%;
     border-width: 3px;
     border-style: solid;
@@ -3272,8 +3272,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 50vh;
     right: 0vw;
-    border-color: #8CAA91;
-    background-color: #f1f1bf;
+    border-color: #102c15;
+    background-color: #b39069;
     border-radius: 50%;
     border-width: 3px;
     border-style: solid;
@@ -3290,7 +3290,7 @@ body::-webkit-scrollbar {
     top: 71vh;
     width: 100%;
     height: 19vh;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     z-index: 100;
     color: #363F4E;
     text-align: center;
@@ -3556,7 +3556,7 @@ body::-webkit-scrollbar {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #f1f1bf;
+    background-color: #b39069;
   }
   body .section2 .Shading2 {
     height: 100vh;
@@ -3605,7 +3605,7 @@ body::-webkit-scrollbar {
     position: relative;
   }
   body .section3 .divh31 {
-    background-color: #f1f1bf;
+    background-color: #b39069;
     height: 10vh;
     text-align: center;
   }
@@ -3648,7 +3648,7 @@ body::-webkit-scrollbar {
     height: 49vh;
     width: 75vw;
     position: relative;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     color: #363F4E;
     font-size: 13px;
   }
@@ -3659,8 +3659,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 50vh;
     left: 2.3vw;
-    border-color: #8CAA91;
-    background-color: #f1f1bf;
+    border-color: #102c15;
+    background-color: #b39069;
     border-radius: 50%;
     border-width: 3px;
     border-style: solid;
@@ -3680,8 +3680,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 50vh;
     right: 0vw;
-    border-color: #8CAA91;
-    background-color: #f1f1bf;
+    border-color: #102c15;
+    background-color: #b39069;
     border-radius: 50%;
     border-width: 3px;
     border-style: solid;
@@ -3698,7 +3698,7 @@ body::-webkit-scrollbar {
     top: 71vh;
     width: 100%;
     height: 22vh;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     z-index: 100;
     color: #363F4E;
     text-align: center;
@@ -3964,7 +3964,7 @@ body::-webkit-scrollbar {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #f1f1bf;
+    background-color: #b39069;
   }
   body .section2 .Shading2 {
     height: 100vh;
@@ -4013,7 +4013,7 @@ body::-webkit-scrollbar {
     position: relative;
   }
   body .section3 .divh31 {
-    background-color: #f1f1bf;
+    background-color: #b39069;
     height: 10vh;
     text-align: center;
   }
@@ -4056,7 +4056,7 @@ body::-webkit-scrollbar {
     height: 49vh;
     width: 75vw;
     position: relative;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     color: #363F4E;
     font-size: 10px;
   }
@@ -4067,8 +4067,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 50vh;
     left: 2.3vw;
-    border-color: #8CAA91;
-    background-color: #f1f1bf;
+    border-color: #102c15;
+    background-color: #b39069;
     border-radius: 50%;
     border-width: 3px;
     border-style: solid;
@@ -4088,8 +4088,8 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 50vh;
     right: 0vw;
-    border-color: #8CAA91;
-    background-color: #f1f1bf;
+    border-color: #102c15;
+    background-color: #b39069;
     border-radius: 50%;
     border-width: 3px;
     border-style: solid;
@@ -4106,7 +4106,7 @@ body::-webkit-scrollbar {
     top: 71vh;
     width: 100%;
     height: 22vh;
-    background-color: #f1f1bf;
+    background-color: #b39069;
     z-index: 100;
     color: #363F4E;
     text-align: center;
