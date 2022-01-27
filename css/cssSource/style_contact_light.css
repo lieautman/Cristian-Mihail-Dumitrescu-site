@@ -508,7 +508,6 @@ body::-webkit-scrollbar {
     height: 45vh;
     width: 75vw;
     left: 0vw;
-    padding: 30px;
   }
   body .section2 .contactForm .fields {
     display: -webkit-box;
@@ -544,6 +543,8 @@ body::-webkit-scrollbar {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+    -webkit-transform: translate(0, -100px);
+            transform: translate(0, -100px);
   }
   body .section2 .contactForm .message {
     width: 100%;
