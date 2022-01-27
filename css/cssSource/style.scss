@@ -1,0 +1,52 @@
+//loading function libraries and colors
+@import "../includes/styleFunctions.scss";
+$BlackForShadowsAndEffects:rgba(0, 0, 0, 0.75);
+$YellowForBackgroundEffects:#816e1b;
+$Color1:rgba(66, 27, 88, 1);
+$Color2:rgba(105, 32, 32, 1);
+$Color3:rgba(7, 17, 42, 1);
+$Color1Lightened:lighten($Color1,40%);
+$Color1SlightLightened:lighten($Color1,20%);
+$NavColor: #5c2c5e; 
+
+@include pageandcontainermaking();
+
+@media screen and (min-width: 1160px) {
+  body {
+    @include nav-for-desktop();
+    @include home-section1();
+    @include home-section2();
+    @include home-section3();
+    @include footer();
+  }
+}
+@media screen and (max-width: 1160px) and (min-width: 900px) {
+  //section 1 2 and 3
+  body {
+    @include nav-for-desktop();
+    @include home-section1-mobile();
+    @include home-section2();
+    @include home-section3();
+    @include footer();
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  //section 1 2 and 3
+  body {
+    @include nav-for-mobile();
+    @include home-section1-mobile();
+    @include home-section2-mobile();
+    @include home-section3-mobile();
+    @include footer();
+  }
+}
+@media screen and (max-width: 600px) {
+  //section 1 2 and 3
+  body {
+    @include nav-for-mobile();
+    @include home-section1-mobile();
+    @include home-section2-mobile();
+    @include home-section3-mobile-v2();
+    @include footer();
+  }
+}

@@ -1,0 +1,26 @@
+//loading function libraries and colors
+@import "../includes/styleFunctions.scss";
+$BlackForShadowsAndEffects:rgba(0, 0, 0, 0.75);
+$YellowForBackgroundEffects:#816e1b;
+$Color1:rgba(66, 27, 88, 1);
+$Color2:rgba(105, 32, 32, 1);
+$Color3:rgba(7, 17, 42, 1);
+$Color1Lightened:lighten($Color1,40%);
+$Color1SlightLightened:lighten($Color1,20%);
+$NavColor: #5c2c5e; 
+
+@include pageandcontainermaking();
+
+@media screen and (min-width: 900px) {
+    body {
+        @include nav-for-desktop();
+        @include CV-section1();
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        @include nav-for-mobile();
+        @include CV-section1();
+    }
+}
