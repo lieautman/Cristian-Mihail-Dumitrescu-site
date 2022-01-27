@@ -136,10 +136,10 @@ body::-webkit-scrollbar {
     left: 37.5vw;
     top: 30vh;
     background-color: #7d33a6;
-    height: 18vh;
+    height: 20vmin;
     width: 25vw;
-    font-size: 20px;
-    padding: 4vw;
+    font-size: 4.3vmin;
+    padding: 2vmin;
     border-radius: 30px;
     border-color: rgba(0, 0, 0, 0.75);
     border-style: solid;
@@ -314,10 +314,10 @@ body::-webkit-scrollbar {
     left: 37.5vw;
     top: 30vh;
     background-color: #7d33a6;
-    height: 18vh;
+    height: 20vmin;
     width: 25vw;
-    font-size: 20px;
-    padding: 4vw;
+    font-size: 4.3vmin;
+    padding: 2vmin;
     border-radius: 30px;
     border-color: rgba(0, 0, 0, 0.75);
     border-style: solid;
