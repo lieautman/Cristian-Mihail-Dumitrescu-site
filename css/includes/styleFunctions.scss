@@ -1075,9 +1075,7 @@
       }
       .recaptcha {
         align-self: center;
-        width:45vmin;
-        border-radius: 15px;
-        overflow: hidden;
+        transform: translate(0,-100px);
       }
       .message {
         width: 100%;
