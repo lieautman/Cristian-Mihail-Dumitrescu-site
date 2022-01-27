@@ -23,6 +23,6 @@ $NavColor:#213255;
     body {
         @include nav-for-mobile();
         @include contact-section1();
-        @include contact-section2();
+        @include contact-section2-mobile();
     }
 }
