@@ -19,10 +19,17 @@ $NavColor: #5c2c5e;
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) and (min-width:300px) {
     body {
         @include nav-for-mobile();
         @include contact-section1();
-        @include contact-section2-mobile();
+        @include contact-section2-mobile1();
+    }
+}
+@media screen and (max-width: 300px) {
+    body {
+        @include nav-for-mobile();
+        @include contact-section1();
+        @include contact-section2-mobile2();
     }
 }

@@ -296,7 +296,308 @@ body::-webkit-scrollbar {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) and (min-width: 300px) {
+  body .nav1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 8vh;
+    width: 100%;
+    background-color: #213255;
+    z-index: 100;
+  }
+  body .nav1 .navlist {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: #213255;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+    transition: -webkit-transform 0.5s ease-in;
+    transition: transform 0.5s ease-in;
+    transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+    display: none;
+    z-index: 200;
+  }
+  body .nav1 .navlist a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: bolder;
+  }
+  body .nav1 .navlist li {
+    list-style: none;
+    opacity: 0;
+  }
+  body .nav1 .logo {
+    height: 8vh;
+    width: auto;
+  }
+  body .nav1 .burger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  body .nav1 .burger {
+    display: block;
+    cursor: pointer;
+  }
+  body .nav1 .nav-active1 {
+    display: inline;
+  }
+  body .nav1 .nav-active2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    position: absolute;
+    right: 0px;
+    height: 100vh;
+    top: 8vh;
+    background-color: #213255;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+    transition: -webkit-transform 0.5s ease-in;
+    transition: transform 0.5s ease-in;
+    transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+    z-index: 200;
+  }
+  @-webkit-keyframes navLinkFade {
+    from {
+      opacity: 0;
+      -webkit-transform: translateX(50px);
+              transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: translateX(0px);
+              transform: translateX(0px);
+    }
+  }
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      -webkit-transform: translateX(50px);
+              transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: translateX(0px);
+              transform: translateX(0px);
+    }
+  }
+  body .nav1 .toggle .line1 {
+    -webkit-transform: rotate(90deg) translate(-5px, -5px);
+            transform: rotate(90deg) translate(-5px, -5px);
+  }
+  body .nav1 .toggle .line2 {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  body .nav1 .toggle .line3 {
+    -webkit-transform: rotate(90deg) translate(5px, 5px);
+            transform: rotate(90deg) translate(5px, 5px);
+  }
+  body .section1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 92vh;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .section1 .h11,
+  body .section1 .h21 {
+    color: #98a4b8;
+    font-family: Helvetica;
+    z-index: 1;
+    padding: 30px;
+  }
+  body .section1 .text1 {
+    position: absolute;
+    width: 75vw;
+    height: 70vh;
+    top: 10vh;
+    left: 12.5vw;
+    background-color: #b39069;
+  }
+  body .section1 .h11 {
+    position: relative;
+    top: 50px;
+    font-size: 5vmin;
+    text-align: center;
+  }
+  body .section1 .h21 {
+    position: relative;
+    top: 100px;
+    font-size: 4vmin;
+    text-align: center;
+  }
+  body .section1 .FirstVhImg {
+    height: 100%;
+    width: 100%;
+  }
+  body .section2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 92vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .section2 .p11 {
+    color: #98a4b8;
+    font-family: Helvetica;
+    z-index: 1;
+    top: 105%;
+    font-size: 20px;
+    padding: 7px;
+    text-align: center;
+  }
+  body .section2 .text1 {
+    position: relative;
+    width: 75vw;
+    height: 70vh;
+    top: 10vh;
+    background-color: #b39069;
+  }
+  body .section2 .SecondVhImg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  body .section2 .contactForm {
+    position: relative;
+    padding: 20px;
+    height: 45vh;
+    width: 75vw;
+    left: 0vw;
+  }
+  body .section2 .contactForm .fields {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-right: 4%;
+  }
+  body .section2 .contactForm .fieldHalf {
+    background: transparent;
+    border: 0px;
+    border-bottom: 2px solid #213255;
+    padding: 10px;
+    width: 100%;
+  }
+  body .section2 .contactForm .fields {
+    width: 40vw;
+  }
+  body .section2 .contactForm .field {
+    width: 45vmin;
+    background: transparent;
+    border: 0px;
+    padding: 10px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-top: 20px;
+  }
+  body .section2 .contactForm .recaptcha {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  body .section2 .contactForm .message {
+    width: 100%;
+    height: 212px;
+  }
+  body .section2 .contactForm ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #213255;
+  }
+  body .section2 .contactForm ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #213255;
+  }
+  body .section2 .contactForm :-ms-input-placeholder {
+    /* IE 10+ */
+    color: #213255;
+  }
+  body .section2 .contactForm input[type="text"] {
+    width: 100%;
+    border: none;
+    background-color: #b39069;
+    border: none;
+    font-size: 2vmin;
+    outline-offset: 10px;
+    color: #213255;
+  }
+  body .section2 .contactForm textarea {
+    background-color: #b39069;
+    outline: 2px solid #213255;
+    color: #213255;
+    font-size: 30px;
+  }
+  body .section2 .contactForm .buttonSubmit {
+    position: relative;
+    background: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    color: #213255;
+    cursor: pointer;
+    text-transform: uppercase;
+    left: 0vw;
+    width: 100%;
+  }
+  body .section2 .contactForm ul {
+    list-style-type: none;
+  }
+  body .section2 .contactForm *:focus {
+    outline: 2px solid #213255;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+@media screen and (max-width: 300px) {
   body .nav1 {
     display: -webkit-box;
     display: -ms-flexbox;
