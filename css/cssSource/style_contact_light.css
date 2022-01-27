@@ -543,8 +543,8 @@ body::-webkit-scrollbar {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
-    -webkit-transform: translate(-100px, 0);
-            transform: translate(-100px, 0);
+    -webkit-transform: translate(-50px, 0);
+            transform: translate(-50px, 0);
   }
   body .section2 .contactForm .message {
     width: 100%;
