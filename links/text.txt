@@ -1,3 +1,0 @@
--Am încercat, de asemenea, să dezvolte front-end a unui site web (HTML, CSS, JS) pentru o firmă locală și sa o gazduiesc (pe un vm Linux), în timpul meu liber, dar în condițiile actuale am fost în imposibilitatea de a deschide-l pentru public.
- -Proiect Netlogo în care am simulat piața pentru o nouă componentă hardware. Codul este legat de mai jos (s-ar putea să aveți nevoie pentru a descărca netlogo pentru ca acesta să se deschidă):
--C/C++ proiect. În semestrul 1, anul 2 de facultate, am creat împreuna cu 2 colegi, pentru un proiect, un interpretator pentru comenzi de tip SQL cu format consistent (aici am lucrat pe github, pentru a ne organiza mai ușor): 
